@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 130,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -3092272,
+	"displayName": "Hilarous",
+	"icon": "nutshell",
+	"name": "hilarious",
+	"color": "#D0D0D0",
+	"customValues": {}
+}

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Unusual_SUN.png">
+<SubTexture name="unusual sun idle0000" x="781" y="1410" width="384" height="682" frameX="-37" frameY="-23" frameWidth="435" frameHeight="705" />
+<SubTexture name="unusual sun idle0001" x="1950" y="705" width="384" height="700" frameX="-33" frameY="-5" frameWidth="435" frameHeight="705" />
+<SubTexture name="unusual sun idle0002" x="0" y="0" width="385" height="705" frameX="-18" frameY="0" frameWidth="435" frameHeight="705" />
+<SubTexture name="unusual sun idle0003" x="385" y="0" width="386" height="705" frameX="-13" frameY="0" frameWidth="435" frameHeight="705" />
+<SubTexture name="unusual sun right0000" x="771" y="0" width="394" height="705" frameX="-26" frameY="0" frameWidth="435" frameHeight="705" />
+<SubTexture name="unusual sun right0001" x="1165" y="0" width="397" height="705" frameX="-22" frameY="0" frameWidth="435" frameHeight="705" />
+<SubTexture name="unusual sun right0002" x="0" y="705" width="396" height="705" frameX="-19" frameY="0" frameWidth="435" frameHeight="705" />
+<SubTexture name="unusual sun left0000" x="396" y="705" width="369" height="705" frameX="-13" frameY="0" frameWidth="400" frameHeight="705" />
+<SubTexture name="unusual sun left0001" x="765" y="705" width="370" height="705" frameX="-13" frameY="0" frameWidth="400" frameHeight="705" />
+<SubTexture name="unusual sun left0002" x="1135" y="705" width="374" height="705" frameX="-13" frameY="0" frameWidth="400" frameHeight="705" />
+<SubTexture name="unusual sun up0000" x="1562" y="0" width="388" height="705" frameX="-10" frameY="-30" frameWidth="415" frameHeight="735" />
+<SubTexture name="unusual sun up0001" x="1562" y="705" width="388" height="705" frameX="-12" frameY="-30" frameWidth="415" frameHeight="735" />
+<SubTexture name="unusual sun up0002" x="1950" y="0" width="387" height="705" frameX="-13" frameY="-30" frameWidth="415" frameHeight="735" />
+<SubTexture name="unusual sun down0000" x="1165" y="1410" width="392" height="673" frameX="-33" frameY="-27" frameWidth="425" frameHeight="700" />
+<SubTexture name="unusual sun down0001" x="389" y="1410" width="392" height="690" frameX="-21" frameY="-10" frameWidth="425" frameHeight="700" />
+<SubTexture name="unusual sun down0002" x="0" y="1410" width="389" height="700" frameX="-6" frameY="0" frameWidth="425" frameHeight="700" />
+</TextureAtlas>

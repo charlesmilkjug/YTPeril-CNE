@@ -1,0 +1,8 @@
+{
+	"displayName": "Big Caboose",
+	"bpm": 206.0,
+	"icon": "pizza-guy",
+	"color": "#FF78BF",
+	"coopAllowed": true,
+	"opponentModeAllowed": true
+}

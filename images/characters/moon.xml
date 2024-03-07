@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="unusual moon.png">
+<SubTexture name="unusual moon idle0000" x="1286" y="451" width="191" height="441" frameX="-37" frameY="-23" frameWidth="245" frameHeight="464" />
+<SubTexture name="unusual moon idle0001" x="1286" y="0" width="194" height="451" frameX="-32" frameY="-13" frameWidth="245" frameHeight="464" />
+<SubTexture name="unusual moon idle0002" x="1054" y="464" width="198" height="458" frameX="-26" frameY="-6" frameWidth="245" frameHeight="464" />
+<SubTexture name="unusual moon idle0003" x="644" y="0" width="200" height="464" frameX="-22" frameY="0" frameWidth="245" frameHeight="464" />
+<SubTexture name="unusual moon right0000" x="844" y="0" width="210" height="464" frameX="-30" frameY="0" frameWidth="250" frameHeight="464" />
+<SubTexture name="unusual moon right0001" x="234" y="474" width="208" height="464" frameX="-26" frameY="0" frameWidth="250" frameHeight="464" />
+<SubTexture name="unusual moon right0002" x="442" y="474" width="206" height="464" frameX="-22" frameY="0" frameWidth="250" frameHeight="464" />
+<SubTexture name="unusual moon left0000" x="648" y="474" width="233" height="464" frameX="-14" frameY="0" frameWidth="270" frameHeight="464" />
+<SubTexture name="unusual moon left0001" x="0" y="474" width="234" height="464" frameX="-15" frameY="0" frameWidth="270" frameHeight="464" />
+<SubTexture name="unusual moon left0002" x="1054" y="0" width="232" height="464" frameX="-19" frameY="0" frameWidth="270" frameHeight="464" />
+<SubTexture name="unusual moon up0000" x="0" y="0" width="210" height="474" frameX="-3" frameY="0" frameWidth="225" frameHeight="474" />
+<SubTexture name="unusual moon up0001" x="210" y="0" width="216" height="472" frameX="-1" frameY="-2" frameWidth="225" frameHeight="474" />
+<SubTexture name="unusual moon up0002" x="426" y="0" width="218" height="467" frameX="-3" frameY="-7" frameWidth="225" frameHeight="474" />
+<SubTexture name="unusual moon down0000" x="436" y="938" width="232" height="425" frameX="0" frameY="-15" frameWidth="232" frameHeight="440" />
+<SubTexture name="unusual moon down0001" x="215" y="938" width="221" height="432" frameX="-4" frameY="-8" frameWidth="232" frameHeight="440" />
+<SubTexture name="unusual moon down0002" x="0" y="938" width="215" height="440" frameX="-5" frameY="0" frameWidth="232" frameHeight="440" />
+</TextureAtlas>

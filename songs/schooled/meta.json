@@ -1,0 +1,8 @@
+{
+	"displayName": "Schooled",
+	"bpm": 150.0,
+	"icon": "mr-smart",
+	"color": "#FF78BF",
+	"coopAllowed": true,
+	"opponentModeAllowed": true
+}

@@ -1,0 +1,1 @@
+This used to be for scripts, but this folder doesn't work anymore, so if you want to put any scripts, put it in songs/ instead!

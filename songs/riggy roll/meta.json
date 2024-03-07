@@ -1,0 +1,8 @@
+{
+	"displayName": "Riggy Roll",
+	"bpm": 150.0,
+	"icon": "riggy",
+	"color": "#FF78BF",
+	"coopAllowed": true,
+	"opponentModeAllowed": true
+}

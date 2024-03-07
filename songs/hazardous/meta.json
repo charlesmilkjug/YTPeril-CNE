@@ -1,0 +1,8 @@
+{
+	"displayName": "Hazardous",
+	"bpm": 150.0,
+	"icon": "arnold",
+	"color": "#FF78BF",
+	"coopAllowed": true,
+	"opponentModeAllowed": true
+}

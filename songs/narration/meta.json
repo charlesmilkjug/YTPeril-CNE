@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 150,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -3653825,
+	"displayName": "Narration",
+	"icon": "narrator",
+	"name": "narration",
+	"color": "#C83F3F",
+	"customValues": {}
+}

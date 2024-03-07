@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" y="0" camx="-8" icon="fasttoon-crewmate" isGF="false" camy="-413" iconColor="-10592674" scale="1" flipX="false" isPlayer="false" holdTime="7.49999999999999" gameOverChar="null" antialiasing="true" sprite="fasttoon-crewmate">
+	<anim loop="false" x="-78" anim="Idle" fps="24" y="-428" name="idle" indices="[]"/>
+	<anim loop="false" x="68" anim="left" fps="24" y="-432" name="singLEFT" indices="[]"/>
+	<anim loop="false" x="-76" anim="down" fps="24" y="-433" name="singDOWN" indices="[]"/>
+	<anim loop="false" x="82" anim="up" fps="24" y="-290" name="singUP" indices="[]"/>
+	<anim loop="false" x="-59" anim="right" fps="24" y="-431" name="singRIGHT" indices="[]"/>
+	<anim loop="false" x="124" anim="altup" fps="24" y="-332" name="singUP-alt" indices="[]"/>
+</character>

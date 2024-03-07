@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="unusual earth.png">
+<SubTexture name="unusual earth idle0000" x="971" y="557" width="227" height="500" frameX="-5" frameY="-37" frameWidth="233" frameHeight="537" />
+<SubTexture name="unusual earth idle0001" x="1219" y="537" width="223" height="513" frameX="-7" frameY="-24" frameWidth="233" frameHeight="537" />
+<SubTexture name="unusual earth idle0002" x="1559" y="537" width="221" height="527" frameX="-4" frameY="-9" frameWidth="233" frameHeight="537" />
+<SubTexture name="unusual earth idle0003" x="663" y="0" width="233" height="537" frameX="0" frameY="0" frameWidth="233" frameHeight="537" />
+<SubTexture name="unusual earth right0000" x="896" y="0" width="323" height="537" frameX="-22" frameY="0" frameWidth="345" frameHeight="537" />
+<SubTexture name="unusual earth right0001" x="0" y="557" width="321" height="537" frameX="-16" frameY="0" frameWidth="345" frameHeight="537" />
+<SubTexture name="unusual earth right0002" x="321" y="557" width="316" height="537" frameX="-10" frameY="0" frameWidth="345" frameHeight="537" />
+<SubTexture name="unusual earth left0000" x="637" y="557" width="334" height="537" frameX="-2" frameY="0" frameWidth="365" frameHeight="537" />
+<SubTexture name="unusual earth left0001" x="1219" y="0" width="340" height="537" frameX="-6" frameY="0" frameWidth="365" frameHeight="537" />
+<SubTexture name="unusual earth left0002" x="1559" y="0" width="344" height="537" frameX="-10" frameY="0" frameWidth="365" frameHeight="537" />
+<SubTexture name="unusual earth up0000" x="0" y="0" width="221" height="557" frameX="0" frameY="0" frameWidth="221" frameHeight="557" />
+<SubTexture name="unusual earth up0001" x="221" y="0" width="221" height="551" frameX="0" frameY="-6" frameWidth="221" frameHeight="557" />
+<SubTexture name="unusual earth up0002" x="442" y="0" width="221" height="545" frameX="0" frameY="-12" frameWidth="221" frameHeight="557" />
+<SubTexture name="unusual earth down0000" x="551" y="1094" width="304" height="471" frameX="0" frameY="-21" frameWidth="304" frameHeight="492" />
+<SubTexture name="unusual earth down0001" x="267" y="1094" width="284" height="483" frameX="-6" frameY="-9" frameWidth="304" frameHeight="492" />
+<SubTexture name="unusual earth down0002" x="0" y="1094" width="267" height="492" frameX="-11" frameY="0" frameWidth="304" frameHeight="492" />
+</TextureAtlas>

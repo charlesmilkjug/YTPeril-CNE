@@ -1,0 +1,8 @@
+{
+	"displayName": "Drawn",
+	"bpm": 200.0,
+	"icon": "pencil",
+	"color": "#FF78BF",
+	"coopAllowed": true,
+	"opponentModeAllowed": true
+}

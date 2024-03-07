@@ -1,0 +1,8 @@
+{
+	"displayName": "Trampoline",
+	"bpm": 150.0,
+	"icon": "brewstew",
+	"color": "#FF78BF",
+	"coopAllowed": true,
+	"opponentModeAllowed": true
+}

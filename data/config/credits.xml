@@ -1,0 +1,66 @@
+<!DOCTYPE codename-mod-credits>
+
+<menu name="Developers" desc="The developers of the mod, yes. &#xA;"
+
+<credit
+	name="CharlesCatYT" 
+	desc="Director" 
+	url="https://github.com/kittstone"
+	/>
+
+	<credit
+	name="Isaiah Mods" 
+	desc="Director" 
+	url="https://github.com/kittstone"
+	/>
+
+<credit
+	name="TheAnimateMan" 
+	desc="The BF chrom guy, Spriter, Charter" 
+	url="https://github.com/kittstone"
+	/>
+
+<credit
+	name="Vencerist" 
+	desc="Composer, Spriter, Charter" 
+	url="https://github.com/kittstone"
+	/>
+
+<credit
+	name="The Bambi Enjoyer" 
+	desc="Composer, Charter" 
+	url="https://github.com/kittstone"
+	/>
+
+<credit
+	name="Beanimation" 
+	desc="Chromatic Scaler" 
+	url="https://github.com/kittstone"
+	/>
+
+<credit
+	name="SauceyRed" 
+	desc="Charter" 
+	url="https://github.com/kittstone"
+	/>
+
+<credit
+	name="lowkeykindly" 
+	desc="Charter" 
+	url="https://github.com/kittstone"
+	/>
+
+<credit
+	name="Techole" 
+	desc="Charter" 
+	url="https://github.com/kittstone"
+	/>
+
+<menu name="Contributors" desc="Peeps who made the scripts and whatever. &#xA;"
+
+	<credit
+	name="inkybox" 
+	desc="Change character event." 
+	url="https://github.com/kittstone"
+	/>
+</menu>

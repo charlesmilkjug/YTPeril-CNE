@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="bf-pencil" camx="-40" y="220" isGF="false" scale="1.1" camy="-60" color="#28A0C3" flipX="true" isPlayer="true" holdTime="4.87" sprite="bf-pencil">
+	<anim x="0" loop="false" y="-70" fps="24" anim="BF Pencil Idle" name="idle"/>
+	<anim x="22" loop="false" y="-55" fps="24" anim="BF Pencil left0" name="singLEFT"/>
+	<anim x="6" loop="false" y="-82" fps="24" anim="BF Pencil down0" name="singDOWN"/>
+	<anim x="-67" loop="false" y="-66" fps="24" anim="BF Pencil right0" name="singRIGHT"/>
+	<anim x="-27" loop="false" y="30" fps="24" anim="BF Pencil up0" name="singUP"/>
+</character>

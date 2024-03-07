@@ -1,0 +1,18 @@
+<!DOCTYPE codename-engine-character>
+<character x="1" y="330" camx="14" icon="bf" isGF="false" camy="-51" iconColor="-10592674" scale="1" flipX="true" isPlayer="true" holdTime="4" gameOverChar="null" antialiasing="true" sprite="boyfried">
+	<anim loop="false" x="-5" anim="Idle" fps="24" y="0" name="idle" indices="[]"/>
+	<anim loop="false" x="14" anim="BF hit" fps="24" y="18" name="hurt" indices="[]"/>
+	<anim loop="true" x="-4" anim="BF idle shaking" fps="24" y="0" name="scared" indices="[]"/>
+	<anim loop="false" x="-10" anim="boyfriend dodge" fps="24" y="-16" name="dodge" indices="[]"/>
+	<anim loop="false" x="294" anim="boyfriend attack" fps="24" y="267" name="attack" indices="[]"/>
+	<anim loop="false" x="-40" anim="bf pre attack" fps="24" y="-40" name="pre-attack" indices="[]"/>
+	<anim loop="false" x="23" anim="left" fps="24" y="0" name="singLEFT" indices="[]"/>
+	<anim loop="false" x="10" anim="down" fps="24" y="-34" name="singDOWN" indices="[]"/>
+	<anim loop="false" x="-8" anim="up" fps="24" y="21" name="singUP" indices="[]"/>
+	<anim loop="false" x="22" anim="miss left" fps="24" y="-1" name="singLEFTmiss" indices="[]"/>
+	<anim loop="false" x="10" anim="miss down" fps="24" y="-46" name="singDOWNmiss" indices="[]"/>
+	<anim loop="false" x="-14" anim="miss up" fps="24" y="14" name="singUPmiss" indices="[]"/>
+	<anim loop="false" x="-33" anim="miss right" fps="24" y="-7" name="singRIGHTmiss" indices="[]"/>
+	<anim loop="false" x="-28" anim="peace" fps="24" y="18" name="hey" indices="[]"/>
+	<anim loop="false" x="-30" anim="right" fps="24" y="-8" name="singRIGHT" indices="[]"/>
+</character>

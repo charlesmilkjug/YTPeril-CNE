@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="80" y="190" holdTime="6.1" icon="moon" color="#DADADA" sprite="moon">
+	<anim name="idle" anim="unusual moon idle" fps="11" loop="false" x="0" y="0"/>
+	<anim name="singUP" anim="unusual moon up" fps="11" loop="false" x="2" y="10"/>
+	<anim name="singRIGHT" anim="unusual moon right" fps="11" loop="false" x="-12" y="0"/>
+	<anim name="singDOWN" anim="unusual moon down" fps="11" loop="false" x="-51" y="-24"/>
+	<anim name="singLEFT" anim="unusual moon left" fps="11" loop="false" x="29" y="0"/>
+</character>

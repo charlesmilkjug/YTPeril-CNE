@@ -1,0 +1,14 @@
+{
+    "params": [
+        {
+            "name": "CamGame Zoom Quantity",
+            "type": "String",
+            "defaultValue": "0.015"
+        },
+		{
+            "name": "CamHud Zoom Quantity",
+            "type": "String",
+            "defaultValue": "0.03"
+        }
+    ]
+}

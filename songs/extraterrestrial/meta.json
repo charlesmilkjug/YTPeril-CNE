@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 170,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -12890454,
+	"displayName": "Extraterrestrial",
+	"icon": "moon",
+	"name": "extraterrestrial",
+	"color": "#3B4EAA",
+	"customValues": {}
+}

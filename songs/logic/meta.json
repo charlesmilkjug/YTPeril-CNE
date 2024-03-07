@@ -1,0 +1,8 @@
+{
+	"displayName": "Logic",
+	"bpm": 180.0,
+	"icon": "player",
+	"color": "#FF78BF",
+	"coopAllowed": true,
+	"opponentModeAllowed": true
+}

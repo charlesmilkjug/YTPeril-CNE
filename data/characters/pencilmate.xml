@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" y="230" camx="-37" icon="pencilmate" isGF="false" camy="-37" iconColor="-10592674" scale="1.1" flipX="false" isPlayer="false" holdTime="5.25" gameOverChar="null" antialiasing="true" sprite="pencilmate">
+	<anim loop="false" x="0" anim="Pencimate Idle" fps="24" y="0" name="idle" indices="[]"/>
+	<anim loop="false" x="67" anim="Pencimate left" fps="24" y="9" name="singLEFT" indices="[]"/>
+	<anim loop="false" x="56" anim="Pencimate down" fps="24" y="-21" name="singDOWN" indices="[]"/>
+	<anim loop="false" x="25" anim="Pencimate up" fps="24" y="96" name="singUP" indices="[]"/>
+	<anim loop="false" x="-26" anim="Pencimate right" fps="24" y="10" name="singRIGHT" indices="[]"/>
+</character>

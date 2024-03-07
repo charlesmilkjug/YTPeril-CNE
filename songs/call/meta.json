@@ -1,0 +1,8 @@
+{
+	"displayName": "Call",
+	"bpm": 150.0,
+	"icon": "hank-hanky",
+	"color": "#FF78BF",
+	"coopAllowed": true,
+	"opponentModeAllowed": true
+}

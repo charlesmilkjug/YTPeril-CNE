@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="LandOfBoyfriend.png">
+<SubTexture name="LandOfBoyfriend Idle0000" x="0" y="274" width="189" height="260" frameX="-147" frameY="-151" frameWidth="423" frameHeight="423" />
+<SubTexture name="LandOfBoyfriend Idle0001" x="189" y="274" width="189" height="260" frameX="-147" frameY="-151" frameWidth="423" frameHeight="423" />
+<SubTexture name="LandOfBoyfriend Idle0002" x="189" y="274" width="189" height="260" frameX="-147" frameY="-151" frameWidth="423" frameHeight="423" />
+<SubTexture name="LandOfBoyfriend Idle0003" x="378" y="274" width="202" height="255" frameX="-147" frameY="-152" frameWidth="423" frameHeight="423" />
+<SubTexture name="LandOfBoyfriend Idle0004" x="378" y="274" width="202" height="255" frameX="-147" frameY="-152" frameWidth="423" frameHeight="423" />
+<SubTexture name="LandOfBoyfriend Idle0005" x="378" y="274" width="202" height="255" frameX="-147" frameY="-152" frameWidth="423" frameHeight="423" />
+<SubTexture name="LandOfBoyfriend Right0000" x="461" y="534" width="248" height="199" frameX="-135" frameY="-209" frameWidth="423" frameHeight="423" />
+<SubTexture name="LandOfBoyfriend Right0001" x="811" y="0" width="250" height="198" frameX="-131" frameY="-210" frameWidth="423" frameHeight="423" />
+<SubTexture name="LandOfBoyfriend Left0000" x="220" y="0" width="221" height="273" frameX="-83" frameY="-138" frameWidth="423" frameHeight="423" />
+<SubTexture name="LandOfBoyfriend Left0001" x="0" y="0" width="220" height="274" frameX="-82" frameY="-137" frameWidth="423" frameHeight="423" />
+<SubTexture name="LandOfBoyfriend Down0000" x="229" y="534" width="232" height="218" frameX="-88" frameY="-196" frameWidth="423" frameHeight="423" />
+<SubTexture name="LandOfBoyfriend Down0001" x="0" y="534" width="229" height="224" frameX="-88" frameY="-191" frameWidth="423" frameHeight="423" />
+<SubTexture name="LandOfBoyfriend Up0000" x="441" y="0" width="185" height="263" frameX="-147" frameY="-113" frameWidth="423" frameHeight="423" />
+<SubTexture name="LandOfBoyfriend Up0001" x="626" y="0" width="185" height="249" frameX="-151" frameY="-135" frameWidth="423" frameHeight="423" />
+</TextureAtlas>

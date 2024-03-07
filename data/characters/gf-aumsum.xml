@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character x="20" icon="gf" camx="-200" y="200" isGF="true" camy="40" color="#A5004D" isPlayer="false" sprite="gf-aumsum">
+	<anim x="0" loop="false" y="-9" fps="24" anim="gf aumsum dancing beat" indices="0,1,2,3,4,5" name="danceLeft"/>
+	<anim x="-1" loop="false" y="-9" fps="24" anim="gf aumsum dancing beat" indices="8,9,10,11,12,13" name="danceRight"/>
+</character>

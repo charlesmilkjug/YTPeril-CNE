@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 140,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -3104915,
+	"displayName": "Boisterous",
+	"icon": "boe",
+	"name": "boisterous",
+	"color": "#D09F6D",
+	"customValues": {}
+}

@@ -1,0 +1,8 @@
+{
+	"displayName": "Voler",
+	"bpm": 150.0,
+	"icon": "pencilmiss",
+	"color": "#FF78BF",
+	"coopAllowed": true,
+	"opponentModeAllowed": true
+}

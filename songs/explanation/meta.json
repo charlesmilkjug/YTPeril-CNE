@@ -1,0 +1,8 @@
+{
+	"displayName": "Explanation",
+	"bpm": 150.0,
+	"icon": "mars",
+	"color": "#FF78BF",
+	"coopAllowed": true,
+	"opponentModeAllowed": true
+}

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Boe.png">
+<SubTexture name="Boe idle0000" x="1140" y="0" width="1226" height="1142" frameX="-75" frameY="-149" frameWidth="1340" frameHeight="1340" />
+<SubTexture name="Boe idle0001" x="0" y="1169" width="1226" height="1142" frameX="-75" frameY="-149" frameWidth="1340" frameHeight="1340" />
+<SubTexture name="Boe idle0002" x="0" y="1169" width="1226" height="1142" frameX="-75" frameY="-149" frameWidth="1340" frameHeight="1340" />
+<SubTexture name="Boe idle0003" x="0" y="2311" width="1215" height="1130" frameX="-80" frameY="-157" frameWidth="1340" frameHeight="1340" />
+<SubTexture name="Boe idle0004" x="0" y="2311" width="1215" height="1130" frameX="-80" frameY="-157" frameWidth="1340" frameHeight="1340" />
+<SubTexture name="Boe idle0005" x="0" y="2311" width="1215" height="1130" frameX="-80" frameY="-157" frameWidth="1340" frameHeight="1340" />
+<SubTexture name="Boe down0000" x="0" y="3441" width="1228" height="1051" frameX="-40" frameY="-196" frameWidth="1340" frameHeight="1340" />
+<SubTexture name="Boe down0001" x="3561" y="0" width="1208" height="1065" frameX="-47" frameY="-182" frameWidth="1340" frameHeight="1340" />
+<SubTexture name="Boe right0000" x="1226" y="1169" width="1000" height="1126" frameX="-305" frameY="-164" frameWidth="1340" frameHeight="1340" />
+<SubTexture name="Boe right0001" x="2366" y="1140" width="984" height="1137" frameX="-306" frameY="-153" frameWidth="1340" frameHeight="1340" />
+<SubTexture name="Boe up0000" x="0" y="0" width="1140" height="1169" frameX="-147" frameY="-123" frameWidth="1340" frameHeight="1340" />
+<SubTexture name="Boe up0001" x="2366" y="0" width="1195" height="1140" frameX="-103" frameY="-151" frameWidth="1340" frameHeight="1340" />
+<SubTexture name="Boe left0000" x="2303" y="2311" width="1173" height="1099" frameX="-36" frameY="-168" frameWidth="1340" frameHeight="1340" />
+<SubTexture name="Boe left0001" x="1215" y="2311" width="1088" height="1123" frameX="-108" frameY="-145" frameWidth="1340" frameHeight="1340" />
+</TextureAtlas>

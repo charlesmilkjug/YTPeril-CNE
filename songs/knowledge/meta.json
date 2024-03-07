@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 135,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -4070175,
+	"displayName": "Knowledge",
+	"icon": "blocko",
+	"name": "knowledge",
+	"color": "#C1E4E1",
+	"customValues": {}
+}

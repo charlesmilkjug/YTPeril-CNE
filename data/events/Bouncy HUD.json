@@ -1,0 +1,14 @@
+{
+	"params": [
+		{
+			"name": "Bouncing?",
+			"type": "Bool",
+			"defaultValue": true
+		},
+		{
+			"name": "Intensity",
+			"type": "Float(10,100,0.01,3)",
+			"defaultValue": 30
+		}
+	]
+}
