@@ -1,8 +1,17 @@
 {
-	"displayName": "Call",
-	"bpm": 150.0,
-	"icon": "hank-hanky",
-	"color": "#FF78BF",
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
 	"coopAllowed": true,
-	"opponentModeAllowed": true
+	"stepsPerBeat": 4,
+	"bpm": 160,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -2774194,
+	"displayName": "Call",
+	"icon": "hank-hanky",
+	"name": "call",
+	"color": "#D5AB4E",
+	"customValues": {}
 }
