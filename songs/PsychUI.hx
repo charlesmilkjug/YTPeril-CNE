@@ -191,8 +191,8 @@ function postCreate() {
     add(hudTxt);
     healthBar.y = FlxG.height * 0.89;
     healthBarBG.y = healthBar.y - 4;
-    iconP1.y = healthBar.y - 75;
-    iconP2.y = iconP1.y;
+    icoP1.y = healthBar.y - 75;
+    icoP2.y = icoP1.y;
     if (!downscroll) {
         hudTxt.y = healthBarBG.y + 58;
     }
