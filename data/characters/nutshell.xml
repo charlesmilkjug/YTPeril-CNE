@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<character x="-169" y="-130" camx="170" icon="nutshell" isGF="false" camy="270" iconColor="-10592674" scale="0.49" flipX="false" isPlayer="false" holdTime="6.1" gameOverChar="null" antialiasing="true" sprite="nutshell">
-	<anim loop="false" x="-25" anim="nutshell idle" fps="24" y="1" name="idle" indices="[]"/>
-	<anim loop="false" x="79" anim="nutshell left" fps="24" y="18" name="singLEFT" indices="[]"/>
-	<anim loop="false" x="58" anim="nutshell right" fps="24" y="0" name="singRIGHT" indices="[]"/>
-	<anim loop="false" x="133" anim="nutshell up" fps="24" y="131" name="singUP" indices="[]"/>
-	<anim loop="false" x="94" anim="nutshell down" fps="24" y="-108" name="singDOWN" indices="[]"/>
+<character x="-169" icon="nutshell" camx="170" y="-130" isGF="false" iconColor="-10592674" scale="0.49" camy="270" isPlayer="false" gameOverChar="null" holdTime="6.1" sprite="nutshell">
+	<anim x="-25" loop="false" y="1" fps="24" anim="nutshell idle" name="idle"/>
+	<anim x="79" loop="false" y="18" fps="24" anim="nutshell left" name="singLEFT"/>
+	<anim x="58" loop="false" y="0" fps="24" anim="nutshell right" name="singRIGHT"/>
+	<anim x="133" loop="false" y="131" fps="24" anim="nutshell up" name="singUP"/>
+	<anim x="94" loop="false" y="-108" fps="24" anim="nutshell down" name="singDOWN"/>
 </character>

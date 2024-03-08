@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-250" icon="chikn" y="-200" isGF="false" iconColor="-10592674" scale="0.49" color="#E4DDAC" isPlayer="false" gameOverChar="null" holdTime="6.1" sprite="chikn">
+	<anim x="0" loop="false" y="-4" fps="16" anim="Chikn Idle" name="idle"/>
+	<anim x="-2" loop="false" y="-2" fps="24" anim="Chikn Left" name="singLEFT"/>
+	<anim x="-3" loop="false" y="0" fps="24" anim="Chikn Right" name="singRIGHT"/>
+	<anim x="8" loop="false" y="-12" fps="24" anim="Chikn Up" name="singUP"/>
+	<anim x="19" loop="false" y="-28" fps="24" anim="Chikn Down" name="singDOWN"/>
+</character>
