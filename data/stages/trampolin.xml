@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="/" zoom="1.01">
+	<sprite x="-899" y="-157" sprite="stages/trampolin/trampoline_brew" name="Outside"/>
+	<gf x="1050" y="574"/>
+	<dad x="19" y="88.5"/>
+	<bf x="689.5" y="97"/>
+	<combo x="444.5" y="477"/>
+</stage>

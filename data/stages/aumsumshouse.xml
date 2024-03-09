@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/aumsumshouse/" zoom="0.89">
+	<sprite scrolly="1.25" x="-894.5625" y="-411.9375" sprite="aumsum_home_sky" zoomfactor="1.1" scale="1.5" scrollx="1.25" name="Skybox"/>
+	<sprite x="-894" y="-481.5" sprite="aumsum_home_house" name="House"/>
+	<gf x="376" y="154"/>
+	<dad x="-121" y="184.5"/>
+	<bf x="927.25" y="182.25"/>
+	<sprite scrolly="1.1" x="1417.775" y="715.875" sprite="aumsum_home_sign" zoomfactor="1.1" scrollx="1.3" name="Sign"/>
+	<combo x="535.25" y="605.25"/>
+</stage>

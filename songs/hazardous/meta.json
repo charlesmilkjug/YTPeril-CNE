@@ -1,8 +1,17 @@
 {
-	"displayName": "Hazardous",
-	"bpm": 150.0,
+	"opponentModeAllowed": true,
 	"icon": "arnold",
+	"difficulties": [
+		"HARD"
+	],
+	"parsedColor": -34625,
+	"customValues": {},
 	"color": "#FF78BF",
+	"name": "hazardous",
 	"coopAllowed": true,
-	"opponentModeAllowed": true
+	"stepsPerBeat": 4,
+	"displayName": "Hazardous",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 140
 }

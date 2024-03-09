@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/boggs/" zoom="1.025">
+	<sprite x="0" y="-45.5" type="none" zoomfactor="1.1" scale="2.75" scrollx="1.5" name="Skybox" scrolly="1.15" sprite="theSkyIsBlue"/>
+	<sprite x="0" y="284.5" sprite="redCar" type="none" scale="1.25" name="Car"/>
+	<gf x="237" y="336"/>
+	<sprite scrolly="1.1" x="203" y="293.5" sprite="inside" zoomfactor="1.05" scale="2.55" scrollx="1.1" name="Room"/>
+	<dad x="2" y="102"/>
+	<bf x="639.5" y="36.5"/>
+	<combo x="451.5" y="166"/>
+</stage>

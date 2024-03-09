@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/arnie/" zoom="1.015">
+	<sprite scrolly="1.2" x="-440" y="-339" sprite="arnold_sky" zoomfactor="1.1" scale="2" scrollx="1.1" name="Skybox"/>
+	<sprite x="-137.4" y="-411" sprite="arnold_clouds" zoomfactor="1.05" scale="2.15" scrollx="1.2" name="Clouds"/>
+	<sprite x="-208" y="-327.5" sprite="arnold_bgobj" scale="1.5" name="BG Shit"/>
+	<sprite x="-212" y="-324" sprite="arnold_house" scale="1.5" name="House and Lawn"/>
+	<gf x="549.75" y="129"/>
+	<dad x="-211.25" y="88.5"/>
+	<bf x="1141.25" y="93"/>
+	<sprite x="1657.5" y="188" sprite="arnold_mail" scale="1.5" name="Mail Truck"/>
+	<combo x="820.25" y="552"/>
+</stage>
