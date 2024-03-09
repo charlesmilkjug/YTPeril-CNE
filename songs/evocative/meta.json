@@ -1,8 +1,17 @@
 {
-	"displayName": "Evocative",
-	"bpm": 150.0,
-	"icon": "narrator-arnold",
-	"color": "#FF78BF",
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
 	"coopAllowed": true,
-	"opponentModeAllowed": true
+	"stepsPerBeat": 4,
+	"bpm": 150,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -11848677,
+	"displayName": "Evocative",
+	"icon": "narrator-arnie",
+	"name": "evocative",
+	"color": "#4B341B",
+	"customValues": {}
 }

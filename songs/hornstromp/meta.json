@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 130,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -2463640,
+	"displayName": "hornstromp",
+	"icon": "player",
+	"name": "hornstromp",
+	"color": "#DA6868",
+	"customValues": {}
+}

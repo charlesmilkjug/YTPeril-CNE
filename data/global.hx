@@ -1,8 +1,28 @@
 import funkin.backend.scripting.Script;
+import openfl.system.Capabilities;
+import funkin.backend.utils.NdllUtil;
+import lime.graphics.Image;
+
+// ndll by ne_eo, thx! (oh and check out mario madness v2 its great)
+static var hideIcon = NdllUtil.getFunction('ndll-mario', 'hide_window_icon', 0);
+static var showIcon = NdllUtil.getFunction('ndll-mario', 'show_window_icon', 0);
 
 var logsScript:Script = Script.create(Paths.script("data/modules/LogsOverlay"));
 logsScript.load();
 logsScript.call("create", []);
+
+function new() {
+
+// for the psych ui options,.
+    if (FlxG.save.data.Splashes == null) FlxG.save.data.Splashes = 0;
+    if (FlxG.save.data.PauseMusic == null) FlxG.save.data.PauseMusic = 0;
+    if (FlxG.save.data.botplayOption == null) FlxG.save.data.botplayOption = false;
+    if (FlxG.save.data.colouredBar == null) FlxG.save.data.colouredBar = false;
+    if (FlxG.save.data.showBar == null) FlxG.save.data.showBar = false;
+    if (FlxG.save.data.showTxt == null) FlxG.save.data.showTxt = false;
+
+window.setIcon(Image.fromBytes(Assets.getBytes(Paths.image('icon16'))));
+}
 
 function postUpdate(delta:Float) {
     if(FlxG.keys.justPressed.F5)
