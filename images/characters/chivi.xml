@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <TextureAtlas imagePath="chivi.png">
+<!--yea it sucks but it'll do-->
 <SubTexture name="chivi down0000" x="404" y="1435" width="397" height="637" frameX="-131" frameY="-100" frameWidth="509" frameHeight="717" />
 <SubTexture name="chivi down0001" x="0" y="1435" width="404" height="648" frameX="-125" frameY="-89" frameWidth="509" frameHeight="717" />
 <SubTexture name="chivi idle0000" x="2080" y="686" width="355" height="680" frameX="-172" frameY="-57" frameWidth="509" frameHeight="717" />

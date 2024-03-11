@@ -1,8 +1,16 @@
 {
-	"displayName": "ChiVi",
-	"bpm": 100.0,
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"HARD"
+	],
 	"icon": "chivi",
-	"color": "#FF78BF",
+	"parsedColor": -34625,
+	"name": "chivi",
 	"coopAllowed": true,
-	"opponentModeAllowed": true
+	"color": "#FF78BF",
+	"stepsPerBeat": 4,
+	"displayName": "ChiVi",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 100
 }

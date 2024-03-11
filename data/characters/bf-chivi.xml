@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-200" icon="bf-chivi" camx="25" y="225" isGF="false" iconColor="-10592674" scale="1.08" camy="42" color="#34A6B1" flipX="true" isPlayer="true" holdTime="5.76" sprite="bf-chivi">
+	<anim x="0" loop="false" y="-4" fps="24" anim="bf chivi idle" name="idle"/>
+	<anim x="22" loop="false" y="-2" fps="24" anim="bf chivi left" name="singLEFT"/>
+	<anim x="-42" loop="false" y="-2" fps="24" anim="bf chivi right" name="singRIGHT"/>
+	<anim x="38" loop="false" y="18" fps="24" anim="bf chivi up" name="singUP"/>
+	<anim x="-16" loop="false" y="-13" fps="24" anim="bf chivi down" name="singDOWN"/>
+</character>
