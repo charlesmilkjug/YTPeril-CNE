@@ -12,9 +12,6 @@ logsScript.load();
 logsScript.call("create", []);
 
 function new() {
-
-window.title = "Friday Night Funkin': YouTube Animation Peril";
-
 // for the psych ui options,.
     if (FlxG.save.data.Splashes == null) FlxG.save.data.Splashes = 0;
     if (FlxG.save.data.PauseMusic == null) FlxG.save.data.PauseMusic = 0;
@@ -22,8 +19,6 @@ window.title = "Friday Night Funkin': YouTube Animation Peril";
     if (FlxG.save.data.colouredBar == null) FlxG.save.data.colouredBar = false;
     if (FlxG.save.data.showBar == null) FlxG.save.data.showBar = false;
     if (FlxG.save.data.showTxt == null) FlxG.save.data.showTxt = false;
-
-window.setIcon(Image.fromBytes(Assets.getBytes(Paths.image('icon16'))));
 }
 
 function postUpdate(delta:Float) {
@@ -39,4 +34,13 @@ function postUpdate(delta:Float) {
 function onDestroy() {
     logsScript.call("onDestroy", []);
     logsScript.destroy();
+}
+
+function preStateSwitch() {
+    window.title = "Friday Night Funkin': YouTube Animation Peril - DEMO";
+    window.setIcon(Image.fromBytes(Assets.getBytes(Paths.image('icon16'))));
+
+    for (redirectState in redirectStates.keys())
+        if (FlxG.game._requestedState is redirectState)
+            FlxG.game._requestedState = new ModState(redirectStates.get(redirectState));
 }
