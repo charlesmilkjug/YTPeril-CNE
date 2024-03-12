@@ -1,12 +1,68 @@
 <!DOCTYPE codename-mod-credits>
-
 <menu name="Mod Credits" desc="Oh boy. &#xA;">
 
 <credit
 	name="CharlesCatYT" 
 icon="charles"
-size="150"
 	desc="Director" 
 	url="https://github.com/kittstone"
 	/>
+
+
+	<credit
+	name="Isaiah Mods" 
+icon="isaiah"
+	desc="Director" 
+	url="https://github.com/kittstone"
+	/>
+
+<credit
+	name="TheAnimateMan" 
+icon="animate"
+	desc="The BF chrom guy, Spriter, Charter" 
+	url="https://github.com/kittstone"
+	/>
+
+<credit
+	name="Vencerist" 
+icon="vencerist"
+	desc="Composer, Spriter, Charter" 
+	url="https://github.com/kittstone"
+	/>
+
+<credit
+	name="The Bambi Enjoyer" 
+icon="maicon"
+	desc="Composer, Charter" 
+	url="https://github.com/kittstone"
+	/>
+
+<credit
+	name="Beanimation" 
+icon="beanimation"
+	desc="Chromatic Scaler" 
+	url="https://github.com/kittstone"
+	/>
+
+<credit
+	name="SauceyRed" 
+icon="sauceyred"
+	desc="Charter" 
+	url="https://github.com/kittstone"
+	/>
+
+<credit
+	name="lowkeykindly" 
+icon="missing_face"
+	desc="Charter" 
+	url="https://github.com/kittstone"
+	/>
+
+<credit
+	name="Techole" 
+icon="missing_face"
+	desc="Charter" 
+	url="https://github.com/kittstone"
+	/>
 </menu>
+
