@@ -13,6 +13,8 @@ logsScript.call("create", []);
 
 function new() {
 
+window.title = "Friday Night Funkin': YouTube Animation Peril";
+
 // for the psych ui options,.
     if (FlxG.save.data.Splashes == null) FlxG.save.data.Splashes = 0;
     if (FlxG.save.data.PauseMusic == null) FlxG.save.data.PauseMusic = 0;
