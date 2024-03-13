@@ -79,7 +79,7 @@ function create() {
     timeTxt.borderSize = 2;
     timeTxt.screenCenter(FlxAxes.X);
 
-    hudTxt = new FlxText(0, 900, FlxG.width, "Score: 0 | Misses: 0 | Accuracy: 0% - ?");
+    hudTxt = new FlxText(0, 900, FlxG.width, "[Score] 0 | [Misses] 0 | [Accuracy] 0% - ?");
     hudTxt.setFormat(Paths.font("roboto/Roboto-Bold.ttf"), 24, FlxColor.WHITE, "center", FlxTextBorderStyle.OUTLINE, FlxColor.RED);
     hudTxt.borderSize = 2;
     hudTxt.antialiasing = true;
@@ -147,7 +147,7 @@ function update(elapsed:Float) {
     var acc = FlxMath.roundDecimal(Math.max(accuracy, 0) * 100, 2);
     var rating:String = getRating(accuracy);
     if (songScore > 0 || acc > 0 || misses > 0) {
-        hudTxt.text = "Score: " + songScore + " | Misses: " + misses +  " | Accuracy: " + acc + "% - " /* + acc + "%)" + " - "*/ + ratingFC;
+        hudTxt.text = "[Score] " + songScore + " | [Misses] " + misses +  " | [Accuracy] " + acc + "% - " + ratingFC;
     }
     if (FlxG.save.data.botplayOption) {
         botplaySine += 180 *  FlxG.elapsed;
@@ -156,13 +156,19 @@ function update(elapsed:Float) {
     }
 }
 
+function onPlayerMiss(event) {
+    if (event.note.isSustainNote) return;
+
+    if(hudTxtTween != null) hudTxtTween.cancel();
+    hudTxt.scale.x = 0.55;
+    hudTxt.scale.y = 0.75;
+    hudTxtTween = FlxTween.tween(hudTxt.scale, {x: 1, y: 1}, 0.2, {onComplete: function(twn:FlxTween) {hudTxtTween = null;}});
+}
 function onPlayerHit(event) {
     if (event.note.isSustainNote) return;
 
-    if(hudTxtTween != null) {
-        hudTxtTween.cancel();
-    }
-    hudTxt.scale.x = 1.075;
+    if(hudTxtTween != null) hudTxtTween.cancel();
+    hudTxt.scale.x = 1.1;
     hudTxt.scale.y = 1.075;
     hudTxtTween = FlxTween.tween(hudTxt.scale, {x: 1, y: 1}, 0.2, {onComplete: function(twn:FlxTween) {hudTxtTween = null;}});
 
@@ -182,12 +188,8 @@ function onPlayerHit(event) {
 }
 
 function postCreate() {
-    for (i in [missesTxt, accuracyTxt, scoreTxt]) {
-        i.visible = false;
-    }
-    if (downscroll) {
-        hudTxt.y = healthBarBG.y - 78;
-    } 
+    for (i in [missesTxt, accuracyTxt, scoreTxt]) i.visible = false;
+    if (downscroll) hudTxt.y = healthBarBG.y - 78;
     add(hudTxt);
     healthBar.y = FlxG.height * 0.89;
     healthBarBG.y = healthBar.y - 4;
@@ -197,11 +199,8 @@ function postCreate() {
         hudTxt.y = healthBarBG.y + 58;
     }
     if (FlxG.save.data.showBar) {
-        for (i in [timeTxt, timeBar, timeBarBG]) {
+        for (i in [timeTxt, timeBar, timeBarBG])
             i.visible = false;
-        }
     }
-    if (FlxG.save.data.showTxt) {
-        hudTxt.visible = false;
-    }
+    if (FlxG.save.data.showTxt) hudTxt.visible = false;
 }
