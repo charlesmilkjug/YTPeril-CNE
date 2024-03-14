@@ -1,17 +1,17 @@
 {
-	"beatsPerMeasure": 4,
 	"opponentModeAllowed": true,
-	"coopAllowed": true,
-	"stepsPerBeat": 4,
-	"bpm": 150,
+	"icon": "narrator",
 	"difficulties": [
 		"HARD"
 	],
-	"needsVoices": true,
 	"parsedColor": -3653825,
-	"displayName": "Narration",
-	"icon": "narrator",
-	"name": "narration",
+	"customValues": {},
 	"color": "#C83F3F",
-	"customValues": {}
+	"name": "narration",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Narration",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 150
 }
