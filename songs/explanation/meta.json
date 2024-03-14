@@ -1,8 +1,17 @@
 {
-	"displayName": "Explanation",
-	"bpm": 150.0,
-	"icon": "mars",
-	"color": "#FF78BF",
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
 	"coopAllowed": true,
-	"opponentModeAllowed": true
+	"stepsPerBeat": 4,
+	"bpm": 150,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -4112320,
+	"displayName": "Explanation",
+	"icon": "mars",
+	"name": "explanation",
+	"color": "#C14040",
+	"customValues": {}
 }
