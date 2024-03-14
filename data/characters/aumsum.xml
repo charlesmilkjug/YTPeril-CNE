@@ -1,6 +1,6 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" y="210" camx="23" icon="aumsum" isGF="false" camy="160" iconColor="-10592674" scale="1.2" flipX="false" isPlayer="false" holdTime="5.9" gameOverChar="null" antialiasing="true" sprite="aumsum">
-	<anim loop="true" x="0" anim="aumsum idle" fps="10" y="1" name="idle" indices="[]"/>
+<character x="0" y="195" camx="23" icon="aumsum" isGF="false" camy="125" iconColor="-10592674" scale="1.2" flipX="false" isPlayer="false" holdTime="5.9" gameOverChar="null" antialiasing="true" sprite="aumsum">
+	<anim loop="false" x="0" anim="aumsum idle" fps="10" y="1" name="idle" indices="[]"/>
 	<anim loop="false" x="79" anim="aumsum left" fps="18" y="-25" name="singLEFT" indices="[]"/>
 	<anim loop="false" x="26" anim="aumsum down" fps="16" y="-66" name="singDOWN" indices="[]"/>
 	<anim loop="false" x="62" anim="aumsum up" fps="14" y="9" name="singUP" indices="[]"/>

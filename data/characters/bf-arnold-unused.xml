@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-370" icon="bf-arnold" camx="-310" y="-360" isGF="false" scale="0.5" camy="-360" color="#7DB3FF" flipX="true" isPlayer="true" sprite="bf-arnold-unused">
+	<anim x="173" loop="false" y="-90" fps="14" anim="idle" name="idle"/>
+	<anim x="171" loop="false" y="-92" fps="24" anim="right" name="singRIGHT"/>
+	<anim x="174" loop="false" y="-91" fps="24" anim="left" name="singLEFT"/>
+	<anim x="171" loop="false" y="-89" fps="24" anim="down" name="singDOWN"/>
+	<anim x="171" loop="false" y="-88" fps="24" anim="up" name="singUP"/>
+</character>
