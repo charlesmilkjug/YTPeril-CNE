@@ -47,6 +47,8 @@ static var redirectStates:Map<FlxState, String> = [
 ]; 
 */ // not now bitch, i'll do those little menu state shit soon maybe
 
+window.title = "Made with Codename Engine";
+
 static function convertTime(steps:Float, beats:Float, sections:Float):Float {
 	return ((Conductor.stepCrochet * steps) / 1000 + (Conductor.stepCrochet * (beats * 4)) / 1000 + (Conductor.stepCrochet * (sections * 16)) / 1000) - 0.01;
 }
