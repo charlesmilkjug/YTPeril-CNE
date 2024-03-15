@@ -153,7 +153,7 @@ function psychConverter()
 
 function preStateSwitch() {
 	window.title = "Friday Night Funkin': YouTube Animation Peril - v1.0 DEMO";
-	window.setIcon(Image.fromBytes(Assets.getBytes(Paths.image('ui/windowsicons/default16'))));
+	window.setIcon(Image.fromBytes(Assets.getBytes(Paths.image('ui/windowicons/default16'))));
 
 	for (redirectState in redirectStates.keys()) if (FlxG.game._requestedState is redirectState)
 			FlxG.game._requestedState = new ModState(redirectStates.get(redirectState));
