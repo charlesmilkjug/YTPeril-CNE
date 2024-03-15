@@ -30,7 +30,35 @@ var logsScript:Script = Script.create(Paths.script("data/modules/LogsOverlay"));
 logsScript.load();
 logsScript.call("create", []);
 
+static var initialized:Bool = false;
+static var fromGame:Bool = false; // for things you can go to through the pause screen and whatever
+
+/* static var redirectStates:Map<FlxState, String> = [
+	MainMenuState => 'youtube/YTMainMenu',
+	StoryMenuState => 'youtube/YTStoryMenu',
+	FreeplayState => 'youtube/YTFreeplay'
+]; */ // not now bitch, i'll do those little menu state shit soon maybe
+
 static function convertTime(steps:Float, beats:Float, sections:Float):Float {return ((Conductor.stepCrochet*steps)/1000 + (Conductor.stepCrochet*(beats*4))/1000 + (Conductor.stepCrochet*(sections*16))/1000)-0.01;}
+
+static function getInnerData(xml:Xml) {
+	var it = xml.iterator();
+	if (!it.hasNext())
+		return null;
+	var v = it.next();
+	if (it.hasNext()) {
+		var n = it.next();
+		if (v.nodeType == Xml.PCData && n.nodeType == Xml.CData && StringTools.trim(v.nodeValue) == "") {
+			if (!it.hasNext())
+				return n.nodeValue;
+			var n2 = it.next();
+			if (n2.nodeType == Xml.PCData && StringTools.trim(n2.nodeValue) == "" && !it.hasNext()) return n.nodeValue;
+		}
+		return null;
+	}
+	if (v.nodeType != Xml.PCData && v.nodeType != Xml.CData) return null;
+	return v.nodeValue;
+}
 
 static function gradientText(text:FlxText, colors:Array<FlxColor>) {return FlxSpriteUtil.alphaMask(text,
 		FlxGradient.createGradientBitmapData(text.width, text.height, colors),
