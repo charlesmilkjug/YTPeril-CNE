@@ -17,8 +17,7 @@ var trackedInstVolume:Int = 1;
 var trackedVoicesVolume:Int = 1;
 
 function muteinst(t) {
-    if (FlxG.sound.music.volume > 0)
-        trackedInstVolume = FlxG.sound.music.volume;
+    if (FlxG.sound.music.volume > 0) trackedInstVolume = FlxG.sound.music.volume;
 
     FlxG.sound.music.volume = FlxG.sound.music.volume > 0 ? 0 : trackedInstVolume;
 	t.icon = 1 - Std.int(Math.ceil(FlxG.sound.music.volume));
@@ -28,8 +27,7 @@ function muteinst(t) {
 
 function mutevoices(t) {
     trace("hi (voices in my head)!");
-    if (vocals.volume > 0)
-        trackedVoicesVolume = vocals.volume;
+    if (vocals.volume > 0) trackedVoicesVolume = vocals.volume;
 
     vocals.volume = vocals.volume > 0 ? 0 : trackedVoicesVolume;
 	for (strumLine in strumLines.members) strumLine.vocals.volume = strumLine.vocals.volume > 0 ? 0 : trackedVoicesVolume;
@@ -41,8 +39,7 @@ function mutevoices(t) {
 var volumeIndex:Int = 4;
 var volumeOptions:Map<String, Void> = ["Mute instrumental" => muteinst, "Mute voices" => mutevoices];
 
-function postCreate()
-{
+function postCreate() {
     bottomMenuSpr = new UITopMenu([]);
     bottomMenuSpr.cameras = [uiCamera];
     bottomMenuSpr.y = FlxG.height - bottomMenuSpr.bHeight;
@@ -54,7 +51,7 @@ function postCreate()
     instVolumeSlider = new UISlider(30, FlxG.height - 19, sliderWidth, 1, [{start: 0, end: 1, size: 1}], false);
     instVolumeSlider.x = (instVolumeText.x + instVolumeText.width) + 30 + instVolumeSlider.valueStepper.bWidth;
     
-    instVolumeSlider.onChange = function (v) {
+    instVolumeSlider.onChange = (v) -> {
         FlxG.sound.music.volume = v;
     };
 
@@ -65,7 +62,7 @@ function postCreate()
     vocalsVolumeSlider = new UISlider(30, FlxG.height - 19, sliderWidth, 1, [{start: 0, end: 1, size: 1}], false);
     vocalsVolumeSlider.x = (instVolumeSlider.x + instVolumeSlider.width) + (vocalsVolumeText.x + vocalsVolumeText.width) + 30 + vocalsVolumeSlider.valueStepper.bWidth;
 
-    vocalsVolumeSlider.onChange = function (v) {
+    vocalsVolumeSlider.onChange = (v) -> {
         vocals.volume = v;
         for (strumLine in strumLines.members) strumLine.vocals.volume = v;
     };
@@ -81,10 +78,8 @@ function postCreate()
     trace(volumeOptions);
 
     volumeButton = topMenuSpr.members[volumeIndex];
-    if (volumeButton != null)
-        for (obj in volumeButton.contextMenu)
-            if (obj != null && volumeOptions[obj.label] != null)
-                obj.onSelect = volumeOptions[obj.label];
+    if (volumeButton != null) for (obj in volumeButton.contextMenu)
+            if (obj != null && volumeOptions[obj.label] != null) obj.onSelect = volumeOptions[obj.label];
 
     scrollBar.scale.y = Std.int(FlxG.height - (bottomMenuSpr.bHeight * 2));
     scrollBar.updateHitbox();

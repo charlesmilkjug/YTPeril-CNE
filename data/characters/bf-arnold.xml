@@ -1,8 +1,9 @@
 <!DOCTYPE codename-engine-character>
-<character x="-370" icon="bf-arnold" camx="-310" y="-360" isGF="false" scale="0.5" camy="-360" color="#7DB3FF" flipX="true" isPlayer="true" sprite="bf-arnold">
-	<anim x="28" loop="false" y="5" fps="24" anim="idle" name="idle"/>
-	<anim x="175" loop="false" y="-91" fps="24" anim="right" name="singRIGHT"/>
-	<anim x="155" loop="false" y="-77" fps="24" anim="left" name="singLEFT"/>
-	<anim x="135" loop="false" y="-52" fps="24" anim="down" name="singDOWN"/>
-	<anim x="170" loop="false" y="-40" fps="24" anim="up" name="singUP"/>
+<character x="-370" icon="bf-arnold" camx="-310" y="-360" isGF="false" scale="0.5" camy="-360"
+	color="#7DB3FF" flipX="true" isPlayer="true" sprite="bf-arnold">
+	<anim x="28" loop="false" y="5" fps="24" anim="idle" name="idle" />
+	<anim x="175" loop="false" y="-91" fps="24" anim="right" name="singRIGHT" />
+	<anim x="155" loop="false" y="-77" fps="24" anim="left" name="singLEFT" />
+	<anim x="135" loop="false" y="-52" fps="24" anim="down" name="singDOWN" />
+	<anim x="170" loop="false" y="-40" fps="24" anim="up" name="singUP" />
 </character>
