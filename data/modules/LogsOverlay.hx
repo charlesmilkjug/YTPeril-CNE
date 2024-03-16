@@ -71,7 +71,7 @@ function enterFrame(deltaTime:Int) {
         if(scrollY < 0) scrollY = 0;
     }
 
-    if(FlxG.keys.justPressed.F7)
+    if(FlxG.keys.justPressed.F8)
         clearLogs();
 }
 

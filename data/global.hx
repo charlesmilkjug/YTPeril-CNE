@@ -11,6 +11,7 @@ import flixel.util.FlxSpriteUtil;
 import flixel.util.FlxGradient;
 import funkin.backend.MusicBeatState;
 import funkin.options.Options;
+import funkin.backend.utils.NativeAPI;
 import Xml;
 import haxe.Json;
 import sys.FileSystem;
@@ -27,27 +28,35 @@ import funkin.options.TreeMenu;
 ')
 #end
 
-// ndll by ne_eo, thx! (oh and check out mario madness v2 its great)
-static var hideIcon = NdllUtil.getFunction('ndll-mario', 'hide_window_icon', 0);
-static var showIcon = NdllUtil.getFunction('ndll-mario', 'show_window_icon', 0);
-
-// YOSHICRAFTER ENGINE STYLE LOGS REAL
-var logsScript:Script = Script.create(Paths.script("data/modules/LogsOverlay"));
-logsScript.load();
-logsScript.call("create", []);
-
 static var initialized:Bool = false;
 static var fromGame:Bool = false; // for things you can go to through the pause screen and whatever
 
-/* 
-static var redirectStates:Map<FlxState, String> = [
-	MainMenuState => 'youtube/YTMainMenu',
-	StoryMenuState => 'youtube/YTStoryMenu',
-	FreeplayState => 'youtube/YTFreeplay'
-]; 
-*/ // not now bitch, i'll do those little menu state shit soon maybe
+// YOSHICRAFTER ENGINE STYLE LOGS REAL
+var logsScript:Script = Script.create(Paths.script("data/modules/LogsOverlay"));
 
-window.title = "Made with Codename Engine";
+static var redirectStates:Map<FlxState, String> = [
+	//MainMenuState => 'youtube/YTMainMenu',
+	//StoryMenuState => 'youtube/YTStoryMenu',
+	//FreeplayState => 'youtube/YTFreeplay'
+]; 
+ // not now bitch, i'll do those little menu state shit soon maybe
+
+function new() {
+	logsScript.load();
+	logsScript.call("create", []);
+
+	window.title = "Made with Codename Engine";
+	var optionTube = FlxG.save.data;
+	if (optionTube.customCursor == null) optionTube.customCursor = true;
+
+	// for the psych ui options
+	if (optionTube.Splashes == null) optionTube.Splashes = 0;
+	if (optionTube.PauseMusic == null) optionTube.PauseMusic = 0;
+	if (optionTube.botplayOption == null) optionTube.botplayOption = false;
+	if (optionTube.colouredBar == null) optionTube.colouredBar = false;
+	if (optionTube.showBar == null) optionTube.showBar = false;
+	if (optionTube.showTxt == null) optionTube.showTxt = false;
+}
 
 static function convertTime(steps:Float, beats:Float, sections:Float):Float {
 	return ((Conductor.stepCrochet * steps) / 1000 + (Conductor.stepCrochet * (beats * 4)) / 1000 + (Conductor.stepCrochet * (sections * 16)) / 1000) - 0.01;
@@ -76,23 +85,13 @@ static function gradientText(text:FlxText, colors:Array<FlxColor>)
 
 static function coolText(text:String):Array<String>
 {
-	var trim:String;
-	return [for (line in text.split("\n")) if ((trim = StringTools.trim(line)) != "" && !StringTools.startsWith(trim, "#")) trim];
-}
-
-function new() {
-	// for the psych ui options
-	if (FlxG.save.data.Splashes == null) FlxG.save.data.Splashes = 0;
-	if (FlxG.save.data.PauseMusic == null) FlxG.save.data.PauseMusic = 0;
-	if (FlxG.save.data.botplayOption == null) FlxG.save.data.botplayOption = false;
-	if (FlxG.save.data.colouredBar == null) FlxG.save.data.colouredBar = false;
-	if (FlxG.save.data.showBar == null) FlxG.save.data.showBar = false;
-	if (FlxG.save.data.showTxt == null) FlxG.save.data.showTxt = false;
+	var trimMyHair:String;
+	return [for (line in text.split("\n")) if ((trimMyHair = StringTools.trim(line)) != "" && !StringTools.startsWith(trimMyHair, "#")) trimMyHair];
 }
 
 function postStateSwitch() {
 	logsScript.call("postStateSwitch", []);
-	Framerate.debugMode = 0;
+	Framerate.debugMode = 1;
 }
 
 function postUpdate(delta:Float)
@@ -102,7 +101,7 @@ function postUpdate(delta:Float)
 	if (FlxG.keys.justPressed.F5) FlxG.resetState(); // RESETTING STATES
 	//
 
-	if (FlxG.keys.justPressed.F6) logsScript.call("toggle", []);
+	if (FlxG.keys.justPressed.F7) logsScript.call("toggle", []);
 	logsScript.call("update", [delta]);
 }
 
@@ -115,7 +114,7 @@ function psychConverter()
 {
 	var fDial = new FileDialog();
 	fDial.onSelect.add((file) -> {
-        var fileName = file.split('\\');
+        final fileName = file.split('\\');
 		fileName = fileName[fileName.length - 1].split('.');
 		fileName = fileName[fileName.length - 2];
 		var json = CoolUtil.parseJsonString(File.getContent(file));
@@ -154,9 +153,16 @@ function psychConverter()
 }
 
 function preStateSwitch() {
+    FlxG.camera.bgColor = 0xFF000000;
+
 	window.title = "Friday Night Funkin': YouTube Animation Peril - v1.0 DEMO";
 	window.setIcon(Image.fromBytes(Assets.getBytes(Paths.image('ui/windowicons/default16'))));
 
-	for (redirectState in redirectStates.keys()) if (FlxG.game._requestedState is redirectState)
-			FlxG.game._requestedState = new ModState(redirectStates.get(redirectState));
+	if (!initialized) {
+		initialized = true;
+	} else {
+		for (redirectState in redirectStates.keys())
+			if (FlxG.game._requestedState is redirectState)
+				FlxG.game._requestedState = new ModState(redirectStates.get(redirectState));
+	}
 }

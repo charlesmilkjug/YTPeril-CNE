@@ -1,6 +1,9 @@
-import youtube.ThisCursorIsStupid;
+function new(){
+  FlxG.mouse.visible = false;
 
-var myCursor:ThisCursorIsStupid; // lol
+  CoolUtil.playMenuSong();
+  Conductor.bpm = 128;
+}
 
 function postCreate() {
 	var moreVersionShit:FunkinText = new FunkinText(5, 634, 0, '');
@@ -8,9 +11,4 @@ function postCreate() {
 	add(moreVersionShit);
 	moreVersionShit.text = "YT Animation Peril v1.0 [DEMO]"; // i sadly cant extend the original versionShit text actually
 	// so i had to work around that like this.
-
-	// anyway, cursor.
-
-	myCursor = new ThisCursorIsStupid(0.4, 0.4);
-	add(myCursor);
 }
