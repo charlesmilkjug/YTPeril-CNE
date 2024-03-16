@@ -31,6 +31,18 @@ import funkin.options.TreeMenu;
 static var initialized:Bool = false;
 static var fromGame:Bool = false; // for things you can go to through the pause screen and whatever
 
+// DEFAULT WINDOW POSITIONS
+static var winX:Int = FlxG.stage.application.window.display.bounds.width / 6;
+static var winY:Int = FlxG.stage.application.window.display.bounds.height / 6;
+
+// MONITOR RESOLUTION
+static var fsX:Int = Capabilities.screenResolutionX;
+static var fsY:Int = Capabilities.screenResolutionY;
+
+// WINDOW SIZE CHANGE VAR
+static var resizex:Int = Capabilities.screenResolutionX / 1.5;
+static var resizey:Int = Capabilities.screenResolutionY / 1.5;
+
 // YOSHICRAFTER ENGINE STYLE LOGS REAL
 var logsScript:Script = Script.create(Paths.script("data/modules/LogsOverlay"));
 
@@ -47,7 +59,7 @@ function new() {
 
 	window.title = "Made with Codename Engine";
 	var optionTube = FlxG.save.data;
-	if (optionTube.customCursor == null) optionTube.customCursor = true;
+	//if (optionTube.customCursor == null) optionTube.customCursor = true;
 
 	// for the psych ui options
 	if (optionTube.Splashes == null) optionTube.Splashes = 0;

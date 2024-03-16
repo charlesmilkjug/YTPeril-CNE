@@ -1,17 +1,17 @@
 {
 	"opponentModeAllowed": true,
+	"icon": "chikn",
 	"difficulties": [
 		"HARD"
 	],
-	"icon": "chikn",
 	"parsedColor": -131105,
-	"coopAllowed": true,
-	"name": "nuggit",
-	"color": "#FDFFDF",
 	"customValues": {},
+	"color": "#FDFFDF",
+	"name": "nuggit",
+	"coopAllowed": true,
 	"stepsPerBeat": 4,
 	"displayName": "Nuggit",
-	"needsVoices": true,
 	"beatsPerMeasure": 4,
+	"needsVoices": true,
 	"bpm": 175
 }

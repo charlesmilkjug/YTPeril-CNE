@@ -2,7 +2,7 @@ import flixel.FlxG;
 import funkin.editors.ui.UIText;
 import funkin.editors.ui.UISlider;
 import funkin.editors.ui.UITopMenu;
-import youtube.ThisCursorIsStupid;
+//import youtube.ThisCursorIsStupid;
 
 var bottomMenuSpr:UITopMenu;
 var volumeButton:UITopMenuButton; 
@@ -17,7 +17,7 @@ var sliderWidth:Int = 100;
 var trackedInstVolume:Int = 1;
 var trackedVoicesVolume:Int = 1;
 
-var myCursor:ThisCursorIsStupid; // lol
+//var myCursor:ThisCursorIsStupid; // lol
 
 function muteinst(t) {
     if (FlxG.sound.music.volume > 0) trackedInstVolume = FlxG.sound.music.volume;
@@ -78,7 +78,7 @@ function postCreate() {
     uiGroup.add(vocalsVolumeText);
     uiGroup.add(vocalsVolumeSlider);
 
-    trace(volumeOptions);
+    //trace(volumeOptions);
 
     volumeButton = topMenuSpr.members[volumeIndex];
     if (volumeButton != null) for (obj in volumeButton.contextMenu)
@@ -87,10 +87,10 @@ function postCreate() {
     scrollBar.scale.y = Std.int(FlxG.height - (bottomMenuSpr.bHeight * 2));
     scrollBar.updateHitbox();
 
-    myCursor = new ThisCursorIsStupid(0.4, 0.4);
-	myCursor.cameras = [uiCamera];
-    add(myCursor);
-    trace(myCursor.cameras);
+    //myCursor = new ThisCursorIsStupid(0.4, 0.4);
+	//myCursor.cameras = [uiCamera];
+    //add(myCursor);
+    //trace(myCursor.cameras);
 }
 
 function update(elapsed:Float) {
