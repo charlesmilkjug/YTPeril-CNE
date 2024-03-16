@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="joey new.png">
+<SubTexture name="joey new idle0000" x="0" y="1057" width="328" height="503" frameX="-5" frameY="-21" frameWidth="335" frameHeight="524" />
+<SubTexture name="joey new idle0001" x="1291" y="0" width="312" height="510" frameX="-4" frameY="-14" frameWidth="335" frameHeight="524" />
+<SubTexture name="joey new idle0002" x="621" y="533" width="287" height="519" frameX="-10" frameY="-5" frameWidth="335" frameHeight="524" />
+<SubTexture name="joey new idle0003" x="1011" y="0" width="280" height="524" frameX="0" frameY="0" frameWidth="335" frameHeight="524" />
+<SubTexture name="joey new idle0004" x="1011" y="0" width="280" height="524" frameX="0" frameY="0" frameWidth="335" frameHeight="524" />
+<SubTexture name="joey new idle0005" x="1011" y="0" width="280" height="524" frameX="0" frameY="0" frameWidth="335" frameHeight="524" />
+<SubTexture name="joey new idle0006" x="1011" y="0" width="280" height="524" frameX="0" frameY="0" frameWidth="335" frameHeight="524" />
+<SubTexture name="joey new idle0007" x="1011" y="0" width="280" height="524" frameX="0" frameY="0" frameWidth="335" frameHeight="524" />
+<SubTexture name="joey new idle0008" x="1011" y="0" width="280" height="524" frameX="0" frameY="0" frameWidth="335" frameHeight="524" />
+<SubTexture name="joey new idle0009" x="1011" y="0" width="280" height="524" frameX="0" frameY="0" frameWidth="335" frameHeight="524" />
+<SubTexture name="joey new idle0010" x="1011" y="0" width="280" height="524" frameX="0" frameY="0" frameWidth="335" frameHeight="524" />
+<SubTexture name="joey new right0000" x="908" y="533" width="327" height="519" frameX="-1" frameY="-5" frameWidth="328" frameHeight="524" />
+<SubTexture name="joey new right0001" x="303" y="533" width="318" height="521" frameX="0" frameY="-3" frameWidth="328" frameHeight="524" />
+<SubTexture name="joey new right0002" x="0" y="533" width="303" height="524" frameX="0" frameY="0" frameWidth="328" frameHeight="524" />
+<SubTexture name="joey new left0000" x="328" y="1057" width="377" height="499" frameX="-13" frameY="0" frameWidth="440" frameHeight="499" />
+<SubTexture name="joey new left0001" x="705" y="1057" width="396" height="499" frameX="-15" frameY="0" frameWidth="440" frameHeight="499" />
+<SubTexture name="joey new left0002" x="1101" y="1057" width="414" height="499" frameX="-17" frameY="0" frameWidth="440" frameHeight="499" />
+<SubTexture name="joey new up0000" x="0" y="0" width="364" height="533" frameX="-10" frameY="0" frameWidth="385" frameHeight="533" />
+<SubTexture name="joey new up0001" x="364" y="0" width="333" height="529" frameX="-18" frameY="-4" frameWidth="385" frameHeight="533" />
+<SubTexture name="joey new up0002" x="697" y="0" width="314" height="526" frameX="-25" frameY="-7" frameWidth="385" frameHeight="533" />
+<SubTexture name="joey new down0000" x="1603" y="966" width="330" height="478" frameX="-9" frameY="-7" frameWidth="365" frameHeight="485" />
+<SubTexture name="joey new down0001" x="1603" y="485" width="335" height="481" frameX="-10" frameY="-4" frameWidth="365" frameHeight="485" />
+<SubTexture name="joey new down0002" x="1603" y="0" width="338" height="485" frameX="-13" frameY="0" frameWidth="365" frameHeight="485" />
+</TextureAtlas>
