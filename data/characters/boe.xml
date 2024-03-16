@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<character x="-360" y="-260" camx="82" icon="boe" isGF="false" camy="0" iconColor="-10592674" scale="0.4" flipX="false" isPlayer="false" holdTime="4" gameOverChar="null" antialiasing="true" sprite="boe">
-	<anim loop="false" x="0" anim="Boe idle" fps="24" y="-30" name="idle" indices="[]"/>
-	<anim loop="false" x="1" anim="Boe up" fps="24" y="0" name="singUP" indices="[]"/>
-	<anim loop="false" x="-27" anim="Boe right" fps="24" y="0" name="singRIGHT" indices="[]"/>
-	<anim loop="false" x="50" anim="Boe left" fps="24" y="-60" name="singLEFT" indices="[]"/>
-	<anim loop="false" x="7" anim="Boe down" fps="24" y="-42" name="singDOWN" indices="[]"/>
+<character x="-360" icon="boe" camx="82" y="-260" isGF="false" iconColor="-10592674" scale="0.4" isPlayer="false" gameOverChar="null" sprite="boe">
+	<anim x="0" loop="true" y="-30" fps="24" anim="Boe idle" name="idle"/>
+	<anim x="1" loop="false" y="0" fps="24" anim="Boe up" name="singUP"/>
+	<anim x="-27" loop="false" y="0" fps="24" anim="Boe right" name="singRIGHT"/>
+	<anim x="50" loop="false" y="-60" fps="24" anim="Boe left" name="singLEFT"/>
+	<anim x="7" loop="false" y="-42" fps="24" anim="Boe down" name="singDOWN"/>
 </character>

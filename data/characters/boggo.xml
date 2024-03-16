@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-300" icon="boggo" camx="60" y="-235" isGF="false" iconColor="-10592674" scale="0.45" camy="-5" color="#60E6F4" isPlayer="false" gameOverChar="null" holdTime="4.5" sprite="boggo">
+	<anim x="0" loop="true" y="-30" fps="24" anim="Boggo Idle" name="idle"/>
+	<anim x="-5" loop="false" y="-32" fps="24" anim="Boggo Up" name="singUP"/>
+	<anim x="-9" loop="false" y="-35" fps="24" anim="Boggo Right" name="singRIGHT"/>
+	<anim x="7" loop="false" y="-30" fps="24" anim="Boggo Left" name="singLEFT"/>
+	<anim x="-3" loop="false" y="-29" fps="24" anim="Boggo Down" name="singDOWN"/>
+</character>

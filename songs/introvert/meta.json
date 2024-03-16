@@ -1,16 +1,17 @@
 {
+	"beatsPerMeasure": 4,
 	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 170,
 	"difficulties": [
 		"HARD"
 	],
-	"icon": "boggo",
-	"parsedColor": -34625,
-	"name": "introvert",
-	"coopAllowed": true,
-	"color": "#FF78BF",
-	"stepsPerBeat": 4,
-	"displayName": "Introvert",
 	"needsVoices": true,
-	"beatsPerMeasure": 4,
-	"bpm": 170
+	"parsedColor": -11815974,
+	"displayName": "Introvert",
+	"icon": "boggo",
+	"name": "introvert",
+	"color": "#4BB3DA",
+	"customValues": {}
 }
