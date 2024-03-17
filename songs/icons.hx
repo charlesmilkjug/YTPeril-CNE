@@ -26,6 +26,15 @@ function beatHit() {
         FlxTween.tween(i.scale, {x: 1, y: 1}, (0.95 * (1 / (Conductor.bpm / 60))), {ease: FlxEase.expoOut});
     }
 
+// based on a lua script by Gazozoz
+switch (curBeat % 2) {
+            case 0:
+                FlxTween.angle(iconP1, 0, 5, Conductor.crochet / 1000, {ease: FlxEase.circOut});
+                FlxTween.angle(iconP2, 0, 5, Conductor.crochet / 1000, {ease: FlxEase.circOut});
+            default:
+                FlxTween.angle(iconP1, 0, -5, Conductor.crochet / 1000, {ease: FlxEase.circOut});
+                FlxTween.angle(iconP2, 0, -5, Conductor.crochet / 1000, {ease: FlxEase.circOut});
+        }
 icoP2.origin.set(140, 120);
 icoP1.origin.set(0, 120);
 //icoP2.origin.set(150, 100);
