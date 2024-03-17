@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<character x="600" icon="bredstiks" camx="-65" y="-120" isGF="false" iconColor="-10592674" scale="0.46" camy="-14" color="#4885B6" flipX="true" isPlayer="true" gameOverChar="null" sprite="bredstiks">
-	<anim x="-2" loop="false" y="-2" fps="17" anim="chikn bf idle" name="idle"/>
-	<anim x="88" loop="false" y="-2" fps="22" anim="chikn bf right" name="singLEFT"/>
-	<anim x="-13" loop="false" y="-4" fps="18" anim="chikn bf down" name="singDOWN"/>
-	<anim x="0" loop="false" y="10" fps="20" anim="chikn bf up" name="singUP"/>
-	<anim x="60" loop="false" y="4" fps="24" anim="chikn bf left" name="singRIGHT"/>
+<character x="-50" y="230" camx="-65" icon="bf-bogg" isGF="false" camy="-14" iconColor="-10592674" scale="1.4" flipX="true" isPlayer="true" holdTime="4" gameOverChar="null" antialiasing="true" sprite="bf-bogg">
+	<anim loop="true" x="-2" anim="LandOfBoyfriend Idle" fps="24" y="-2" name="idle" indices="[]"/>
+	<anim loop="false" x="5" anim="LandOfBoyfriend Up" fps="24" y="35" name="singUP" indices="[]"/>
+	<anim loop="false" x="3" anim="LandOfBoyfriend Right" fps="24" y="-2" name="singRIGHT" indices="[]"/>
+	<anim loop="false" x="0" anim="LandOfBoyfriend Left" fps="24" y="-6" name="singLEFT" indices="[]"/>
+	<anim loop="false" x="-1" anim="LandOfBoyfriend Down" fps="24" y="1" name="singDOWN" indices="[]"/>
 </character>
