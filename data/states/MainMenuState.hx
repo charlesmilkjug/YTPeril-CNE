@@ -1,4 +1,4 @@
-function new(){
+function new() {
   FlxG.mouse.visible = false;
 
   CoolUtil.playMenuSong();
@@ -17,6 +17,9 @@ FlxG.camera.followLerp = 0.01;
 }
 
 function postUpdate(elapsed) {
+    FlxG.camera.scroll.x = FlxG.camera.scroll.y = 0;
+    FlxG.camera.scroll.set();
+
     menuItems.forEach(function(a:FlxSprite){
         a.x -= 320;
     });

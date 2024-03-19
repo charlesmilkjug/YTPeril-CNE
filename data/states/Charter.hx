@@ -1,4 +1,19 @@
+import funkin.editors.charter.CharterBackdropGroup;
+import funkin.editors.charter.CharterBackdropGroup.CharterBackdrop;
 import flixel.FlxG;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
+import flixel.addons.display.FlxBackdrop;
+import flixel.util.FlxTimer;
+import flixel.text.FlxText;
+import flixel.util.FlxColor;
+import flixel.addons.display.FlxGridOverlay;
+import funkin.game.HealthIcon;
+import funkin.backend.system.Conductor;
+import flixel.math.FlxPoint;
+import funkin.editors.charter.Charter;
+import funkin.editors.charter.CharterEvent;
+import funkin.editors.ui.UIWindow;
 import funkin.editors.ui.UIText;
 import funkin.editors.ui.UISlider;
 import funkin.editors.ui.UITopMenu;
@@ -18,6 +33,11 @@ var trackedInstVolume:Int = 1;
 var trackedVoicesVolume:Int = 1;
 
 //var myCursor:ThisCursorIsStupid; // lol
+
+var backdropshit:FlxBackdrop;
+function create() {
+	gridColor1 = 0xFFFF5555;
+}
 
 function muteinst(t) {
     if (FlxG.sound.music.volume > 0) trackedInstVolume = FlxG.sound.music.volume;
@@ -43,6 +63,15 @@ var volumeIndex:Int = 4;
 var volumeOptions:Map<String, Void> = ["Mute instrumental" => muteinst, "Mute voices" => mutevoices];
 
 function postCreate() {
+backdropshit = new FlxBackdrop(Paths.image('editors/bgs/charter'));
+
+insert(members.indexOf(charterBG) + 1, backdropshit);
+    backdropshit.cameras = [charterCamera];
+    charterBG.alpha = 1;
+    backdropshit.alpha = 0.5;
+//backdropshit.color = 0x113D3D3D ;
+    FlxG.mouse.visible = true;
+
     bottomMenuSpr = new UITopMenu([]);
     bottomMenuSpr.cameras = [uiCamera];
     bottomMenuSpr.y = FlxG.height - bottomMenuSpr.bHeight;
@@ -94,6 +123,14 @@ function postCreate() {
 }
 
 function update(elapsed:Float) {
+if(FlxG.sound.music.playing){
+		backdropshit.velocity.x = 0;
+
+	} else {
+		backdropshit.velocity.x = 	Conductor.bpm * 0.8;
+
+	}
+
     instVolumeSlider.x = (instVolumeText.x + instVolumeText.width + 4) + 30 + instVolumeSlider.valueStepper.bWidth;
     vocalsVolumeSlider.x = (vocalsVolumeText.x + vocalsVolumeText.width + 4) + 30 + vocalsVolumeSlider.valueStepper.bWidth;
 }

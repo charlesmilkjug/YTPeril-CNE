@@ -109,7 +109,7 @@ function postStateSwitch() {
 function postUpdate(delta:Float)
 {
 	// here for debugging purposes i think
-	if (FlxG.keys.justPressed.F6) NativeAPI.allocConsole(); // CONSOLE
+	#if windows if (FlxG.keys.justPressed.F6) NativeAPI.allocConsole(); #end // CONSOLE
 	if (FlxG.keys.justPressed.F5) FlxG.resetState(); // RESETTING STATES
 	//
 
