@@ -28,6 +28,8 @@ import funkin.options.TreeMenu;
 ')
 #end
 
+static var stupidShit = '';
+
 static var initialized:Bool = false;
 static var fromGame:Bool = false; // for things you can go to through the pause screen and whatever
 
