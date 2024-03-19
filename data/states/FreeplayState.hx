@@ -1,5 +1,14 @@
 var icoPlacement:String = "right";
 
+function postCreate() {
+    scoreText.alpha = 1;
+    coopText.y = scoreText.y + 36;
+
+    scoreBG.alpha = 0.5;
+
+    diffText.destroy();
+}
+
 function postUpdate() {
     for (p in 0...iconArray.length) {
         grpSongs.members[p].screenCenter(FlxAxes.X);
