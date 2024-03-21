@@ -1,4 +1,4 @@
-var icoPlacement:String = "right";
+var icoPlacement:String = "left";
 
 function postCreate() {
     scoreText.alpha = 1;
