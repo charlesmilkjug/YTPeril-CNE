@@ -120,7 +120,8 @@ function postUpdate(delta:Float)
 }
 
 function onDestroy() {
-	logsScript.call("onDestroy", []);
+FlxG.camera.bgColor = 0xFF000000;
+logsScript.call("onDestroy", []);
 	logsScript.destroy();
 }
 
