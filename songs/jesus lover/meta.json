@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"HARD"
+	],
+	"icon": "face",
+	"parsedColor": -34625,
+	"name": "jesus lover",
+	"coopAllowed": true,
+	"color": "#FF78BF",
+	"stepsPerBeat": 4,
+	"displayName": "Jesus Lover",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 108
+}
