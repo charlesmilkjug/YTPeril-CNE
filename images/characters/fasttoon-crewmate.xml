@@ -2,20 +2,20 @@
 <TextureAtlas imagePath="fasttoon_sprite.png">
 	<!-- Created with Adobe Animate version 23.0.1.70 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="Idle instance 10000" x="0" y="0" width="452" height="296" pivotX="0.05" pivotY="4.35"/>
-	<SubTexture name="Idle instance 10001" x="0" y="0" width="452" height="296"/>
-	<SubTexture name="Idle instance 10002" x="452" y="0" width="452" height="296"/>
-	<SubTexture name="Idle instance 10003" x="452" y="0" width="452" height="296"/>
-	<SubTexture name="Idle instance 10004" x="904" y="0" width="452" height="296"/>
-	<SubTexture name="Idle instance 10005" x="904" y="0" width="452" height="296"/>
-	<SubTexture name="Idle instance 10006" x="1356" y="0" width="452" height="296"/>
-	<SubTexture name="Idle instance 10007" x="1356" y="0" width="452" height="296"/>
-	<SubTexture name="Idle instance 10008" x="1808" y="0" width="452" height="296"/>
-	<SubTexture name="Idle instance 10009" x="1808" y="0" width="452" height="296"/>
-	<SubTexture name="Idle instance 10010" x="1808" y="0" width="452" height="296"/>
-	<SubTexture name="Idle instance 10011" x="1808" y="0" width="452" height="296"/>
-	<SubTexture name="Idle instance 10012" x="1808" y="0" width="452" height="296"/>
-	<SubTexture name="Idle instance 10013" x="1808" y="0" width="452" height="296"/>
+	<SubTexture name="fast Idle instance 10000" x="0" y="0" width="452" height="296" pivotX="0.05" pivotY="4.35"/>
+	<SubTexture name="fast Idle instance 10001" x="0" y="0" width="452" height="296"/>
+	<SubTexture name="fast Idle instance 10002" x="452" y="0" width="452" height="296"/>
+	<SubTexture name="fast Idle instance 10003" x="452" y="0" width="452" height="296"/>
+	<SubTexture name="fast Idle instance 10004" x="904" y="0" width="452" height="296"/>
+	<SubTexture name="fast Idle instance 10005" x="904" y="0" width="452" height="296"/>
+	<SubTexture name="fast Idle instance 10006" x="1356" y="0" width="452" height="296"/>
+	<SubTexture name="fast Idle instance 10007" x="1356" y="0" width="452" height="296"/>
+	<SubTexture name="fast Idle instance 10008" x="1808" y="0" width="452" height="296"/>
+	<SubTexture name="fast Idle instance 10009" x="1808" y="0" width="452" height="296"/>
+	<SubTexture name="fast Idle instance 10010" x="1808" y="0" width="452" height="296"/>
+	<SubTexture name="fast Idle instance 10011" x="1808" y="0" width="452" height="296"/>
+	<SubTexture name="fast Idle instance 10012" x="1808" y="0" width="452" height="296"/>
+	<SubTexture name="fast Idle instance 10013" x="1808" y="0" width="452" height="296"/>
 	<SubTexture name="down instance 10000" x="2260" y="0" width="468" height="300" pivotX="6.8" pivotY="0"/>
 	<SubTexture name="down instance 10001" x="2260" y="0" width="468" height="300"/>
 	<SubTexture name="down instance 10002" x="2728" y="0" width="468" height="300"/>

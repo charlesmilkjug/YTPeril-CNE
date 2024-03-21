@@ -1,6 +1,6 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" icon="fasttoon-crewmate" y="0" isGF="false" iconColor="-10592674" isPlayer="false" gameOverChar="null" holdTime="7.5" sprite="fasttoon-crewmate">
-	<anim x="-81" loop="false" y="-429" fps="24" anim="Idle" name="idle"/>
+<character x="25" icon="fasttoon-crewmate" y="-70" isGF="false" iconColor="-10592674" scale="1.1" camy="500" color="#57FB76" isPlayer="false" gameOverChar="null" holdTime="7.5" sprite="fasttoon-crewmate">
+	<anim x="-81" loop="false" y="-429" fps="24" anim="fast Idle" name="idle"/>
 	<anim x="70" loop="false" y="-435" fps="24" anim="left" name="singLEFT"/>
 	<anim x="-74" loop="false" y="-434" fps="24" anim="down" name="singDOWN"/>
 	<anim x="85" loop="false" y="-290" fps="24" anim="up" name="singUP"/>

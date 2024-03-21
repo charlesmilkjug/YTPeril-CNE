@@ -3,7 +3,10 @@
 	the player hits a normal note!!!!
 */
 
-if (!Options.ghostTapping) disableScript(); // this script only works with ghost tapping enabled!!
+var parodiesTap:Bool = false; // ohh youre soo specialllll
+
+if (!Options.ghostTapping) parodiesTap = false;
+if (!parodiesTap) disableScript(); // this script only works with ghost tapping enabled!!
 
 var curChars:Array<Character> = null;
 var specialNote:Bool = false; // ohh youre soo specialllll

@@ -1,7 +1,7 @@
 import openfl.geom.ColorTransform;
 
 var bAbg = new FunkinSprite();
-function postCreate(){
+function postCreate() {
 	for (event in events) {
 		if (event.name == 'AppleFilter') {
             bAbg.makeGraphic(6000, 6000, event.params[2]);
@@ -10,7 +10,7 @@ function postCreate(){
             bAbg.x = "-490";
             bAbg.y = "-490";
             bAbg.alpha = 0.0001;
-            insert(members.indexOf(gf)-1, bAbg);
+            insert(members.indexOf(dad)-1, bAbg);
         }
     }
 }
