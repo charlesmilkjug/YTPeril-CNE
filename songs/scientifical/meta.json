@@ -1,16 +1,17 @@
 {
+	"beatsPerMeasure": 4,
 	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 196,
 	"difficulties": [
 		"HARD"
 	],
-	"icon": "aumsum",
-	"parsedColor": -34625,
-	"name": "scientifical",
-	"coopAllowed": true,
-	"color": "#FF78BF",
-	"stepsPerBeat": 4,
-	"displayName": "Scientifical",
 	"needsVoices": true,
-	"beatsPerMeasure": 4,
-	"bpm": 196
+	"parsedColor": -10987432,
+	"displayName": "Scientifical",
+	"icon": "aumsum",
+	"name": "scientifical",
+	"color": "#585858",
+	"customValues": {}
 }
