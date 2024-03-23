@@ -20,6 +20,7 @@ import funkin.options.OptionsMenu;
 import funkin.editors.charter.Charter;
 import funkin.editors.EditorTreeMenu;
 import funkin.options.TreeMenu;
+import FlxColorHelper;
 
 #if linux
 @:cppInclude('./external/gamemode_client.h')
@@ -32,6 +33,8 @@ static var stupidShit = '';
 
 static var initialized:Bool = false;
 static var fromGame:Bool = false; // for things you can go to through the pause screen and whatever
+
+static var FlxColorHelper = new FlxColorHelper();
 
 // DEFAULT WINDOW POSITIONS
 static var winX:Int = FlxG.stage.application.window.display.bounds.width / 6;
@@ -106,6 +109,9 @@ static function coolText(text:String):Array<String>
 function postStateSwitch() {
 	logsScript.call("postStateSwitch", []);
 	Framerate.debugMode = 1;
+
+window.title = "Friday Night Funkin': YouTube Animation Peril - v1.0 DEMO";
+	window.setIcon(Image.fromBytes(Assets.getBytes(Paths.image('ui/windowicons/default16'))));
 }
 
 function postUpdate(delta:Float)
@@ -169,10 +175,7 @@ function psychConverter()
 
 function preStateSwitch() {
     FlxG.camera.bgColor = 0xFF000000;
-
-	window.title = "Friday Night Funkin': YouTube Animation Peril - v1.0 DEMO";
-	window.setIcon(Image.fromBytes(Assets.getBytes(Paths.image('ui/windowicons/default16'))));
-
+	
 	if (!initialized) {
 		initialized = true;
 	} else {
