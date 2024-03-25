@@ -1,0 +1,76 @@
+<!DOCTYPE codename-titlestate >
+<titlestate>
+	<sprites folder="menus/titlescreen">
+                <sprite name="bg" sprite="bgYouTube" x="0" y="0" />
+		<sprite name="logo" sprite="logo" x="90" y="0" />
+		<titleEnter sprite="titleEnter" x="-125" y="-100" />
+	</sprites>
+
+	<intro length="16">
+		<text beat="1">
+			<line text="charlescatyt" />
+			<line text="theanimateman" />
+			<line text="isaiah mods" />
+			<line text="evilsk8er" />
+		</text>
+
+		<text beat="3">
+			<line text="charlescatyt" />
+			<line text="theanimateman" />
+			<line text="isaiah mods" />
+			<line text="presents" />
+		</text>
+
+		<text beat="4" /> <!-- clears the screen !-->
+
+		<!--<text beat="5">-->
+			<!--<line text="wouldnt exist" />-->
+			<!--<line text="without" />-->
+		<!--</text>-->
+
+		<!--<text beat="7">-->
+			<!--<line text="wouldnt exist" />-->
+			<!--<line text="without" />-->
+			<!--<line text="Google" />-->
+			<!--<sprite path="menus/titlescreen/newgrounds_logo" scale="0.8"/>-->
+		<!--</text>-->
+
+                <text beat="5">
+			<introtext line="1" />
+		</text>
+
+		<text beat="7">
+			<introtext line="1" />
+			<introtext line="2" />
+		</text>
+
+
+		<text beat="8" /> <!-- clears the screen !-->
+
+		<text beat="9">
+			<introtext line="1" />
+		</text>
+
+		<text beat="11">
+			<introtext line="1" />
+			<introtext line="2" />
+		</text>
+
+		<text beat="12"/>
+
+		<text beat="13">
+			<line text="YouTube" />
+		</text>
+
+		<text beat="14">
+			<line text="YouTube" />
+			<line text="Animation" />
+		</text>
+
+		<text beat="15">
+			<line text="YouTube" />
+			<line text="Animation" />
+			<line text="Peril" />
+		</text>
+	</intro>
+</titlestate>

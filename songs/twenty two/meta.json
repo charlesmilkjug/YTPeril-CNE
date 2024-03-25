@@ -1,8 +1,17 @@
 {
-	"displayName": "Twenty Two",
-	"bpm": 150.0,
-	"icon": "snut",
-	"color": "#FF78BF",
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
 	"coopAllowed": true,
-	"opponentModeAllowed": true
+	"stepsPerBeat": 4,
+	"bpm": 150,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -2763681,
+	"displayName": "Twenty Two",
+	"icon": "snut",
+	"name": "twenty two",
+	"color": "#D5D45F",
+	"customValues": {}
 }
