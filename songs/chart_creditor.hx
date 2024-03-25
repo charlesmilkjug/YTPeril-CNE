@@ -39,7 +39,11 @@ function postCreate() {
     switch(PlayState.SONG.meta.name) {
         // Do your songs here
 
-        case "fresh": recharter.text = "Example";
+case "scientifical": recharter.text = "Scientifical | CharlesCatYT";
+case "hilarious": recharter.text = "Hilarious | Vencerist";
+        case "idiot": recharter.text = "Idiot | Vencerist";
+case "twenty two": recharter.text = "22 | lowkeykindly";
+case "introvert": recharter.text = "Introvert | Vencerist";
 
         default: recharter.text = "";
     }
