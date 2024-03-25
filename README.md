@@ -1,5 +1,5 @@
 # YT Animation Peril
-(--[GameBanana WIP Page](https://gamebanana.com/wips/71991)--)
+[GameBanana WIP Page](https://gamebanana.com/wips/71991)
 oh and uhhh [surprise surpise we have a server now](https://discord.gg/6EFtFdj8FZ)
 
 
