@@ -1,8 +1,5 @@
 /* 
-    Charter "creditor"!
-    It's meant to show more appreaction to the charter of the song(s) 
-    and have - hopefully - more achknowledgement from players 
-    without going to credits.
+    no need of going into the credits menu, just composer credit thing
 */
 import flixel.text.FlxTextBorderStyle;
 import flixel.text.FlxText.FlxTextAlign;
@@ -40,8 +37,11 @@ function postCreate() {
         // Do your songs here
 
 case "scientifical": recharter.text = "Scientifical | CharlesCatYT";
+case "narration": recharter.text = "Narration | Isaiah Mods";
 case "hilarious": recharter.text = "Hilarious | Vencerist";
         case "idiot": recharter.text = "Idiot | Vencerist";
+case "explanation": recharter.text = "Explanation | Isaiah Mods";
+case "hazardous": recharter.text = "Hazardous | Vencerist";
 case "twenty two": recharter.text = "22 | lowkeykindly";
 case "introvert": recharter.text = "Introvert | Vencerist";
 
