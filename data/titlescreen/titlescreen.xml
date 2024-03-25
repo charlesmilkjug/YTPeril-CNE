@@ -11,7 +11,6 @@
 			<line text="charlescatyt" />
 			<line text="theanimateman" />
 			<line text="isaiah mods" />
-			<line text="evilsk8er" />
 		</text>
 
 		<text beat="3">
@@ -23,27 +22,17 @@
 
 		<text beat="4" /> <!-- clears the screen !-->
 
-		<!--<text beat="5">-->
-			<!--<line text="wouldnt exist" />-->
-			<!--<line text="without" />-->
-		<!--</text>-->
-
-		<!--<text beat="7">-->
-			<!--<line text="wouldnt exist" />-->
-			<!--<line text="without" />-->
-			<!--<line text="Google" />-->
-			<!--<sprite path="menus/titlescreen/newgrounds_logo" scale="0.8"/>-->
-		<!--</text>-->
-
-                <text beat="5">
-			<introtext line="1" />
+		<text beat="5">
+			<line text="wouldnt exist" />
+			<line text="without" />
 		</text>
 
 		<text beat="7">
-			<introtext line="1" />
-			<introtext line="2" />
+			<line text="wouldnt exist" />
+			<line text="without" />
+			<line text="Google" />
+			<sprite path="menus/titlescreen/newgrounds_logo" scale="0.8"/>
 		</text>
-
 
 		<text beat="8" /> <!-- clears the screen !-->
 
@@ -56,7 +45,7 @@
 			<introtext line="2" />
 		</text>
 
-		<text beat="12"/>
+		<text beat="12"/> <!-- clears the screen !-->
 
 		<text beat="13">
 			<line text="YouTube" />
