@@ -7,9 +7,13 @@ import flixel.text.FlxText.FlxTextAlign;
 var recharter:FunkinText = null;
 var noteIco:Note;
 
+var noteThingy:Int;
+
 function postCreate() {
+noteThingy = FlxG.random.int(0, 3);
+trace(noteThingy);
     /* takes account of noteskins after being created */
-    noteIco = new Note(playerStrums, {id: FlxG.random.int(0, 3)});
+    noteIco = new Note(playerStrums, {id: noteThingy});
     noteIco.cameras = [camHUD];
     noteIco.setPosition(-25, 200);
     noteIco.setGraphicSize(Std.int(noteIco.width * 0.25));
