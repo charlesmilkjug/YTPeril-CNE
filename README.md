@@ -8,6 +8,7 @@ oh and uhhh [surprise surpise we have a server now](https://discord.gg/6EFtFdj8F
 # wait what engine r u gonna use now????????
 codename engine, can be used to make mods either with source code or without source code, lol
 
+its character editor is shit tho, use a Psych to Codename converter or a custom offset editor for now until when they finish the stage editor
 # HOW TO PLAY:
 - get [codename engine](https://github.com/FNF-CNE-Devs/CodenameEngine/actions)
 - extract it.
