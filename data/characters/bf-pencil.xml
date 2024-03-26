@@ -1,12 +1,20 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" isGF="false" y="220" camx="-40" icon="bf-pencil" camy="-60" scale="1.1" isPlayer="true" flipX="true" color="#28A0C3" holdTime="4.87" sprite="bf-pencil">
-<anim loop="false" x="0" anim="BF Pencil Idle" fps="24" y="-70" name="idle"/>
-<anim loop="false" x="18" anim="BF Pencil left0" fps="24" y="-58" name="singLEFT"/>
-<anim loop="false" x="6" anim="BF Pencil down0" fps="24" y="-78" name="singDOWN"/>
-<anim loop="false" x="-67" anim="BF Pencil right0" fps="24" y="-81" name="singRIGHT"/>
-<anim loop="false" x="-27" anim="BF Pencil up0" fps="24" y="30" name="singUP"/>
-<anim loop="false" x="18" anim="BF Pencil left miss" fps="24" y="-58" name="singLEFTmiss"/>
-<anim loop="false" x="6" anim="BF Pencil down miss" fps="24" y="-78" name="singDOWNmiss"/>
-<anim loop="false" x="-67" anim="BF Pencil right miss" fps="24" y="-81" name="singRIGHTmiss"/>
-<anim loop="false" x="-27" anim="BF Pencil up miss" fps="24" y="30" name="singUPmiss"/>
+<character x="0" icon="bf-pencil" camx="-40" y="220" isGF="false" scale="1.1" camy="-60" color="#28A0C3" flipX="true" isPlayer="true" holdTime="4.87" sprite="bf-pencil">
+<anim x="0" loop="false" y="-70" fps="24" anim="BF Pencil Idle" name="idle"/>
+
+<anim x="18" loop="false" y="-58" fps="24" anim="BF Pencil left0" name="singLEFT"/>
+
+<anim x="6" loop="false" y="-78" fps="24" anim="BF Pencil down0" name="singDOWN"/>
+
+<anim x="-67" loop="false" y="-81" fps="24" anim="BF Pencil right0" name="singRIGHT"/>
+
+<anim x="-27" loop="false" y="30" fps="24" anim="BF Pencil up0" name="singUP"/>
+
+<anim x="27" loop="false" y="-50" fps="24" anim="BF Pencil left miss" name="singLEFTmiss"/>
+
+<anim x="5" loop="false" y="-107" fps="24" anim="BF Pencil down miss" name="singDOWNmiss"/>
+
+<anim x="-62" loop="false" y="-77" fps="24" anim="BF Pencil right miss" name="singRIGHTmiss"/>
+
+<anim x="-47" loop="false" y="20" fps="24" anim="BF Pencil up miss" name="singUPmiss"/>
 </character>
