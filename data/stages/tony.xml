@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-stage>
-<stage folder="/" zoom="0.95">
-	<sprite scrolly="1.11" x="-462.95" y="-209.75" sprite="stages/adobestock/tony_room" zoomfactor="1.01" scale="1.25" scrollx="1.12" name="Adobe Stock"/>
-	<gf x="-152" y="285.5"/>
-	<dad x="201" y="153"/>
-	<bf x="791.5" y="123.5"/>
-	<combo x="852.5" y="292.5"/>
+<stage folder="/" zoom="0.9">
+	<sprite scrolly="1.02" x="-462.95" y="-209.75" sprite="stages/adobestock/tony_room" zoomfactor="1.01" scale="1.25" scrollx="1.001" name="Adobe Stock"/>
+	<gf x="-198.75" y="-7.5"/>
+	<dad x="283.5" y="111.75"/>
+	<bf x="772.5" y="119.75"/>
+	<combo x="724.5" y="309.75"/>
 </stage>

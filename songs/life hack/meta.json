@@ -1,8 +1,16 @@
 {
-	"displayName": "Life Hack",
-	"bpm": 150.0,
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"HARD"
+	],
 	"icon": "super-tony",
-	"color": "#FF78BF",
+	"parsedColor": -34625,
+	"name": "life hack",
 	"coopAllowed": true,
-	"opponentModeAllowed": true
+	"color": "#FF78BF",
+	"stepsPerBeat": 4,
+	"displayName": "Life Hack",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 200
 }
