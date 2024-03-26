@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="tankman" y="180" isGF="false" color="#111111" flipX="true" isPlayer="true" sprite="tankman">
+	<anim x="0" loop="false" y="0" fps="24" anim="Tankman Idle Dance instance 100" name="idle"/>
+	<anim x="-25" loop="false" y="-14" fps="24" anim="Tankman Right Note instance 1000" name="singRIGHT"/>
+	<anim x="73" loop="false" y="-116" fps="24" anim="Tankman DOWN note instance 1000" name="singDOWN"/>
+	<anim x="19" loop="false" y="56" fps="24" anim="Tankman UP note instance 1000" name="singUP"/>
+	<anim x="94" loop="false" y="-32" fps="24" anim="Tankman Note Left instance 1000" name="singLEFT"/>
+	<anim x="100" loop="false" y="17" fps="24" anim="PRETTY GOOD tankman instance 100" name="good!"/>
+	<anim x="-17" loop="false" y="-8" fps="30" anim="TANKMAN UGH instance 100" name="singUP-alt"/>
+</character>

@@ -1,8 +1,17 @@
 {
-	"displayName": "Academic",
-	"bpm": 188.0,
-	"icon": "mr-smart",
-	"color": "#FF78BF",
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
 	"coopAllowed": true,
-	"opponentModeAllowed": true
+	"stepsPerBeat": 4,
+	"bpm": 188,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -8472833,
+	"displayName": "Academic",
+	"icon": "mr-smart",
+	"name": "academic",
+	"color": "#7EB6FF",
+	"customValues": {}
 }
