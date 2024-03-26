@@ -1,16 +1,16 @@
 {
 	"opponentModeAllowed": true,
-	"icon": "acorn",
 	"difficulties": [
 		"HARD"
 	],
+	"icon": "acorn",
 	"parsedColor": -34625,
-	"color": "#FF78BF",
-	"coopAllowed": true,
 	"name": "idiot",
+	"coopAllowed": true,
+	"color": "#FF78BF",
 	"stepsPerBeat": 4,
 	"displayName": "Idiot",
-	"beatsPerMeasure": 4,
 	"needsVoices": true,
+	"beatsPerMeasure": 4,
 	"bpm": 97
 }
