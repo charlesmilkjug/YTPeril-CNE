@@ -6,9 +6,8 @@ function new() {
 }
 
 function postCreate() {
-FlxG.camera.followLerp = 0.01;
-   FlxG.camera.zoom -= 0.1;
-   Options.flashingMenu = false;
+FlxG.camera.followLerp = 0.025;
+   FlxG.camera.zoom -= 0.02;
 	var moreVersionShit:FunkinText = new FunkinText(5, 634, 0, '');
 	moreVersionShit.scrollFactor.set();
 	add(moreVersionShit);
@@ -21,6 +20,6 @@ function postUpdate(elapsed) {
     FlxG.camera.scroll.set();
 
     menuItems.forEach(function(a:FlxSprite){
-        a.x -= 320;
+        a.x -= 350;
     });
 }
