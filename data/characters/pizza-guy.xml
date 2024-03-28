@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character>
+<character x="75" icon="pizza-guy" camx="50" y="160" isGF="false" iconColor="-10592674" scale="1.07" camy="132" color="#C61515" isPlayer="false" gameOverChar="null" holdTime="5.32" sprite="pizza-guy">
+	<anim x="0" loop="false" y="0" fps="24" anim="pizza guy idle" name="idle"/>
+	<anim x="320" loop="false" y="1" fps="24" anim="pizza guy left" name="singLEFT"/>
+	<anim x="232" loop="false" y="-28" fps="24" anim="pizza guy down" name="singDOWN"/>
+	<anim x="203" loop="false" y="198" fps="24" anim="pizza guy up" name="singUP"/>
+	<anim x="-1" loop="false" y="87" fps="24" anim="pizza guy right" name="singRIGHT"/>
+	<anim x="185" loop="false" y="2" fps="24" anim="pizza guy alt left" name="singLEFT-alt"/>
+	<anim x="223" loop="false" y="5" fps="24" anim="pizza guy alt right" name="singRIGHT-alt"/>
+	<anim x="145" loop="false" y="212" fps="24" anim="pizza guy alt up" name="singUP-alt"/>
+	<anim x="56" loop="false" y="-28" fps="24" anim="pizza guy alt down" name="singDOWN-alt"/>
+	<anim x="212" loop="false" y="-172" fps="12" anim="pizza guy big cab1" name="danceRight-alt"/>
+	<anim x="214" loop="false" y="-172" fps="12" anim="pizza guy big cab2" name="danceLeft-alt"/>
+</character>

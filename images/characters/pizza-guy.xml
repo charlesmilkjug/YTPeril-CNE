@@ -2,34 +2,34 @@
 <TextureAtlas imagePath="pizza-guy.png">
 	<!-- Created with Adobe Animate version 22.0.7.214 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="pizza guy big cab instance 10000" x="8" y="8" width="721" height="408" frameX="-32" frameY="0" frameWidth="753" frameHeight="409"/>
-	<SubTexture name="pizza guy big cab instance 10001" x="8" y="8" width="721" height="408" frameX="-32" frameY="0" frameWidth="753" frameHeight="409"/>
-	<SubTexture name="pizza guy big cab instance 10002" x="737" y="8" width="688" height="396" frameX="-53" frameY="-13" frameWidth="753" frameHeight="409"/>
-	<SubTexture name="pizza guy big cab instance 10003" x="737" y="8" width="688" height="396" frameX="-53" frameY="-13" frameWidth="753" frameHeight="409"/>
-	<SubTexture name="pizza guy big cab instance 10004" x="1433" y="8" width="742" height="363" frameX="0" frameY="-46" frameWidth="753" frameHeight="409"/>
-	<SubTexture name="pizza guy big cab instance 10005" x="2183" y="8" width="706" height="360" frameX="-19" frameY="-48" frameWidth="753" frameHeight="409"/>
-	<SubTexture name="pizza guy big cab instance 10006" x="2897" y="8" width="659" height="401" frameX="-19" frameY="-7" frameWidth="753" frameHeight="409"/>
-	<SubTexture name="pizza guy big cab instance 10007" x="2897" y="8" width="659" height="401" frameX="-19" frameY="-7" frameWidth="753" frameHeight="409"/>
-	<SubTexture name="pizza guy big cab instance 10008" x="8" y="424" width="692" height="391" frameX="-2" frameY="-17" frameWidth="753" frameHeight="409"/>
-	<SubTexture name="pizza guy big cab instance 10009" x="8" y="424" width="692" height="391" frameX="-2" frameY="-17" frameWidth="753" frameHeight="409"/>
-	<SubTexture name="pizza guy big cab instance 10010" x="708" y="424" width="742" height="342" frameX="0" frameY="-66" frameWidth="753" frameHeight="409"/>
-	<SubTexture name="pizza guy big cab instance 10011" x="1458" y="424" width="706" height="359" frameX="-19" frameY="-49" frameWidth="753" frameHeight="409"/>
-	<SubTexture name="pizza guy down alt instance 10000" x="2172" y="424" width="668" height="530" frameX="0" frameY="-23" frameWidth="668" frameHeight="553"/>
-	<SubTexture name="pizza guy down alt instance 10001" x="2172" y="424" width="668" height="530" frameX="0" frameY="-23" frameWidth="668" frameHeight="553"/>
-	<SubTexture name="pizza guy down alt instance 10002" x="2848" y="424" width="624" height="547" frameX="-26" frameY="-5" frameWidth="668" frameHeight="553"/>
-	<SubTexture name="pizza guy down alt instance 10003" x="2848" y="424" width="624" height="547" frameX="-26" frameY="-5" frameWidth="668" frameHeight="553"/>
-	<SubTexture name="pizza guy down alt instance 10004" x="8" y="979" width="620" height="552" frameX="-31" frameY="0" frameWidth="668" frameHeight="553"/>
-	<SubTexture name="pizza guy down alt instance 10005" x="8" y="979" width="620" height="552" frameX="-31" frameY="0" frameWidth="668" frameHeight="553"/>
-	<SubTexture name="pizza guy down alt instance 10006" x="8" y="979" width="620" height="552" frameX="-31" frameY="0" frameWidth="668" frameHeight="553"/>
-	<SubTexture name="pizza guy down alt instance 10007" x="8" y="979" width="620" height="552" frameX="-31" frameY="0" frameWidth="668" frameHeight="553"/>
-	<SubTexture name="pizza guy down alt instance 10008" x="8" y="979" width="620" height="552" frameX="-31" frameY="0" frameWidth="668" frameHeight="553"/>
-	<SubTexture name="pizza guy down alt instance 10009" x="8" y="979" width="620" height="552" frameX="-31" frameY="0" frameWidth="668" frameHeight="553"/>
-	<SubTexture name="pizza guy down alt instance 10010" x="8" y="979" width="620" height="552" frameX="-31" frameY="0" frameWidth="668" frameHeight="553"/>
-	<SubTexture name="pizza guy down alt instance 10011" x="8" y="979" width="620" height="552" frameX="-31" frameY="0" frameWidth="668" frameHeight="553"/>
-	<SubTexture name="pizza guy down alt instance 10012" x="8" y="979" width="620" height="552" frameX="-31" frameY="0" frameWidth="668" frameHeight="553"/>
-	<SubTexture name="pizza guy down alt instance 10013" x="8" y="979" width="620" height="552" frameX="-31" frameY="0" frameWidth="668" frameHeight="553"/>
-	<SubTexture name="pizza guy down alt instance 10014" x="8" y="979" width="620" height="552" frameX="-31" frameY="0" frameWidth="668" frameHeight="553"/>
-	<SubTexture name="pizza guy down alt instance 10015" x="8" y="979" width="620" height="552" frameX="-31" frameY="0" frameWidth="668" frameHeight="553"/>
+	<SubTexture name="pizza guy big cab10000" x="8" y="8" width="721" height="408" frameX="-32" frameY="0" frameWidth="753" frameHeight="409"/>
+	<SubTexture name="pizza guy big cab10001" x="8" y="8" width="721" height="408" frameX="-32" frameY="0" frameWidth="753" frameHeight="409"/>
+	<SubTexture name="pizza guy big cab10002" x="737" y="8" width="688" height="396" frameX="-53" frameY="-13" frameWidth="753" frameHeight="409"/>
+	<SubTexture name="pizza guy big cab10003" x="737" y="8" width="688" height="396" frameX="-53" frameY="-13" frameWidth="753" frameHeight="409"/>
+	<SubTexture name="pizza guy big cab10004" x="1433" y="8" width="742" height="363" frameX="0" frameY="-46" frameWidth="753" frameHeight="409"/>
+	<SubTexture name="pizza guy big cab10005" x="2183" y="8" width="706" height="360" frameX="-19" frameY="-48" frameWidth="753" frameHeight="409"/>
+	<SubTexture name="pizza guy big cab20006" x="2897" y="8" width="659" height="401" frameX="-19" frameY="-7" frameWidth="753" frameHeight="409"/>
+	<SubTexture name="pizza guy big cab20007" x="2897" y="8" width="659" height="401" frameX="-19" frameY="-7" frameWidth="753" frameHeight="409"/>
+	<SubTexture name="pizza guy big cab20008" x="8" y="424" width="692" height="391" frameX="-2" frameY="-17" frameWidth="753" frameHeight="409"/>
+	<SubTexture name="pizza guy big cab20009" x="8" y="424" width="692" height="391" frameX="-2" frameY="-17" frameWidth="753" frameHeight="409"/>
+	<SubTexture name="pizza guy big cab20010" x="708" y="424" width="742" height="342" frameX="0" frameY="-66" frameWidth="753" frameHeight="409"/>
+	<SubTexture name="pizza guy big cab20011" x="1458" y="424" width="706" height="359" frameX="-19" frameY="-49" frameWidth="753" frameHeight="409"/>
+	<SubTexture name="pizza guy alt down instance 10000" x="2172" y="424" width="668" height="530" frameX="0" frameY="-23" frameWidth="668" frameHeight="553"/>
+	<SubTexture name="pizza guy alt down instance 10001" x="2172" y="424" width="668" height="530" frameX="0" frameY="-23" frameWidth="668" frameHeight="553"/>
+	<SubTexture name="pizza guy alt down instance 10002" x="2848" y="424" width="624" height="547" frameX="-26" frameY="-5" frameWidth="668" frameHeight="553"/>
+	<SubTexture name="pizza guy alt down instance 10003" x="2848" y="424" width="624" height="547" frameX="-26" frameY="-5" frameWidth="668" frameHeight="553"/>
+	<SubTexture name="pizza guy alt down instance 10004" x="8" y="979" width="620" height="552" frameX="-31" frameY="0" frameWidth="668" frameHeight="553"/>
+	<SubTexture name="pizza guy alt down instance 10005" x="8" y="979" width="620" height="552" frameX="-31" frameY="0" frameWidth="668" frameHeight="553"/>
+	<SubTexture name="pizza guy alt down instance 10006" x="8" y="979" width="620" height="552" frameX="-31" frameY="0" frameWidth="668" frameHeight="553"/>
+	<SubTexture name="pizza guy alt down instance 10007" x="8" y="979" width="620" height="552" frameX="-31" frameY="0" frameWidth="668" frameHeight="553"/>
+	<SubTexture name="pizza guy alt down instance 10008" x="8" y="979" width="620" height="552" frameX="-31" frameY="0" frameWidth="668" frameHeight="553"/>
+	<SubTexture name="pizza guy alt down instance 10009" x="8" y="979" width="620" height="552" frameX="-31" frameY="0" frameWidth="668" frameHeight="553"/>
+	<SubTexture name="pizza guy alt down instance 10010" x="8" y="979" width="620" height="552" frameX="-31" frameY="0" frameWidth="668" frameHeight="553"/>
+	<SubTexture name="pizza guy alt down instance 10011" x="8" y="979" width="620" height="552" frameX="-31" frameY="0" frameWidth="668" frameHeight="553"/>
+	<SubTexture name="pizza guy alt down instance 10012" x="8" y="979" width="620" height="552" frameX="-31" frameY="0" frameWidth="668" frameHeight="553"/>
+	<SubTexture name="pizza guy alt down instance 10013" x="8" y="979" width="620" height="552" frameX="-31" frameY="0" frameWidth="668" frameHeight="553"/>
+	<SubTexture name="pizza guy alt down instance 10014" x="8" y="979" width="620" height="552" frameX="-31" frameY="0" frameWidth="668" frameHeight="553"/>
+	<SubTexture name="pizza guy alt down instance 10015" x="8" y="979" width="620" height="552" frameX="-31" frameY="0" frameWidth="668" frameHeight="553"/>
 	<SubTexture name="pizza guy down instance 10000" x="636" y="979" width="618" height="535" frameX="-18" frameY="-17" frameWidth="636" frameHeight="552"/>
 	<SubTexture name="pizza guy down instance 10001" x="636" y="979" width="618" height="535" frameX="-18" frameY="-17" frameWidth="636" frameHeight="552"/>
 	<SubTexture name="pizza guy down instance 10002" x="1262" y="979" width="616" height="550" frameX="0" frameY="-2" frameWidth="636" frameHeight="552"/>
@@ -70,22 +70,22 @@
 	<SubTexture name="pizza guy idle instance 10021" x="376" y="1562" width="360" height="580" frameX="-6" frameY="0" frameWidth="370" frameHeight="580"/>
 	<SubTexture name="pizza guy idle instance 10022" x="376" y="1562" width="360" height="580" frameX="-6" frameY="0" frameWidth="370" frameHeight="580"/>
 	<SubTexture name="pizza guy idle instance 10023" x="376" y="1562" width="360" height="580" frameX="-6" frameY="0" frameWidth="370" frameHeight="580"/>
-	<SubTexture name="pizza guy left alt instance 10000" x="744" y="1562" width="580" height="575" frameX="0" frameY="-7" frameWidth="580" frameHeight="582"/>
-	<SubTexture name="pizza guy left alt instance 10001" x="744" y="1562" width="580" height="575" frameX="0" frameY="-7" frameWidth="580" frameHeight="582"/>
-	<SubTexture name="pizza guy left alt instance 10002" x="1332" y="1562" width="568" height="581" frameX="-2" frameY="-1" frameWidth="580" frameHeight="582"/>
-	<SubTexture name="pizza guy left alt instance 10003" x="1332" y="1562" width="568" height="581" frameX="-2" frameY="-1" frameWidth="580" frameHeight="582"/>
-	<SubTexture name="pizza guy left alt instance 10004" x="1908" y="1562" width="567" height="582" frameX="0" frameY="0" frameWidth="580" frameHeight="582"/>
-	<SubTexture name="pizza guy left alt instance 10005" x="1908" y="1562" width="567" height="582" frameX="0" frameY="0" frameWidth="580" frameHeight="582"/>
-	<SubTexture name="pizza guy left alt instance 10006" x="1908" y="1562" width="567" height="582" frameX="0" frameY="0" frameWidth="580" frameHeight="582"/>
-	<SubTexture name="pizza guy left alt instance 10007" x="1908" y="1562" width="567" height="582" frameX="0" frameY="0" frameWidth="580" frameHeight="582"/>
-	<SubTexture name="pizza guy left alt instance 10008" x="1908" y="1562" width="567" height="582" frameX="0" frameY="0" frameWidth="580" frameHeight="582"/>
-	<SubTexture name="pizza guy left alt instance 10009" x="1908" y="1562" width="567" height="582" frameX="0" frameY="0" frameWidth="580" frameHeight="582"/>
-	<SubTexture name="pizza guy left alt instance 10010" x="1908" y="1562" width="567" height="582" frameX="0" frameY="0" frameWidth="580" frameHeight="582"/>
-	<SubTexture name="pizza guy left alt instance 10011" x="1908" y="1562" width="567" height="582" frameX="0" frameY="0" frameWidth="580" frameHeight="582"/>
-	<SubTexture name="pizza guy left alt instance 10012" x="1908" y="1562" width="567" height="582" frameX="0" frameY="0" frameWidth="580" frameHeight="582"/>
-	<SubTexture name="pizza guy left alt instance 10013" x="1908" y="1562" width="567" height="582" frameX="0" frameY="0" frameWidth="580" frameHeight="582"/>
-	<SubTexture name="pizza guy left alt instance 10014" x="1908" y="1562" width="567" height="582" frameX="0" frameY="0" frameWidth="580" frameHeight="582"/>
-	<SubTexture name="pizza guy left alt instance 10015" x="1908" y="1562" width="567" height="582" frameX="0" frameY="0" frameWidth="580" frameHeight="582"/>
+	<SubTexture name="pizza guy alt left instance 10000" x="744" y="1562" width="580" height="575" frameX="0" frameY="-7" frameWidth="580" frameHeight="582"/>
+	<SubTexture name="pizza guy alt left instance 10001" x="744" y="1562" width="580" height="575" frameX="0" frameY="-7" frameWidth="580" frameHeight="582"/>
+	<SubTexture name="pizza guy alt left instance 10002" x="1332" y="1562" width="568" height="581" frameX="-2" frameY="-1" frameWidth="580" frameHeight="582"/>
+	<SubTexture name="pizza guy alt left instance 10003" x="1332" y="1562" width="568" height="581" frameX="-2" frameY="-1" frameWidth="580" frameHeight="582"/>
+	<SubTexture name="pizza guy alt left instance 10004" x="1908" y="1562" width="567" height="582" frameX="0" frameY="0" frameWidth="580" frameHeight="582"/>
+	<SubTexture name="pizza guy alt left instance 10005" x="1908" y="1562" width="567" height="582" frameX="0" frameY="0" frameWidth="580" frameHeight="582"/>
+	<SubTexture name="pizza guy alt left instance 10006" x="1908" y="1562" width="567" height="582" frameX="0" frameY="0" frameWidth="580" frameHeight="582"/>
+	<SubTexture name="pizza guy alt left instance 10007" x="1908" y="1562" width="567" height="582" frameX="0" frameY="0" frameWidth="580" frameHeight="582"/>
+	<SubTexture name="pizza guy alt left instance 10008" x="1908" y="1562" width="567" height="582" frameX="0" frameY="0" frameWidth="580" frameHeight="582"/>
+	<SubTexture name="pizza guy alt left instance 10009" x="1908" y="1562" width="567" height="582" frameX="0" frameY="0" frameWidth="580" frameHeight="582"/>
+	<SubTexture name="pizza guy alt left instance 10010" x="1908" y="1562" width="567" height="582" frameX="0" frameY="0" frameWidth="580" frameHeight="582"/>
+	<SubTexture name="pizza guy alt left instance 10011" x="1908" y="1562" width="567" height="582" frameX="0" frameY="0" frameWidth="580" frameHeight="582"/>
+	<SubTexture name="pizza guy alt left instance 10012" x="1908" y="1562" width="567" height="582" frameX="0" frameY="0" frameWidth="580" frameHeight="582"/>
+	<SubTexture name="pizza guy alt left instance 10013" x="1908" y="1562" width="567" height="582" frameX="0" frameY="0" frameWidth="580" frameHeight="582"/>
+	<SubTexture name="pizza guy alt left instance 10014" x="1908" y="1562" width="567" height="582" frameX="0" frameY="0" frameWidth="580" frameHeight="582"/>
+	<SubTexture name="pizza guy alt left instance 10015" x="1908" y="1562" width="567" height="582" frameX="0" frameY="0" frameWidth="580" frameHeight="582"/>
 	<SubTexture name="pizza guy left instance 10000" x="2483" y="1562" width="709" height="575" frameX="-7" frameY="-7" frameWidth="716" frameHeight="582"/>
 	<SubTexture name="pizza guy left instance 10001" x="2483" y="1562" width="709" height="575" frameX="-7" frameY="-7" frameWidth="716" frameHeight="582"/>
 	<SubTexture name="pizza guy left instance 10002" x="3200" y="1562" width="706" height="581" frameX="0" frameY="-1" frameWidth="716" frameHeight="582"/>
@@ -102,22 +102,22 @@
 	<SubTexture name="pizza guy left instance 10013" x="8" y="2152" width="701" height="582" frameX="-1" frameY="0" frameWidth="716" frameHeight="582"/>
 	<SubTexture name="pizza guy left instance 10014" x="8" y="2152" width="701" height="582" frameX="-1" frameY="0" frameWidth="716" frameHeight="582"/>
 	<SubTexture name="pizza guy left instance 10015" x="8" y="2152" width="701" height="582" frameX="-1" frameY="0" frameWidth="716" frameHeight="582"/>
-	<SubTexture name="pizza guy right alt instance 10000" x="717" y="2152" width="670" height="573" frameX="-11" frameY="-11" frameWidth="681" frameHeight="584"/>
-	<SubTexture name="pizza guy right alt instance 10001" x="717" y="2152" width="670" height="573" frameX="-11" frameY="-11" frameWidth="681" frameHeight="584"/>
-	<SubTexture name="pizza guy right alt instance 10002" x="1395" y="2152" width="667" height="581" frameX="-4" frameY="-3" frameWidth="681" frameHeight="584"/>
-	<SubTexture name="pizza guy right alt instance 10003" x="1395" y="2152" width="667" height="581" frameX="-4" frameY="-3" frameWidth="681" frameHeight="584"/>
-	<SubTexture name="pizza guy right alt instance 10004" x="2070" y="2152" width="669" height="584" frameX="0" frameY="0" frameWidth="681" frameHeight="584"/>
-	<SubTexture name="pizza guy right alt instance 10005" x="2070" y="2152" width="669" height="584" frameX="0" frameY="0" frameWidth="681" frameHeight="584"/>
-	<SubTexture name="pizza guy right alt instance 10006" x="2070" y="2152" width="669" height="584" frameX="0" frameY="0" frameWidth="681" frameHeight="584"/>
-	<SubTexture name="pizza guy right alt instance 10007" x="2070" y="2152" width="669" height="584" frameX="0" frameY="0" frameWidth="681" frameHeight="584"/>
-	<SubTexture name="pizza guy right alt instance 10008" x="2070" y="2152" width="669" height="584" frameX="0" frameY="0" frameWidth="681" frameHeight="584"/>
-	<SubTexture name="pizza guy right alt instance 10009" x="2070" y="2152" width="669" height="584" frameX="0" frameY="0" frameWidth="681" frameHeight="584"/>
-	<SubTexture name="pizza guy right alt instance 10010" x="2070" y="2152" width="669" height="584" frameX="0" frameY="0" frameWidth="681" frameHeight="584"/>
-	<SubTexture name="pizza guy right alt instance 10011" x="2070" y="2152" width="669" height="584" frameX="0" frameY="0" frameWidth="681" frameHeight="584"/>
-	<SubTexture name="pizza guy right alt instance 10012" x="2070" y="2152" width="669" height="584" frameX="0" frameY="0" frameWidth="681" frameHeight="584"/>
-	<SubTexture name="pizza guy right alt instance 10013" x="2070" y="2152" width="669" height="584" frameX="0" frameY="0" frameWidth="681" frameHeight="584"/>
-	<SubTexture name="pizza guy right alt instance 10014" x="2070" y="2152" width="669" height="584" frameX="0" frameY="0" frameWidth="681" frameHeight="584"/>
-	<SubTexture name="pizza guy right alt instance 10015" x="2070" y="2152" width="669" height="584" frameX="0" frameY="0" frameWidth="681" frameHeight="584"/>
+	<SubTexture name="pizza guy alt right instance 10000" x="717" y="2152" width="670" height="573" frameX="-11" frameY="-11" frameWidth="681" frameHeight="584"/>
+	<SubTexture name="pizza guy alt right instance 10001" x="717" y="2152" width="670" height="573" frameX="-11" frameY="-11" frameWidth="681" frameHeight="584"/>
+	<SubTexture name="pizza guy alt right instance 10002" x="1395" y="2152" width="667" height="581" frameX="-4" frameY="-3" frameWidth="681" frameHeight="584"/>
+	<SubTexture name="pizza guy alt right instance 10003" x="1395" y="2152" width="667" height="581" frameX="-4" frameY="-3" frameWidth="681" frameHeight="584"/>
+	<SubTexture name="pizza guy alt right instance 10004" x="2070" y="2152" width="669" height="584" frameX="0" frameY="0" frameWidth="681" frameHeight="584"/>
+	<SubTexture name="pizza guy alt right instance 10005" x="2070" y="2152" width="669" height="584" frameX="0" frameY="0" frameWidth="681" frameHeight="584"/>
+	<SubTexture name="pizza guy alt right instance 10006" x="2070" y="2152" width="669" height="584" frameX="0" frameY="0" frameWidth="681" frameHeight="584"/>
+	<SubTexture name="pizza guy alt right instance 10007" x="2070" y="2152" width="669" height="584" frameX="0" frameY="0" frameWidth="681" frameHeight="584"/>
+	<SubTexture name="pizza guy alt right instance 10008" x="2070" y="2152" width="669" height="584" frameX="0" frameY="0" frameWidth="681" frameHeight="584"/>
+	<SubTexture name="pizza guy alt right instance 10009" x="2070" y="2152" width="669" height="584" frameX="0" frameY="0" frameWidth="681" frameHeight="584"/>
+	<SubTexture name="pizza guy alt right instance 10010" x="2070" y="2152" width="669" height="584" frameX="0" frameY="0" frameWidth="681" frameHeight="584"/>
+	<SubTexture name="pizza guy alt right instance 10011" x="2070" y="2152" width="669" height="584" frameX="0" frameY="0" frameWidth="681" frameHeight="584"/>
+	<SubTexture name="pizza guy alt right instance 10012" x="2070" y="2152" width="669" height="584" frameX="0" frameY="0" frameWidth="681" frameHeight="584"/>
+	<SubTexture name="pizza guy alt right instance 10013" x="2070" y="2152" width="669" height="584" frameX="0" frameY="0" frameWidth="681" frameHeight="584"/>
+	<SubTexture name="pizza guy alt right instance 10014" x="2070" y="2152" width="669" height="584" frameX="0" frameY="0" frameWidth="681" frameHeight="584"/>
+	<SubTexture name="pizza guy alt right instance 10015" x="2070" y="2152" width="669" height="584" frameX="0" frameY="0" frameWidth="681" frameHeight="584"/>
 	<SubTexture name="pizza guy right instance 10000" x="2747" y="2152" width="623" height="651" frameX="-7" frameY="-16" frameWidth="630" frameHeight="667"/>
 	<SubTexture name="pizza guy right instance 10001" x="2747" y="2152" width="623" height="651" frameX="-7" frameY="-16" frameWidth="630" frameHeight="667"/>
 	<SubTexture name="pizza guy right instance 10002" x="3378" y="2152" width="581" height="662" frameX="-2" frameY="-5" frameWidth="630" frameHeight="667"/>
@@ -134,22 +134,22 @@
 	<SubTexture name="pizza guy right instance 10013" x="8" y="2822" width="572" height="667" frameX="0" frameY="0" frameWidth="630" frameHeight="667"/>
 	<SubTexture name="pizza guy right instance 10014" x="8" y="2822" width="572" height="667" frameX="0" frameY="0" frameWidth="630" frameHeight="667"/>
 	<SubTexture name="pizza guy right instance 10015" x="8" y="2822" width="572" height="667" frameX="0" frameY="0" frameWidth="630" frameHeight="667"/>
-	<SubTexture name="pizza guy up alt instance 10000" x="588" y="2822" width="433" height="794" frameX="-32" frameY="0" frameWidth="465" frameHeight="794"/>
-	<SubTexture name="pizza guy up alt instance 10001" x="588" y="2822" width="433" height="794" frameX="-32" frameY="0" frameWidth="465" frameHeight="794"/>
-	<SubTexture name="pizza guy up alt instance 10002" x="1029" y="2822" width="459" height="780" frameX="-4" frameY="-12" frameWidth="465" frameHeight="794"/>
-	<SubTexture name="pizza guy up alt instance 10003" x="1029" y="2822" width="459" height="780" frameX="-4" frameY="-12" frameWidth="465" frameHeight="794"/>
-	<SubTexture name="pizza guy up alt instance 10004" x="1496" y="2822" width="465" height="777" frameX="0" frameY="-15" frameWidth="465" frameHeight="794"/>
-	<SubTexture name="pizza guy up alt instance 10005" x="1496" y="2822" width="465" height="777" frameX="0" frameY="-15" frameWidth="465" frameHeight="794"/>
-	<SubTexture name="pizza guy up alt instance 10006" x="1496" y="2822" width="465" height="777" frameX="0" frameY="-15" frameWidth="465" frameHeight="794"/>
-	<SubTexture name="pizza guy up alt instance 10007" x="1496" y="2822" width="465" height="777" frameX="0" frameY="-15" frameWidth="465" frameHeight="794"/>
-	<SubTexture name="pizza guy up alt instance 10008" x="1496" y="2822" width="465" height="777" frameX="0" frameY="-15" frameWidth="465" frameHeight="794"/>
-	<SubTexture name="pizza guy up alt instance 10009" x="1496" y="2822" width="465" height="777" frameX="0" frameY="-15" frameWidth="465" frameHeight="794"/>
-	<SubTexture name="pizza guy up alt instance 10010" x="1496" y="2822" width="465" height="777" frameX="0" frameY="-15" frameWidth="465" frameHeight="794"/>
-	<SubTexture name="pizza guy up alt instance 10011" x="1496" y="2822" width="465" height="777" frameX="0" frameY="-15" frameWidth="465" frameHeight="794"/>
-	<SubTexture name="pizza guy up alt instance 10012" x="1496" y="2822" width="465" height="777" frameX="0" frameY="-15" frameWidth="465" frameHeight="794"/>
-	<SubTexture name="pizza guy up alt instance 10013" x="1496" y="2822" width="465" height="777" frameX="0" frameY="-15" frameWidth="465" frameHeight="794"/>
-	<SubTexture name="pizza guy up alt instance 10014" x="1496" y="2822" width="465" height="777" frameX="0" frameY="-15" frameWidth="465" frameHeight="794"/>
-	<SubTexture name="pizza guy up alt instance 10015" x="1496" y="2822" width="465" height="777" frameX="0" frameY="-15" frameWidth="465" frameHeight="794"/>
+	<SubTexture name="pizza guy alt up instance 10000" x="588" y="2822" width="433" height="794" frameX="-32" frameY="0" frameWidth="465" frameHeight="794"/>
+	<SubTexture name="pizza guy alt up instance 10001" x="588" y="2822" width="433" height="794" frameX="-32" frameY="0" frameWidth="465" frameHeight="794"/>
+	<SubTexture name="pizza guy alt up instance 10002" x="1029" y="2822" width="459" height="780" frameX="-4" frameY="-12" frameWidth="465" frameHeight="794"/>
+	<SubTexture name="pizza guy alt up instance 10003" x="1029" y="2822" width="459" height="780" frameX="-4" frameY="-12" frameWidth="465" frameHeight="794"/>
+	<SubTexture name="pizza guy alt up instance 10004" x="1496" y="2822" width="465" height="777" frameX="0" frameY="-15" frameWidth="465" frameHeight="794"/>
+	<SubTexture name="pizza guy alt up instance 10005" x="1496" y="2822" width="465" height="777" frameX="0" frameY="-15" frameWidth="465" frameHeight="794"/>
+	<SubTexture name="pizza guy alt up instance 10006" x="1496" y="2822" width="465" height="777" frameX="0" frameY="-15" frameWidth="465" frameHeight="794"/>
+	<SubTexture name="pizza guy alt up instance 10007" x="1496" y="2822" width="465" height="777" frameX="0" frameY="-15" frameWidth="465" frameHeight="794"/>
+	<SubTexture name="pizza guy alt up instance 10008" x="1496" y="2822" width="465" height="777" frameX="0" frameY="-15" frameWidth="465" frameHeight="794"/>
+	<SubTexture name="pizza guy alt up instance 10009" x="1496" y="2822" width="465" height="777" frameX="0" frameY="-15" frameWidth="465" frameHeight="794"/>
+	<SubTexture name="pizza guy alt up instance 10010" x="1496" y="2822" width="465" height="777" frameX="0" frameY="-15" frameWidth="465" frameHeight="794"/>
+	<SubTexture name="pizza guy alt up instance 10011" x="1496" y="2822" width="465" height="777" frameX="0" frameY="-15" frameWidth="465" frameHeight="794"/>
+	<SubTexture name="pizza guy alt up instance 10012" x="1496" y="2822" width="465" height="777" frameX="0" frameY="-15" frameWidth="465" frameHeight="794"/>
+	<SubTexture name="pizza guy alt up instance 10013" x="1496" y="2822" width="465" height="777" frameX="0" frameY="-15" frameWidth="465" frameHeight="794"/>
+	<SubTexture name="pizza guy alt up instance 10014" x="1496" y="2822" width="465" height="777" frameX="0" frameY="-15" frameWidth="465" frameHeight="794"/>
+	<SubTexture name="pizza guy alt up instance 10015" x="1496" y="2822" width="465" height="777" frameX="0" frameY="-15" frameWidth="465" frameHeight="794"/>
 	<SubTexture name="pizza guy up instance 10000" x="1969" y="2822" width="552" height="780" frameX="-34" frameY="0" frameWidth="595" frameHeight="780"/>
 	<SubTexture name="pizza guy up instance 10001" x="1969" y="2822" width="552" height="780" frameX="-34" frameY="0" frameWidth="595" frameHeight="780"/>
 	<SubTexture name="pizza guy up instance 10002" x="2529" y="2822" width="586" height="753" frameX="-6" frameY="-27" frameWidth="595" frameHeight="780"/>
