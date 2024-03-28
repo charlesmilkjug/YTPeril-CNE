@@ -146,7 +146,7 @@ function update(elapsed:Float) {
 	if (selectedSomthin) return;
 
 	if (controls.BACK) {
-		var sound:FlxSound = new FlxSound().loadEmbedded(Paths.sound("menu/cancelMenu")); sound.volume = 1; sound.play();
+		var sound:FlxSound = new FlxSound().loadEmbedded(Paths.sound("menu/cancel")); sound.volume = 1; sound.play();
 		FlxG.switchState(new TitleState());
 	}
 	if (controls.DOWN_P) changeItem(1);
