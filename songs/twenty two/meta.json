@@ -1,17 +1,17 @@
 {
-	"beatsPerMeasure": 4,
 	"opponentModeAllowed": true,
-	"coopAllowed": true,
-	"stepsPerBeat": 4,
-	"bpm": 150,
+	"icon": "snut",
 	"difficulties": [
 		"HARD"
 	],
-	"needsVoices": true,
 	"parsedColor": -2763681,
-	"displayName": "22",
-	"icon": "snut",
-	"name": "twenty two",
+	"customValues": {},
 	"color": "#D5D45F",
-	"customValues": {}
+	"name": "twenty two",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "22",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 150
 }
