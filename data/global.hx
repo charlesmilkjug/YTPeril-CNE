@@ -52,7 +52,7 @@ static var resizey:Int = Capabilities.screenResolutionY / 1.5;
 var logsScript:Script = Script.create(Paths.script("data/modules/LogsOverlay"));
 
 static var redirectStates:Map<FlxState, String> = [
-	//MainMenuState => 'youtube/YTMainMenu',
+	MainMenuState => 'youtube/YTMainMenuScreen',
 	//StoryMenuState => 'youtube/YTStoryMenu',
 	//FreeplayState => 'youtube/YTFreeplay'
 ]; 
@@ -63,10 +63,11 @@ function new() {
 	logsScript.call("create", []);
 
 	window.title = "Made with Codename Engine";
-	var optionTube = FlxG.save.data;
-	//if (optionTube.customCursor == null) optionTube.customCursor = true;
 
-	// for the psych ui options
+// makes all of these options automatically set to their default values
+	var optionTube = FlxG.save.data;
+if (optionTube.scoreZoom == null) optionTube.scoreZoom = 1;
+if (optionTube.flashingLights == null) optionTube.flashingLights = true;
 	if (optionTube.Splashes == null) optionTube.Splashes = 0;
 	if (optionTube.PauseMusic == null) optionTube.PauseMusic = 0;
 	if (optionTube.botplayOption == null) optionTube.botplayOption = false;
