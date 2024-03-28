@@ -5,6 +5,7 @@ import funkin.menus.ModSwitchMenu;
 import funkin.editors.EditorPicker;
 import funkin.backend.utils.DiscordUtil;
 import funkin.backend.MusicBeatState;
+import funkin.menus.credits.CreditsMain;
 
 var options:Array<String> = [
 	'story mode',
@@ -33,27 +34,31 @@ function create() {
 	DiscordUtil.changePresence('In the Menus', "Main Menu");
 	CoolUtil.playMenuSong();
 
-	var bg:FlxSprite = new FlxSprite(0).loadGraphic(Paths.image('menus/menuBG'));
+	var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menus/menuBG'));
 	insert(1, bg);
+
+	var menuBack:FlxSprite = new FlxSprite().makeSolid(600, 900, FlxColor.WHITE);
+	insert(1, menuBack);
 
 	logoBl = new FlxSprite();
 	logoBl.frames = Paths.getSparrowAtlas('menus/titlescreen/logo');
 	logoBl.animation.addByPrefix('bump', 'logo bumpin', 24,false);
 	logoBl.animation.play('bump');
-	logoBl.scale.set(0.6, 0.6);
+	logoBl.scale.set(0.4, 0.4);
 	logoBl.updateHitbox();
-	logoBl.x = 600;
+	logoBl.x = 75;
+	logoBl.y = 0;
 	logoBl.antialiasing = true;
-	insert(1, logoBl);
+	insert(2, logoBl);
 
-	menuInfomation = new FlxText(0, 675, FlxG.width, "Please select an option.", 28);
+	menuInfomation = new FlxText(305, 675, FlxG.width, "Please select an option.", 28);
 	menuInfomation.setFormat("fonts/vcr.ttf", 28, FlxColor.WHITE, "center");
 	menuInfomation.setBorderStyle(FlxTextBorderStyle.OUTLINE, FlxColor.BLACK, 5, 50);
 	menuInfomation.borderSize = 2.3;
 	insert(3,menuInfomation);
 
 	menuItems = new FlxTypedGroup();
-	insert(1,menuItems);
+	insert(2,menuItems);
 
 	for (i=>option in options)
 	{
@@ -66,9 +71,8 @@ function create() {
 		menuItem.antialiasing = true;
 
 		menuItem.x = 600; // - menuItem.width - (100 + (i*50));
-		var dude:Float = 100 + ((menuItem.ID = i) * 92.5);
+		var dude:Float = 245 + ((menuItem.ID = i) * 117);
 		menuItem.y = dude;
-		trace(dude);
 
 		menuItems.add(menuItem);
 	}
@@ -80,7 +84,7 @@ function create() {
 	FlxTween.tween(menuInfomation, {y: menuInfomation.y - 100}, (Conductor.stepCrochet / 1000) * 4, {ease: FlxEase.circOut});
 
 	logoBl.alpha = 0;
-	FlxTween.tween(logoBl, {alpha: 1, angle: 0}, (Conductor.stepCrochet / 1000) * 2, {ease: FlxEase.circOut});
+	FlxTween.tween(logoBl, {alpha: 1, x: -25}, (Conductor.stepCrochet / 1000) * 4, {ease: FlxEase.circOut});
 
 	menuItems.forEach((item:FlxSprite) -> {
 		item.x = 600 - item.width;
@@ -105,6 +109,7 @@ function changeItem(change:Int = 0) {
 		else FlxTween.tween(item, {x: 600 - item.width}, (Conductor.stepCrochet / 1000) * 1.5, {ease: FlxEase.circOut});
 	});
 
+	FlxG.camera.follow(menuItems[curMainMenuSelected]);
 	menuInfomation.text = optionsTexts.get(options[curSelected]);
 }
 
@@ -126,10 +131,9 @@ var selectedSomthin:Bool = false;
 function update(elapsed:Float) {
 	tottalTime += elapsed;
 
-	if (FlxG.sound.music != null)
-		Conductor.songPosition = FlxG.sound.music.time;
+	if (FlxG.sound.music != null) Conductor.songPosition = FlxG.sound.music.time;
 
-	if (FlxG.keys.justPressed.SEVEN && FlxG.save.data.dev) {
+	if (FlxG.keys.justPressed.SEVEN) {
 		persistentUpdate = !(persistentDraw = true);
 		openSubState(new EditorPicker());
 	}
