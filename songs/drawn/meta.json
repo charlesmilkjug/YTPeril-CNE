@@ -1,17 +1,17 @@
 {
-	"beatsPerMeasure": 4,
 	"opponentModeAllowed": true,
-	"coopAllowed": true,
-	"stepsPerBeat": 4,
-	"bpm": 200,
+	"icon": "pencil",
 	"difficulties": [
 		"HARD"
 	],
-	"needsVoices": true,
 	"parsedColor": -458884,
-	"displayName": "Drawn",
-	"icon": "pencil",
-	"name": "drawn",
+	"customValues": {},
 	"color": "#F8FF7C",
-	"customValues": {}
+	"name": "drawn",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Drawn",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 200
 }
