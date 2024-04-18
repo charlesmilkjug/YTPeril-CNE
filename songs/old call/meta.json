@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 96,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -14230,
+	"displayName": "Old Call",
+	"icon": "hank-hanky-old",
+	"name": "old call",
+	"color": "#FFC86A",
+	"customValues": {}
+}
