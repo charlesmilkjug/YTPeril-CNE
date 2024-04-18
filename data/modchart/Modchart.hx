@@ -40,9 +40,6 @@ public function tweenStrumAlpha(daStrumline:Int = 0, daStrum:Int = 0, newAlpha:F
 public function tweenStrumAngle(daStrumline:Int = 0, daStrum:Int = 0, newAngle:Float, steps:Int, ease:FlxEase = FlxEase.linear)
     FlxTween.tween(strumLines.members[daStrumline].members[daStrum], {angle: newAngle}, (Conductor.stepCrochet * steps / 1000), {ease: ease});
 
-public function tweenStrumAngle(daStrumline:Int = 0, daStrum:Int = 0, newDirection:Float, steps:Int, ease:FlxEase = FlxEase.linear)
-    FlxTween.tween(strumLines.members[daStrumline].members[daStrum], {direction: newAngle}, (Conductor.stepCrochet * steps / 1000), {ease: ease});
-
 public function tweenStrumColor(daStrumline:Int = 0, daStrum:Int = 0, steps:Int, preColor:FlxColor = FlxColor.WHITE, afterColor:FlxColor = FlxColor.BLACK)
     FlxTween.color(strumLines.members[daStrumline].members[daStrum],(Conductor.stepCrochet * steps / 1000), preColor, afterColor);
 
