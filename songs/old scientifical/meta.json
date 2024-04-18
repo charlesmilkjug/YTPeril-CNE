@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 196,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -13487566,
+	"displayName": "Old Scientifical",
+	"icon": "aumsum-old",
+	"name": "old scientifical",
+	"color": "#323232",
+	"customValues": {}
+}
