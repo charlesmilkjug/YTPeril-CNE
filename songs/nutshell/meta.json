@@ -1,0 +1,8 @@
+{
+	"displayName": "Nutshell",
+	"bpm": 150.0,
+	"icon": "hazelnut",
+	"color": "#FF78BF",
+	"coopAllowed": true,
+	"opponentModeAllowed": true
+}
