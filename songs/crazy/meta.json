@@ -1,0 +1,8 @@
+{
+	"beatsPerMeasure": 4,
+	"icon": "joey",
+	"name": "crazy",
+	"displayName": "Crazy",
+	"needsVoices": true,
+	"bpm": 106
+}

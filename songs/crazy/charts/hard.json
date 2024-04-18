@@ -1,6 +1,6 @@
 {
 	"song": {
-		"player1": "bf-aumsum-new",
+		"player1": "bf-aumsum",
 		"gfVersion": "gf-aumsum",
 		"notes": [
 			{
@@ -4952,16 +4952,12 @@
 				"mustHitSection": true
 			}
 		],
-		"events": [],
 		"player2": "crazy-joey",
 		"player3": "gf",
-		"splashSkin": "noteSplashes",
 		"song": "Crazy",
 		"needsVoices": true,
-		"arrowSkin": "",
-		"validScore": false,
-		"stage": "crazy-joey-live-show-stage",
+		"stage": "live-show",
 		"bpm": 106,
-		"speed": 3
+		"speed": 2.85
 	}
 }
