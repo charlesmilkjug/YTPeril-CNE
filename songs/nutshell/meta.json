@@ -1,8 +1,17 @@
 {
-	"displayName": "Nutshell",
-	"bpm": 150.0,
-	"icon": "hazelnut",
-	"color": "#FF78BF",
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
 	"coopAllowed": true,
-	"opponentModeAllowed": true
+	"stepsPerBeat": 4,
+	"bpm": 141,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -3421237,
+	"displayName": "Nutshell",
+	"icon": "hazelnut",
+	"name": "nutshell",
+	"color": "#CBCBCB",
+	"customValues": {}
 }

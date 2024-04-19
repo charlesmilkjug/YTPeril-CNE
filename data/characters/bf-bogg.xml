@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="-50" y="230" camx="-65" icon="bf-bogg" isGF="false" camy="-14" iconColor="-10592674" scale="1.4" flipX="true" isPlayer="true" holdTime="4" gameOverChar="null" antialiasing="true" sprite="bf-bogg">
+<character x="-50" y="290" camx="115" icon="bf-bogg" isGF="false" camy="100" iconColor="-10592674" scale="1.4" flipX="true" isPlayer="true" holdTime="4" gameOverChar="null" antialiasing="true" sprite="bf-bogg">
 	<anim loop="true" x="-2" anim="LandOfBoyfriend Idle" fps="24" y="-2" name="idle" indices="[]"/>
 	<anim loop="false" x="5" anim="LandOfBoyfriend Up" fps="24" y="35" name="singUP" indices="[]"/>
 	<anim loop="false" x="3" anim="LandOfBoyfriend Right" fps="24" y="-2" name="singRIGHT" indices="[]"/>

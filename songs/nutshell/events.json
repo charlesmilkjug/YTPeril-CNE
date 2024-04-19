@@ -1,0 +1,277 @@
+{
+	"events": [
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 6808.51063829787
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 13617.0212765957
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 20425.5319148936
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 27234.0425531915
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 34042.5531914894
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 40851.0638297872
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 47659.5744680851
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 54468.085106383
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 61276.5957446809
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 68085.1063829788
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 74893.6170212767
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 88510.6382978724
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 102127.659574468
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 115744.680851064
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 119148.936170213
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 122553.191489362
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 129361.70212766
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 136170.212765958
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 142978.723404255
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 149787.234042553
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 156595.744680851
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 163404.255319149
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 170212.765957447
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 177021.276595745
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 180425.531914894
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 183829.787234043
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 190638.297872341
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 197446.808510639
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 204255.319148936
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 211063.829787234
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 212765.957446809
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 214468.085106383
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 216170.212765958
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 217872.340425532
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 219574.468085107
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 221276.595744681
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 222978.723404256
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 224680.85106383
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 231489.361702128
+		}
+	]
+}
