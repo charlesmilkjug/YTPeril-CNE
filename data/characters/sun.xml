@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<character x="60" y="40" holdTime="6.1" camx="30" camy="-10" icon="sun" color="#FFE500" sprite="sun">
-	<anim name="idle" anim="unusual sun idle" fps="11" loop="false" x="-1" y="0"/>
-	<anim name="singUP" anim="unusual sun up" fps="11" loop="false" x="0" y="30"/>
-	<anim name="singRIGHT" anim="unusual sun right" fps="11" loop="false" x="5" y="0"/>
-	<anim name="singDOWN" anim="unusual sun down" fps="11" loop="false" x="-36" y="-5"/>
-	<anim name="singLEFT" anim="unusual sun left" fps="11" loop="false" x="-1" y="0"/>
+<character x="60" icon="sun" camx="30" y="40" isGF="false" camy="-10" color="#E79B36" isPlayer="false" holdTime="6.1" sprite="sun">
+	<anim x="-1" loop="false" y="0" fps="11" anim="unusual sun idle" name="idle"/>
+	<anim x="0" loop="false" y="30" fps="11" anim="unusual sun up" name="singUP"/>
+	<anim x="5" loop="false" y="0" fps="11" anim="unusual sun right" name="singRIGHT"/>
+	<anim x="-36" loop="false" y="-5" fps="11" anim="unusual sun down" name="singDOWN"/>
+	<anim x="-1" loop="false" y="0" fps="11" anim="unusual sun left" name="singLEFT"/>
 </character>

@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-character>
 <character x="-360" icon="boe" camx="82" y="-260" isGF="false" iconColor="-10592674" scale="0.4" isPlayer="false" gameOverChar="null" sprite="boe">
 	<anim x="0" loop="true" y="-30" fps="24" anim="Boe idle" name="idle"/>
-	<anim x="1" loop="false" y="0" fps="24" anim="Boe up" name="singUP"/>
-	<anim x="-27" loop="false" y="0" fps="24" anim="Boe right" name="singRIGHT"/>
-	<anim x="50" loop="false" y="-60" fps="24" anim="Boe left" name="singLEFT"/>
-	<anim x="7" loop="false" y="-42" fps="24" anim="Boe down" name="singDOWN"/>
+	<anim x="1" loop="false" y="-30" fps="24" anim="Boe up" name="singUP"/>
+	<anim x="-7" loop="false" y="-35" fps="24" anim="Boe right" name="singRIGHT"/>
+	<anim x="45" loop="false" y="-50" fps="24" anim="Boe left" name="singLEFT"/>
+	<anim x="7" loop="false" y="-72" fps="24" anim="Boe down" name="singDOWN"/>
 </character>

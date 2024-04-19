@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<character x="80" y="180" holdTime="6.1" icon="mars" color="#FF4400" sprite="mars">
-	<anim name="idle" anim="unusual mars idle" fps="11" loop="false" x="0" y="0"/>
-	<anim name="singUP" anim="unusual mars up" fps="11" loop="false" x="1" y="16"/>
-	<anim name="singRIGHT" anim="unusual mars right" fps="11" loop="false" x="-25" y="0"/>
-	<anim name="singDOWN" anim="unusual mars down" fps="11" loop="false" x="-36" y="-30"/>
-	<anim name="singLEFT" anim="unusual mars left" fps="11" loop="false" x="19" y="0"/>
+<character x="80" icon="mars" y="180" isGF="false" color="#DF634D" isPlayer="false" holdTime="6.1" sprite="mars">
+	<anim x="0" loop="false" y="0" fps="11" anim="unusual mars idle" name="idle"/>
+	<anim x="1" loop="false" y="16" fps="11" anim="unusual mars up" name="singUP"/>
+	<anim x="-25" loop="false" y="0" fps="11" anim="unusual mars right" name="singRIGHT"/>
+	<anim x="-36" loop="false" y="-30" fps="11" anim="unusual mars down" name="singDOWN"/>
+	<anim x="19" loop="false" y="0" fps="11" anim="unusual mars left" name="singLEFT"/>
 </character>

@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<character x="100" y="120" holdTime="6.1" icon="earth" color="#4040FF" sprite="earth">
-	<anim name="idle" anim="unusual earth idle" fps="11" loop="false" x="0" y="0"/>
-	<anim name="singUP" anim="unusual earth up" fps="11" loop="false" x="7" y="20"/>
-	<anim name="singRIGHT" anim="unusual earth right" fps="11" loop="false" x="79" y="0"/>
-	<anim name="singDOWN" anim="unusual earth down" fps="11" loop="false" x="-6" y="-45"/>
-	<anim name="singLEFT" anim="unusual earth left" fps="11" loop="false" x="123" y="0"/>
+<character x="100" icon="earth" y="120" isGF="false" color="#43C3A1" isPlayer="false" holdTime="6.1" sprite="earth">
+	<anim x="0" loop="false" y="0" fps="11" anim="unusual earth idle" name="idle"/>
+	<anim x="7" loop="false" y="20" fps="11" anim="unusual earth up" name="singUP"/>
+	<anim x="79" loop="false" y="0" fps="11" anim="unusual earth right" name="singRIGHT"/>
+	<anim x="-6" loop="false" y="-45" fps="11" anim="unusual earth down" name="singDOWN"/>
+	<anim x="123" loop="false" y="0" fps="11" anim="unusual earth left" name="singLEFT"/>
 </character>

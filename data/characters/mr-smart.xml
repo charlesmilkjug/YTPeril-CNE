@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<character x="86" y="205" camx="-9" icon="mr-smart" isGF="false" camy="32" iconColor="-10592674" scale="1" flipX="false" isPlayer="false" holdTime="3.30000000000001" gameOverChar="null" antialiasing="true" sprite="mr-smart">
-	<anim loop="false" x="0" anim="MrSmart idle" fps="10" y="0" name="idle" indices="[]"/>
-	<anim loop="false" x="-17" anim="MrSmart right" fps="15" y="4" name="singRIGHT" indices="[]"/>
-	<anim loop="false" x="15" anim="MrSmart up" fps="15" y="54" name="singUP" indices="[]"/>
-	<anim loop="false" x="29" anim="MrSmart left" fps="15" y="-4" name="singLEFT" indices="[]"/>
-	<anim loop="false" x="15" anim="MrSmart down" fps="15" y="-53" name="singDOWN" indices="[]"/>
+<character x="86" icon="mr-smart" camx="-9" y="205" isGF="false" iconColor="-10592674" camy="32" isPlayer="false" antialiasing="false" gameOverChar="null" holdTime="3.3" sprite="mr-smart">
+	<anim x="0" loop="false" y="0" fps="10" anim="MrSmart idle" name="idle"/>
+	<anim x="-39" loop="false" y="3" fps="15" anim="MrSmart right" name="singRIGHT"/>
+	<anim x="18" loop="false" y="53" fps="15" anim="MrSmart up" name="singUP"/>
+	<anim x="45" loop="false" y="-4" fps="15" anim="MrSmart left" name="singLEFT"/>
+	<anim x="-1" loop="false" y="-51" fps="15" anim="MrSmart down" name="singDOWN"/>
 </character>

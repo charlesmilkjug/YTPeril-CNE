@@ -67,7 +67,6 @@
 	<SubTexture name="four screech0031" x="2580" y="1089" width="430" height="536" frameX="-46" frameY="-16" frameWidth="516" frameHeight="556"/>
 	<SubTexture name="four screech0032" x="3010" y="1089" width="430" height="536" frameX="-46" frameY="-16" frameWidth="516" frameHeight="556"/>
 	<SubTexture name="four screech0033" x="3440" y="1089" width="430" height="536" frameX="-46" frameY="-16" frameWidth="516" frameHeight="556"/>
-	<SubTexture name="four screech0034" x="1518" y="0" width="431" height="537" frameX="-46" frameY="-16" frameWidth="432" frameHeight="537"/>
 	<SubTexture name="four up0000" x="0" y="1627" width="537" height="671" pivotX="5" pivotY="38" frameX="-47" frameY="0" frameWidth="618" frameHeight="671"/>
 	<SubTexture name="four up0001" x="0" y="1627" width="537" height="671" frameX="-47" frameY="0" frameWidth="618" frameHeight="671"/>
 	<SubTexture name="four up0002" x="537" y="1627" width="618" height="632" frameX="0" frameY="-38" frameWidth="618" frameHeight="671"/>

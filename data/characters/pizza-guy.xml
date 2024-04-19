@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="75" icon="pizza-guy" camx="50" y="160" isGF="false" iconColor="-10592674" scale="1.07" camy="132" color="#C61515" isPlayer="false" gameOverChar="null" holdTime="5.32" sprite="pizza-guy">
+<character x="75" icon="pizza-guy" camx="50" y="160" isGF="false" iconColor="-10592674" scale="1.07" color="#C61515" isPlayer="false" gameOverChar="null" holdTime="5.32" sprite="pizza-guy">
 	<anim x="0" loop="false" y="0" fps="24" anim="pizza guy idle" name="idle"/>
 	<anim x="320" loop="false" y="1" fps="24" anim="pizza guy left" name="singLEFT"/>
 	<anim x="232" loop="false" y="-28" fps="24" anim="pizza guy down" name="singDOWN"/>

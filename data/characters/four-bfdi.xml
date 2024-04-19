@@ -1,9 +1,9 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" icon="four" camx="25" y="175" isGF="false" iconColor="-10592674" scale="0.925" camy="150" color="#206FC1" isPlayer="false" gameOverChar="null" holdTime="5.2" sprite="four-bfdi">
+<character x="0" icon="four" camx="25" y="175" isGF="false" iconColor="-10592674" scale="0.93" camy="150" color="#206FC1" isPlayer="false" gameOverChar="null" holdTime="5.2" sprite="four-bfdi">
 	<anim x="-65" loop="true" y="-10" fps="24" anim="four idle" name="idle"/>
 	<anim x="-19" loop="false" y="-10" fps="24" anim="four left" name="singLEFT"/>
-	<anim x="-85" loop="false" y="-10" fps="24" anim="four right" name="singRIGHT"/>
-	<anim x="71" loop="false" y="123" fps="24" anim="four up" name="singUP"/>
-	<anim x="144" loop="false" y="-103" fps="24" anim="four down" name="singDOWN"/>
+	<anim x="-86" loop="false" y="-10" fps="24" anim="four right" name="singRIGHT"/>
+	<anim x="72" loop="false" y="124" fps="24" anim="four up" name="singUP"/>
+	<anim x="137" loop="false" y="-103" fps="24" anim="four down" name="singDOWN"/>
 	<anim x="-20" loop="false" y="5" fps="24" anim="four screech" name="screech"/>
 </character>
