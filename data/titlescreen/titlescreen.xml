@@ -23,14 +23,14 @@
 		<text beat="4" /> <!-- clears the screen !-->
 
 		<text beat="5">
-			<line text="wouldnt exist" />
+			<line text="Wouldnt exist" />
 			<line text="without" />
 		</text>
 
 		<text beat="7">
-			<line text="wouldnt exist" />
+			<line text="Wouldnt exist" />
 			<line text="without" />
-			<line text="Google" />
+			<line text="YouTube" />
 			<sprite path="menus/titlescreen/newgrounds_logo" scale="0.8"/>
 		</text>
 
