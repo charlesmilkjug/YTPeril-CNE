@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="-169" icon="nutshell" camx="170" y="-130" isGF="false" iconColor="-10592674" scale="0.49" camy="270" isPlayer="false" gameOverChar="null" holdTime="6.1" sprite="nutshell">
+<character x="-169" icon="nutshell" camx="170" y="-130" isGF="false" iconColor="-10592674" scale="0.49" camy="270" color="#FFFFFF" isPlayer="false" gameOverChar="null" holdTime="6.1" sprite="nutshell">
 	<anim x="-25" loop="false" y="1" fps="24" anim="nutshell idle" name="idle"/>
 	<anim x="79" loop="false" y="18" fps="24" anim="nutshell left" name="singLEFT"/>
 	<anim x="58" loop="false" y="0" fps="24" anim="nutshell right" name="singRIGHT"/>

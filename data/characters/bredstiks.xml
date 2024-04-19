@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-character>
 <character x="600" icon="bredstiks" camx="-65" y="-120" isGF="false" iconColor="-10592674" scale="0.46" camy="-14" color="#4885B6" flipX="true" isPlayer="true" gameOverChar="null" sprite="bredstiks">
 	<anim x="-2" loop="false" y="-2" fps="17" anim="chikn bf idle" name="idle"/>
-	<anim x="60" loop="false" y="4" fps="22" anim="chikn bf right" name="singLEFT"/>
-	<anim x="-13" loop="false" y="-4" fps="18" anim="chikn bf down" name="singDOWN"/>
-	<anim x="0" loop="false" y="10" fps="20" anim="chikn bf up" name="singUP"/>
-	<anim x="83" loop="false" y="-7" fps="24" anim="chikn bf left" name="singRIGHT"/>
+	<anim x="20" loop="false" y="-21" fps="22" anim="chikn bf right" name="singLEFT"/>
+	<anim x="-23" loop="false" y="-4" fps="18" anim="chikn bf down" name="singDOWN"/>
+	<anim x="-7" loop="false" y="10" fps="20" anim="chikn bf up" name="singUP"/>
+	<anim x="84" loop="false" y="-6" fps="24" anim="chikn bf left" name="singRIGHT"/>
 </character>

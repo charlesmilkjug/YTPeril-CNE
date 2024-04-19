@@ -31,8 +31,8 @@ trace(songTxt.y + ", " + basedOnTxt.y + ", " + musicianTxt.y);
 	}
 
     for (i in [bg, songTxt, basedOnTxt, musicianTxt]){
-        FlxTween.tween(i, {x: i.x + 475}, 1, {ease: FlxEase.backInOut, onComplete: function(twn:FlxTween){
-            FlxTween.tween(i, {x: i.x - 475}, 1, {ease: FlxEase.backInOut, startDelay: 2, onComplete: function(twn:FlxTween){ 
+        FlxTween.tween(i, {x: i.x + 475}, 0.5, {ease: FlxEase.backOut, onComplete: function(twn:FlxTween){
+            FlxTween.tween(i, {x: i.x - 475}, 0.5, {ease: FlxEase.backIn, startDelay: 2.5, onComplete: function(twn:FlxTween){ 
                 i.destroy(); 
             }});
         }});
