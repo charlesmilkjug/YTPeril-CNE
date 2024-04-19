@@ -9,14 +9,14 @@
 	<intro length="16">
 		<text beat="1">
 			<line text="charlescatyt" />
-			<line text="theanimateman" />
 			<line text="isaiah mods" />
+			<line text="theanimateman" />
 		</text>
 
 		<text beat="3">
 			<line text="charlescatyt" />
+                        <line text="isaiah mods" />
 			<line text="theanimateman" />
-			<line text="isaiah mods" />
 			<line text="presents" />
 		</text>
 
@@ -30,7 +30,7 @@
 		<text beat="7">
 			<line text="Wouldnt exist" />
 			<line text="without" />
-			<line text="YouTube" />
+			<line text="YouTube and Google" /> <!-- i will use the ampersand instead once i add the symbol to the bold font btw -->
 			<sprite path="menus/titlescreen/newgrounds_logo" scale="0.8"/>
 		</text>
 
