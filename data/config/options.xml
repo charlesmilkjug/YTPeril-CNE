@@ -10,6 +10,4 @@
     <checkbox id="showBar" name="Hide Time Bar" desc="Hides the time bar." />
     <checkbox id="showTxt" name="Hide Score Text" desc="Hides the Psych-style score text" />
     <checkbox id="lerpHealth" name="Health Bar Lerp" desc="Makes the health bar smoother." />
-    <checkbox id="customCursor" name="Custom Cursor"
-        desc="If checked, a custom cursor will replace your system cursor (only in-game, not completely)." />
 </menu>
