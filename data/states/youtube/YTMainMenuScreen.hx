@@ -81,15 +81,15 @@ function create() {
 	changeItem(0);
 
 	menuInfomation.y += 25;
-	FlxTween.tween(menuInfomation, {y: menuInfomation.y - 100}, (Conductor.stepCrochet / 1000) * 4, {ease: FlxEase.circOut});
+	FlxTween.tween(menuInfomation, {y: menuInfomation.y - 100}, (Conductor.stepCrochet / 1000) * 8, {ease: FlxEase.expoOut});
 
 	logoBl.alpha = 0;
-	FlxTween.tween(logoBl, {alpha: 1, x: -25}, (Conductor.stepCrochet / 1000) * 4, {ease: FlxEase.circOut});
+	FlxTween.tween(logoBl, {alpha: 1, x: -25}, (Conductor.stepCrochet / 1000) * 6, {ease: FlxEase.expoOut});
 
 	menuItems.forEach((item:FlxSprite) -> {
 		item.x = 600 - item.width;
-		if (item.ID == curSelected) FlxTween.tween(item, {x: 600 - item.width + 15}, (Conductor.stepCrochet / 1000) * 2, {ease: FlxEase.circOut});
-		else FlxTween.tween(item, {x: 600 - item.width}, (Conductor.stepCrochet / 1000) * 2, {ease: FlxEase.circOut});
+		if (item.ID == curSelected) FlxTween.tween(item, {x: 600 - item.width + 15}, (Conductor.stepCrochet / 1000) * 4, {ease: FlxEase.expoOut});
+		else FlxTween.tween(item, {x: 600 - item.width}, (Conductor.stepCrochet / 1000) * 4, {ease: FlxEase.expoOut});
 	});
 	selectedSomthin = false;
 }
