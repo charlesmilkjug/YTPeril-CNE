@@ -44,9 +44,9 @@ function create() {
 	logoBl.frames = Paths.getSparrowAtlas('menus/titlescreen/logo');
 	logoBl.animation.addByPrefix('bump', 'logo bumpin', 24,false);
 	logoBl.animation.play('bump');
-	logoBl.scale.set(0.4, 0.4);
+	logoBl.scale.set(0.35, 0.35);
 	logoBl.updateHitbox();
-	logoBl.x = 75;
+	logoBl.x = 175;
 	logoBl.y = 0;
 	logoBl.antialiasing = true;
 	insert(2, logoBl);
@@ -54,7 +54,7 @@ function create() {
 	menuInfomation = new FlxText(305, 675, FlxG.width, "Please select an option.", 28);
 	menuInfomation.setFormat("fonts/vcr.ttf", 28, FlxColor.WHITE, "center");
 	menuInfomation.setBorderStyle(FlxTextBorderStyle.OUTLINE, FlxColor.BLACK, 5, 50);
-	menuInfomation.borderSize = 2.3;
+	menuInfomation.borderSize = 2.35;
 	insert(3,menuInfomation);
 
 	menuItems = new FlxTypedGroup();
@@ -77,6 +77,11 @@ function create() {
 		menuItems.add(menuItem);
 	}
 
+var versionShit:FunkinText = new FunkinText(FlxG.width - 200, -50, 0, 'YT Animation Peril v1.0 [DEMO]\nCodename Engine v0.1.0\n[TAB] Open Mod Selection Menu\n');
+		versionShit.y += versionShit.height;
+		versionShit.scrollFactor.set();
+		add(versionShit);
+
 	selectedSomthin = false;
 	changeItem(0);
 
@@ -84,7 +89,7 @@ function create() {
 	FlxTween.tween(menuInfomation, {y: menuInfomation.y - 100}, (Conductor.stepCrochet / 1000) * 8, {ease: FlxEase.expoOut});
 
 	logoBl.alpha = 0;
-	FlxTween.tween(logoBl, {alpha: 1, x: -25}, (Conductor.stepCrochet / 1000) * 6, {ease: FlxEase.expoOut});
+	FlxTween.tween(logoBl, {alpha: 1, x: 0}, (Conductor.stepCrochet / 1000) * 6, {ease: FlxEase.expoOut});
 
 	menuItems.forEach((item:FlxSprite) -> {
 		item.x = 600 - item.width;
@@ -95,7 +100,7 @@ function create() {
 }
 
 function changeItem(change:Int = 0) {
-	curSelected = FlxMath.wrap(curSelected + change, 0, menuItems.length-1);
+	curSelected = FlxMath.wrap(curSelected + change, 0, menuItems.length - 1);
 
 	FlxG.sound.play(Paths.sound("menu/scroll"));
 
@@ -161,4 +166,4 @@ function beatHit(curBeat:Int) {
 	logoBl.animation.play('bump',true);
 }
 
-function destroy() {FlxG.camera.bgColor = FlxColor.fromRGB(0,0,0);curMainMenuSelected = curSelected;}
+function destroy() {FlxG.camera.bgColor = FlxColor.fromRGB(0,0,0); curMainMenuSelected = curSelected;}

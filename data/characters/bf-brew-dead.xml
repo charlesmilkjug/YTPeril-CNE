@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" icon="bf-brew" camx="80" y="350" isGF="false" camy="110" color="#248C9F" flipX="true" isPlayer="true" antialiasing="false" gameOverChar="bf-brew" sprite="bf-brew">
+	<anim x="-32" loop="false" y="-190" fps="24" anim="bf brewstew dies" name="firstDeath"/>
+	<anim x="-32" loop="false" y="-110" fps="24" anim="bf brewstew dead confirm" name="deathConfirm"/>
+	<anim x="-32" loop="true" y="-191" fps="24" anim="bf brewstew dead loop" name="deathLoop"/>
+</character>

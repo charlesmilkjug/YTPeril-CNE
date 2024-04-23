@@ -1,11 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" icon="bf-aumsum-new" y="300" isGF="false" scale="1.1" color="#31B0D1" flipX="true" isPlayer="true" sprite="bf-aumsum">
+<character x="0" icon="bf-aumsum-new" y="300" isGF="false" scale="1.1" color="#31B0D1" flipX="true" isPlayer="true" gameOverChar="bf-aumsum-dead" sprite="bf-aumsum">
 	<anim x="0" loop="false" y="-5" fps="24" anim="bf aumsum new down miss" name="singDOWNmiss"/>
 	<anim x="-26" loop="false" y="9" fps="24" anim="bf aumsum new up miss" name="singUPmiss"/>
 	<anim x="-6" loop="false" y="4" fps="24" anim="bf aumsum new hey" name="hey"/>
-	<anim x="107" loop="false" y="0" fps="24" anim="bf aumsum new dead loop" name="deathLoop"/>
-	<anim x="107" loop="false" y="0" fps="24" anim="bf aumsum new dead confirm" name="deathConfirm"/>
-	<anim x="107" loop="false" y="0" fps="24" anim="bf aumsum new dies" name="firstDeath"/>
 	<anim x="1" loop="false" y="-5" fps="24" anim="bf aumsum new down" indices="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19" name="singDOWN"/>
 	<anim x="-26" loop="false" y="8" fps="24" anim="bf aumsum new up" indices="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19" name="singUP"/>
 	<anim x="-64" loop="false" y="2" fps="24" anim="bf aumsum new left miss" name="singRIGHTmiss"/>

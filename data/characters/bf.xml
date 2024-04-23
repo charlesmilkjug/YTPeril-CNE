@@ -1,18 +1,18 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" icon="bf" y="350" isGF="false" color="#37EDFF" flipX="true" isPlayer="true" sprite="bf">
+<character x="0" icon="bf" y="350" isGF="false" color="#1C9CBE" flipX="true" isPlayer="true" sprite="bf">
 	<anim x="-5" loop="false" y="0" fps="24" anim="BF idle dance" name="idle"/>
 	<anim x="-49" loop="false" y="27" fps="24" anim="BF NOTE UP0" name="singUP"/>
-	<anim x="2" loop="false" y="-7" fps="24" anim="BF NOTE LEFT0" name="singLEFT"/>
-	<anim x="-48" loop="false" y="-6" fps="24" anim="BF NOTE RIGHT0" name="singRIGHT"/>
+	<anim x="-48" loop="false" y="-6" fps="24" anim="BF NOTE LEFT0" name="singLEFT"/>
+	<anim x="2" loop="false" y="-7" fps="24" anim="BF NOTE RIGHT0" name="singRIGHT"/>
 	<anim x="-15" loop="false" y="-50" fps="24" anim="BF NOTE DOWN0" name="singDOWN"/>
 	<anim x="-39" loop="false" y="27" fps="24" anim="BF NOTE UP MISS" name="singUPmiss"/>
-	<anim x="5" loop="false" y="21" fps="24" anim="BF NOTE LEFT MISS" name="singLEFTmiss"/>
-	<anim x="-43" loop="false" y="19" fps="24" anim="BF NOTE RIGHT MISS" name="singRIGHTmiss"/>
+	<anim x="-43" loop="false" y="19" fps="24" anim="BF NOTE LEFT MISS" name="singLEFTmiss"/>
+	<anim x="5" loop="false" y="21" fps="24" anim="BF NOTE RIGHT MISS" name="singRIGHTmiss"/>
 	<anim x="-11" loop="false" y="-24" fps="24" anim="BF NOTE DOWN MISS" name="singDOWNmiss"/>
 	<anim x="-3" loop="false" y="4" fps="24" anim="BF HEY" name="hey"/>
 	<anim x="-6" loop="true" y="0" fps="24" anim="BF idle shaking" name="scared"/>
-        <anim name="hit"          anim="BF hit"      fps="24" loop="false" x="-5"  y="0"/>
-	<anim name="pre-attack"          anim="bf pre attack"      fps="24" loop="false" x="-5"  y="0"/>
-	<anim name="attack"          anim="boyfriend attack"      fps="24" loop="false" x="-5"  y="0"/>
-	<anim name="dodge"          anim="boyfriend dodge"      fps="24" loop="false" x="-5"  y="0"/>
+	<anim x="-5" loop="false" y="0" fps="24" anim="BF hit" name="hit"/>
+	<anim x="-5" loop="false" y="0" fps="24" anim="bf pre attack" name="pre-attack"/>
+	<anim x="-5" loop="false" y="0" fps="24" anim="boyfriend attack" name="attack"/>
+	<anim x="-5" loop="false" y="0" fps="24" anim="boyfriend dodge" name="dodge"/>
 </character>

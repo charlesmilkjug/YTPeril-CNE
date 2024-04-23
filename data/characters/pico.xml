@@ -1,12 +1,12 @@
 <!DOCTYPE codename-engine-character>
-<character x="100" icon="pico" camx="-100" y="300" isGF="false" color="#E3FF9D" flipX="true" isPlayer="false" sprite="pico">
-	<anim x="0" loop="false" y="0" fps="24" anim="Pico Idle Dance" name="idle"/>
-	<anim x="53" loop="false" y="1" fps="24" anim="Pico Note Right0" name="singLEFT"/>
-	<anim x="185" loop="false" y="-85" fps="24" anim="Pico Down Note0" name="singDOWN"/>
-	<anim x="-32" loop="false" y="26" fps="24" anim="pico Up note0" name="singUP"/>
-	<anim x="-83" loop="false" y="-12" fps="24" anim="Pico NOTE LEFT0" name="singRIGHT"/>
-	<anim x="56" loop="false" y="48" fps="24" anim="Pico Note Right Miss" name="singLEFTmiss"/>
-	<anim x="186" loop="false" y="-43" fps="24" anim="Pico Down Note MISS" name="singDOWNmiss"/>
-	<anim x="-24" loop="false" y="62" fps="24" anim="pico Up note miss" name="singUPmiss"/>
-	<anim x="-75" loop="false" y="26" fps="24" anim="Pico NOTE LEFT miss" name="singRIGHTmiss"/>
+<character x="100" icon="pico" camx="-100" y="300" isGF="false" color="#FF943C" flipX="true" isPlayer="false" sprite="pico">
+	<anim x="0" loop="false" y="-2" fps="24" anim="Pico Idle Dance" name="idle"/>
+	<anim x="55" loop="false" y="0" fps="24" anim="Pico Note Right0" name="singLEFT"/>
+	<anim x="194" loop="false" y="-83" fps="24" anim="Pico Down Note0" name="singDOWN"/>
+	<anim x="-31" loop="false" y="21" fps="24" anim="pico Up note0" name="singUP"/>
+	<anim x="-84" loop="false" y="-13" fps="24" anim="Pico NOTE LEFT0" name="singRIGHT"/>
+	<anim x="56" loop="false" y="46" fps="24" anim="Pico Note Right Miss" name="singLEFTmiss"/>
+	<anim x="195" loop="false" y="-44" fps="24" anim="Pico Down Note MISS" name="singDOWNmiss"/>
+	<anim x="-20" loop="false" y="58" fps="24" anim="pico Up note miss" name="singUPmiss"/>
+	<anim x="-77" loop="false" y="23" fps="24" anim="Pico NOTE LEFT miss" name="singRIGHTmiss"/>
 </character>

@@ -1,15 +1,12 @@
 <!DOCTYPE codename-engine-character>
-<character x="100" icon="bf-brew" camx="80" y="350" isGF="false" camy="110" color="#62E4FF" flipX="true" isPlayer="true" antialiasing="false" gameOverChar="bf-brew" sprite="bf-brew">
-	<anim x="5" loop="false" y="0" fps="24" anim="bf brewstew left" indices="0,1,2,3,4,5,6,7,8,9" name="singLEFT"/>
+<character x="100" icon="bf-brew" camx="80" y="350" isGF="false" camy="110" color="#248C9F" flipX="true" isPlayer="true" antialiasing="false" gameOverChar="bf-brew-dead" sprite="bf-brew">
+	<anim x="-7" loop="false" y="1" fps="24" anim="bf brewstew left" indices="0,1,2,3,4,5,6,7,8,9" name="singLEFT"/>
 	<anim x="-5" loop="false" y="-2" fps="24" anim="bf brewstew down" indices="0,1,2,3,4,5,6,7,8,9" name="singDOWN"/>
 	<anim x="-2" loop="false" y="2" fps="24" anim="bf brewstew up" indices="0,1,2,3,4,5,6,7,8,9" name="singUP"/>
-	<anim x="-7" loop="false" y="1" fps="24" anim="bf brewstew right" indices="0,1,2,3,4,5,6,7,8,9" name="singRIGHT"/>
-	<anim x="5" loop="false" y="0" fps="24" anim="bf brewstew left miss" indices="0,1,2,3,4,5,6,7,8,9" name="singLEFTmiss"/>
+	<anim x="5" loop="false" y="0" fps="24" anim="bf brewstew right" indices="0,1,2,3,4,5,6,7,8,9" name="singRIGHT"/>
+	<anim x="-7" loop="false" y="1" fps="24" anim="bf brewstew left miss" indices="0,1,2,3,4,5,6,7,8,9" name="singLEFTmiss"/>
 	<anim x="-2" loop="false" y="2" fps="24" anim="bf brewstew up miss" indices="0,1,2,3,4,5,6,7,8,9" name="singUPmiss"/>
-	<anim x="-7" loop="false" y="1" fps="24" anim="bf brewstew right miss" indices="0,1,2,3,4,5,6,7,8,9" name="singRIGHTmiss"/>
+	<anim x="5" loop="false" y="0" fps="24" anim="bf brewstew right miss" indices="0,1,2,3,4,5,6,7,8,9" name="singRIGHTmiss"/>
 	<anim x="-5" loop="false" y="-2" fps="24" anim="bf brewstew down miss" indices="0,1,2,3,4,5,6,7,8,9" name="singDOWNmiss"/>
-	<anim x="30" loop="false" y="-160" fps="24" anim="bf brewstew dies" name="firstDeath"/>
-	<anim x="30" loop="false" y="-80" fps="24" anim="bf brewstew dead confirm" name="deathConfirm"/>
-	<anim x="179" loop="true" y="-399" fps="24" anim="bf brewstew dead loop" name="deathLoop"/>
-	<anim x="-3" loop="true" y="0" fps="24" anim="bf brewstew idle" name="idle"/>
+	<anim x="-5" loop="true" y="0" fps="24" anim="bf brewstew idle" name="idle"/>
 </character>

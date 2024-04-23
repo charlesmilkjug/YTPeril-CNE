@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<character x="70" icon="super-tony" camx="-30" y="210" isGF="false" camy="-30" color="#660066" isPlayer="false" holdTime="5.51" sprite="super-tony">
-	<anim x="62" loop="false" y="2" fps="15" anim="tony left" name="singLEFT"/>
-	<anim x="-4" loop="false" y="-10" fps="18" anim="tony down" name="singDOWN"/>
-	<anim x="-8" loop="false" y="1" fps="20" anim="tony right" name="singRIGHT"/>
-	<anim x="6" loop="false" y="17" fps="20" anim="tony up" name="singUP"/>
-	<anim x="0" loop="true" y="-1" fps="21" anim="tony idle" name="idle"/>
+<character x="70" icon="super-tony" camx="-30" y="210" isGF="false" camy="-30" color="#320132" isPlayer="false" gameOverChar="null" holdTime="5.51" sprite="super-tony">
+	<anim x="62" loop="false" y="1" fps="24" anim="tony left" name="singLEFT"/>
+	<anim x="-3" loop="false" y="-11" fps="24" anim="tony down" name="singDOWN"/>
+	<anim x="-2" loop="false" y="0" fps="24" anim="tony right" name="singRIGHT"/>
+	<anim x="5" loop="false" y="13" fps="24" anim="tony up" name="singUP"/>
+	<anim x="0" loop="true" y="-1" fps="24" anim="tony idle" name="idle"/>
 </character>

@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="100" icon="earth" y="120" isGF="false" color="#43C3A1" isPlayer="false" holdTime="6.1" sprite="earth">
+<character x="100" icon="earth" y="120" isGF="false" color="#3BC396" isPlayer="false" holdTime="6.1" sprite="earth">
 	<anim x="0" loop="false" y="0" fps="11" anim="unusual earth idle" name="idle"/>
 	<anim x="7" loop="false" y="20" fps="11" anim="unusual earth up" name="singUP"/>
 	<anim x="79" loop="false" y="0" fps="11" anim="unusual earth right" name="singRIGHT"/>
