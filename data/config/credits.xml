@@ -1,25 +1,25 @@
 <!DOCTYPE codename-mod-credits>
-<menu name="Mod Credits" desc="Oh boy. &#xA;">
+<menu name="YTAP Credits" desc="Oh boy. &#xA;">
 
 <credit
 	name="CharlesCatYT" 
 icon="charles"
-	desc="Director" 
-	url="https://github.com/kittstone"
+	desc="Main Director" 
+	url="https://www.youtube.com/c/CharlesCatYT"
 	/>
 
 
 	<credit
 	name="Isaiah Mods" 
 icon="isaiah"
-	desc="Director" 
+	desc="Co-Director, Spriter, Composer" 
 	url="https://github.com/kittstone"
 	/>
 
 <credit
 	name="TheAnimateMan" 
 icon="animate"
-	desc="The BF chrom guy, Spriter, Charter" 
+	desc="Co-Director, Composer, Spriter, Charter" 
 	url="https://github.com/kittstone"
 	/>
 
@@ -27,13 +27,34 @@ icon="animate"
 	name="Vencerist" 
 icon="vencerist"
 	desc="Composer, Spriter, Charter" 
-	url="https://github.com/kittstone"
+	url="https://github.com/Vencerist"
 	/>
 
 <credit
 	name="The Bambi Enjoyer" 
 icon="maicon"
 	desc="Composer, Charter" 
+	url="https://github.com/kittstone"
+	/>
+
+<credit
+	name="Kimb.MP4" 
+icon="kimb"
+	desc="Spriter" 
+	url="https://github.com/kittstone"
+	/>
+
+<credit
+	name="cloudy" 
+icon="cloudy"
+	desc="Animator" 
+	url="https://github.com/kittstone"
+	/>
+
+<credit
+	name="solar" 
+icon="solar"
+	desc="Charter" 
 	url="https://github.com/kittstone"
 	/>
 
@@ -48,13 +69,20 @@ icon="beanimation"
 	name="SauceyRed" 
 icon="sauceyred"
 	desc="Charter" 
+	url="https://github.com/SauceyRed"
+	/>
+
+<credit
+	name="Penelope" 
+icon="penelope"
+	desc="Charter" 
 	url="https://github.com/kittstone"
 	/>
 
 <credit
 	name="lowkeykindly" 
 icon="missing_face"
-	desc="Charter" 
+	desc="Composer" 
 	url="https://github.com/kittstone"
 	/>
 
@@ -63,6 +91,22 @@ icon="missing_face"
 icon="missing_face"
 	desc="Charter" 
 	url="https://github.com/kittstone"
+	/>
+
+<credit
+	name="Oxyi142" 
+icon="oxyi"
+	desc="BG Artist" 
+	url="https://github.com/kittstone"
+	/>
+</menu>
+
+<menu name="Contributors" desc="Whoever contributed to the mod, they go here.">
+	<credit
+	name="lunarcleint" 
+icon="lunar"
+	desc="some of these uhhhhhh scripts???????" 
+	url="https://github.com/lunarcleint"
 	/>
 </menu>
 
