@@ -67,13 +67,16 @@ function new() {
 // makes all of these options automatically set to their default values
 	var optionTube = FlxG.save.data;
 if (optionTube.scoreZoom == null) optionTube.scoreZoom = 1;
-if (optionTube.flashingLights == null) optionTube.flashingLights = true;
+// if (optionTube.flashingLights == null) optionTube.flashingLights = true;
 	if (optionTube.Splashes == null) optionTube.Splashes = 0;
 	if (optionTube.PauseMusic == null) optionTube.PauseMusic = 0;
 	if (optionTube.botplayOption == null) optionTube.botplayOption = false;
 	if (optionTube.colouredBar == null) optionTube.colouredBar = false;
-	if (optionTube.showBar == null) optionTube.showBar = false;
-	if (optionTube.showTxt == null) optionTube.showTxt = false;
+	if (optionTube.hitsoundStyle == null) optionTube.hitsoundStyle = "none";
+	if (optionTube.healthBarAlpha == null) optionTube.healthBarAlpha = 100;
+if (optionTube.healthOverlay == null) optionTube.healthOverlay = true;
+if (optionTube.scoreZoom == null) optionTube.scoreZoom = true;
+	if (optionTube.lerpHealth == null) optionTube.lerpHealth = false;
 }
 
 static function convertTime(steps:Float, beats:Float, sections:Float):Float {

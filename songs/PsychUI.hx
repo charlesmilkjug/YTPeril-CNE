@@ -159,18 +159,22 @@ function update(elapsed:Float) {
 function onPlayerMiss(event) {
     if (event.note.isSustainNote) return;
 
-    if(hudTxtTween != null) hudTxtTween.cancel();
-    hudTxt.scale.x = 0.55;
-    hudTxt.scale.y = 0.75;
+    if (FlxG.save.data.scoreZoom) { 
+if(hudTxtTween != null) hudTxtTween.cancel();
+    hudTxt.scale.x = 0.9;
+    hudTxt.scale.y = 0.9;
     hudTxtTween = FlxTween.tween(hudTxt.scale, {x: 1, y: 1}, 0.2, {onComplete: function(twn:FlxTween) {hudTxtTween = null;}});
+}
 }
 function onPlayerHit(event) {
     if (event.note.isSustainNote) return;
 
-    if(hudTxtTween != null) hudTxtTween.cancel();
+    if (FlxG.save.data.scoreZoom) {
+if(hudTxtTween != null) hudTxtTween.cancel();
     hudTxt.scale.x = 1.1;
-    hudTxt.scale.y = 1.075;
+    hudTxt.scale.y = 1.1;
     hudTxtTween = FlxTween.tween(hudTxt.scale, {x: 1, y: 1}, 0.2, {onComplete: function(twn:FlxTween) {hudTxtTween = null;}});
+}
 
     switch (event.rating) {
         case "sick": sicks++;

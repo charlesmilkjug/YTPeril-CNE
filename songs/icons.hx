@@ -9,6 +9,7 @@ function postCreate() {
 	icoP2 = new HealthIcon(dad != null ? dad.getIcon() : "face", false);
 	for (ico in [icoP1, icoP2]) {
 		ico.y = healthBar.y - (ico.height / 2);
+ico.alpha = FlxG.save.data.healthBarAlpha;
 		ico.cameras = [camHUD];
 		insert(members.indexOf(healthBar) + 2, ico);
 	}
