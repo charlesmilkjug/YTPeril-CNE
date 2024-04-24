@@ -1,18 +1,24 @@
 <!DOCTYPE codename-engine-character>
-<character x="1" icon="bf" camx="14" y="330" isGF="false" iconColor="-10592674" camy="-51" color="#42BCE9" flipX="true" isPlayer="true" gameOverChar="null" sprite="boyfried">
+
+<!-- OLD ANIMATION FUNKIN BOYFRIEND, NICKNAMED "BOYFRIED", USED IN FASTTOON SONG, ORIGINALLY PLANNED TO REPLACE BF SINCE THEANIMATEMAN WAS AND IS A CO-DIRECTOR OF THE MOD. -->
+<character x="1" icon="bf" camx="14" y="330" isGF="false" camy="-51" color="#42BCE9" flipX="true" isPlayer="true" gameOverChar="bf-dead" sprite="boyfried">
 	<anim x="-4" loop="false" y="-1" fps="24" anim="Idle" name="idle"/>
-	<anim x="-55" loop="false" y="-12" fps="24" anim="hurt" name="hurt"/>
+	<anim x="-28" loop="false" y="17" fps="24" anim="peace" name="hey"/>
 	<anim x="-18" loop="true" y="-1" fps="24" anim="scared" name="scared"/>
-	<anim x="-51" loop="false" y="10" fps="24" anim="dodge" name="dodge"/>
-	<anim x="293" loop="false" y="148" fps="24" anim="attack" name="attack"/>
-	<anim x="-78" loop="false" y="-23" fps="24" anim="pre-attack" name="pre-attack"/>
-	<anim x="-30" loop="false" y="-8" fps="24" anim="left" name="singLEFT"/>
+
+	<anim loop="false" x="23" anim="left" fps="24" y="2" name="singLEFT"/>
+	<anim loop="false" x="-32" anim="right" fps="24" y="-7" name="singRIGHT"/>
 	<anim x="9" loop="false" y="-34" fps="24" anim="down" name="singDOWN"/>
 	<anim x="-7" loop="false" y="21" fps="24" anim="up" name="singUP"/>
-	<anim x="-31" loop="false" y="-8" fps="24" anim="miss left" name="singLEFTmiss"/>
+
+	<anim loop="false" x="23" anim="miss left" fps="24" y="0" name="singLEFTmiss"/>
+	<anim loop="false" x="-32" anim="miss right" fps="24" y="-8" name="singRIGHTmiss"/>
 	<anim x="10" loop="false" y="-42" fps="24" anim="miss down" name="singDOWNmiss"/>
 	<anim x="-15" loop="false" y="12" fps="24" anim="miss up" name="singUPmiss"/>
-	<anim x="22" loop="false" y="0" fps="24" anim="miss right" name="singRIGHTmiss"/>
-	<anim x="-28" loop="false" y="17" fps="24" anim="peace" name="hey"/>
-	<anim x="23" loop="false" y="0" fps="24" anim="right" name="singRIGHT"/>
+
+	<anim x="-78" loop="false" y="-23" fps="24" anim="pre-attack" name="pre-attack"/>
+	<anim x="293" loop="false" y="148" fps="24" anim="attack" name="attack"/>
+	<anim x="-51" loop="false" y="10" fps="24" anim="dodge" name="dodge"/>
+	<anim x="-55" loop="false" y="-12" fps="24" anim="hurt" name="hurt"/>
+
 </character>

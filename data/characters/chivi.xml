@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="50" icon="chivi" camx="25" y="80" isGF="false" iconColor="-10592674" scale="1.05" camy="35" color="#BB8946" isPlayer="false" gameOverChar="null" holdTime="6.05" sprite="chivi">
+<character x="50" icon="chivi" camx="25" y="80" isGF="false" scale="1.05" camy="35" color="#BB8946" isPlayer="false" gameOverChar="null" holdTime="6.05" sprite="chivi">
 	<anim x="-9" loop="false" y="-4" fps="13.1" anim="chivi idle" name="idle"/>
 	<anim x="51" loop="false" y="-2" fps="16" anim="chivi left" name="singLEFT"/>
 	<anim x="-26" loop="false" y="-18" fps="19.1" anim="chivi down" name="singDOWN"/>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="aumsum-old" camx="23" y="195" isGF="false" iconColor="-10592674" scale="1.15" camy="125" color="#FEFEFF" isPlayer="false" gameOverChar="null" holdTime="5.9" sprite="aumsum-old">
+	<anim x="0" loop="false" y="1" fps="24" anim="aumsum idle" name="idle"/>
+	<anim x="70" loop="false" y="1" fps="18" anim="aumsum left" name="singLEFT"/>
+	<anim x="9" loop="false" y="-20" fps="16" anim="aumsum down" name="singDOWN"/>
+	<anim x="88" loop="false" y="13" fps="14" anim="aumsum up" name="singUP"/>
+	<anim x="26" loop="false" y="1" fps="12" anim="aumsum right" name="singRIGHT"/>
+</character>
