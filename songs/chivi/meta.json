@@ -1,16 +1,17 @@
 {
+	"beatsPerMeasure": 4,
 	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 100,
 	"difficulties": [
 		"HARD"
 	],
-	"icon": "chivi",
-	"parsedColor": -34625,
-	"name": "chivi",
-	"coopAllowed": true,
-	"color": "#FF78BF",
-	"stepsPerBeat": 4,
-	"displayName": "ChiVi",
 	"needsVoices": true,
-	"beatsPerMeasure": 4,
-	"bpm": 100
+	"parsedColor": -24493,
+	"displayName": "ChiVi",
+	"icon": "chivi",
+	"name": "chivi",
+	"color": "#FFA053",
+	"customValues": {}
 }
