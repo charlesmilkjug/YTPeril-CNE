@@ -1,16 +1,16 @@
 {
 	"opponentModeAllowed": true,
-	"icon": "player",
 	"difficulties": [
 		"HARD"
 	],
+	"icon": "player",
 	"parsedColor": -34625,
-	"color": "#FF78BF",
-	"coopAllowed": true,
 	"name": "logic",
+	"coopAllowed": true,
+	"color": "#FF78BF",
 	"stepsPerBeat": 4,
 	"displayName": "Logic",
-	"beatsPerMeasure": 4,
 	"needsVoices": true,
+	"beatsPerMeasure": 4,
 	"bpm": 180
 }
