@@ -1314,19 +1314,19 @@
 					"type": 0
 				}
 			],
-			"position": "dad",
-			"strumScale": 1,
 			"visible": true,
-			"type": 0,
-			"characters": [
-				"player"
-			],
 			"strumPos": [
 				0,
 				50
 			],
+			"position": "dad",
+			"strumScale": 1,
+			"vocalsSuffix": "",
 			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"type": 0,
+			"characters": [
+				"player"
+			]
 		},
 		{
 			"notes": [
@@ -2669,35 +2669,35 @@
 					"type": 2
 				}
 			],
+			"visible": true,
+			"strumPos": [
+				0,
+				50
+			],
 			"position": "boyfriend",
 			"strumScale": 1,
-			"visible": true,
+			"vocalsSuffix": "",
+			"strumLinePos": 0.75,
 			"type": 1,
 			"characters": [
 				"bf"
-			],
-			"strumPos": [
-				0,
-				50
-			],
-			"strumLinePos": 0.75,
-			"vocalsSuffix": ""
+			]
 		},
 		{
 			"notes": [],
-			"position": "dad",
-			"strumScale": 1,
 			"visible": false,
-			"type": 0,
-			"characters": [
-				"gf"
-			],
 			"strumPos": [
 				0,
 				50
 			],
+			"position": "girlfriend",
+			"strumScale": 1,
+			"vocalsSuffix": "",
 			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"type": 2,
+			"characters": [
+				"gf"
+			]
 		}
 	],
 	"noteTypes": [
