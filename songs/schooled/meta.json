@@ -1,8 +1,17 @@
 {
-	"displayName": "Schooled",
-	"bpm": 150.0,
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"HARD"
+	],
 	"icon": "mr-smart",
-	"color": "#FF78BF",
+	"parsedColor": -10963713,
 	"coopAllowed": true,
-	"opponentModeAllowed": true
+	"name": "schooled",
+	"color": "#58B4FF",
+	"customValues": {},
+	"stepsPerBeat": 4,
+	"displayName": "Schooled",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 128
 }
