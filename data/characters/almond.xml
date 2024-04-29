@@ -1,9 +1,9 @@
 <!DOCTYPE codename-engine-character>
-<character x="-250" isGF="false" y="-120" icon="almond" scale="0.4" isPlayer="true" flipX="true" color="#FFFFFF" sprite="almond">
-	<anim loop="false" x="-4" anim="BF idle dance" fps="24" y="0" name="idle"/>
-	<anim loop="false" x="0" anim="BF NOTE UP0" fps="24" y="7" name="singUP"/>
-	<anim loop="false" x="-11" anim="BF NOTE LEFT0" fps="24" y="5" name="singLEFT"/>
-	<anim loop="false" x="-55" anim="BF NOTE RIGHT0" fps="24" y="-4" name="singRIGHT"/>
-	<anim loop="false" x="-3" anim="BF NOTE DOWN0" fps="24" y="-5" name="singDOWN"/>
-	<anim loop="false" x="1" anim="BF HEY" fps="24" y="9" name="hey"/>
+<character x="-250" icon="almond" y="-120" isGF="false" scale="0.4" color="#FFFFFF" flipX="true" isPlayer="true" sprite="almond">
+	<anim x="-4" loop="false" y="0" fps="24" anim="BF idle dance" name="idle"/>
+	<anim x="0" loop="false" y="-1" fps="24" anim="BF NOTE UP0" name="singUP"/>
+	<anim x="-5" loop="false" y="3" fps="24" anim="BF NOTE LEFT0" name="singLEFT"/>
+	<anim x="-43" loop="false" y="-7" fps="24" anim="BF NOTE RIGHT0" name="singRIGHT"/>
+	<anim x="-23" loop="false" y="-5" fps="24" anim="BF NOTE DOWN0" name="singDOWN"/>
+	<anim x="1" loop="false" y="9" fps="24" anim="BF HEY" name="hey"/>
 </character>
