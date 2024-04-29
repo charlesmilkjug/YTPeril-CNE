@@ -1,7 +1,10 @@
 {
+	"stage": "stage",
+	"scrollSpeed": 2.7,
 	"codenameChart": true,
 	"strumLines": [
 		{
+			"position": "dad",
 			"notes": [
 				{
 					"id": 1,
@@ -718,7 +721,7 @@
 					"type": 0
 				},
 				{
-					"id": 3,
+					"id": 2,
 					"sLen": 0,
 					"time": 39726.5625,
 					"type": 0
@@ -2020,14 +2023,14 @@
 					"type": 0
 				}
 			],
-			"position": "dad",
+			"visible": true,
 			"type": 0,
 			"characters": [
 				"mr-smart"
-			],
-			"visible": true
+			]
 		},
 		{
+			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 1,
@@ -3998,25 +4001,22 @@
 					"type": 0
 				}
 			],
-			"position": "boyfriend",
+			"visible": true,
 			"type": 1,
 			"characters": [
 				"bf-aumsum-remakef"
-			],
-			"visible": true
+			]
 		},
 		{
-			"notes": [],
 			"position": "girlfriend",
+			"notes": [],
+			"visible": false,
 			"type": 2,
 			"characters": [
 				"gf"
-			],
-			"visible": false
+			]
 		}
 	],
-	"scrollSpeed": 2.7,
-	"stage": "stage",
 	"noteTypes": [
 		"No Animation"
 	]

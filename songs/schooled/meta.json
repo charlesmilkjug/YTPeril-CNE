@@ -1,20 +1,20 @@
 {
-	"beatsPerMeasure": 4,
 	"opponentModeAllowed": true,
-	"coopAllowed": true,
-	"stepsPerBeat": 4,
-	"bpm": 128,
+	"icon": "mr-smart",
 	"difficulties": [
 		"HARD"
 	],
-	"needsVoices": true,
 	"parsedColor": -10963457,
-	"displayName": "Schooled",
-	"icon": "mr-smart",
-	"name": "schooled",
-	"color": "#58B5FF",
 	"customValues": {
 		"sliderVelocities": "null",
 		"initialSpeed": "1.215"
-	}
+	},
+	"color": "#58B5FF",
+	"name": "schooled",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Schooled",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 128
 }

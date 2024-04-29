@@ -4,218 +4,818 @@
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
+			"time": 3750,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				2,
+				1
+			],
+			"name": "Camera Modulo Change",
 			"time": 3750
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 7500
+			"time": 7500,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 11250
+			"time": 11250,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"1.3",
+				"0"
+			],
+			"name": "Zoom",
+			"time": 14062.5
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
+			"time": 15000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"0.9",
+				"0"
+			],
+			"name": "Zoom",
 			"time": 15000
 		},
 		{
 			"params": [
+				"1.1",
+				"0"
+			],
+			"name": "Zoom",
+			"time": 15703.125
+		},
+		{
+			"params": [
+				"0.9",
+				"0"
+			],
+			"name": "Zoom",
+			"time": 16875
+		},
+		{
+			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 18750
+			"time": 18750,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"1.1",
+				"0"
+			],
+			"time": 19453.125,
+			"name": "Zoom"
+		},
+		{
+			"params": [
+				"0.9",
+				"0"
+			],
+			"time": 20625,
+			"name": "Zoom"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 22500
+			"time": 22500,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"1.1",
+				"0"
+			],
+			"name": "Zoom",
+			"time": 23203.125
+		},
+		{
+			"params": [
+				"0.9",
+				"0"
+			],
+			"name": "Zoom",
+			"time": 24375
+		},
+		{
+			"params": [
+				"1.25",
+				"0"
+			],
+			"name": "Zoom",
+			"time": 25078.125
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
+			"time": 26250,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"0.9",
+				"0"
+			],
+			"name": "Zoom",
 			"time": 26250
 		},
 		{
 			"params": [
+				"1.1",
+				"0"
+			],
+			"time": 26953.125,
+			"name": "Zoom"
+		},
+		{
+			"params": [
+				"0.9",
+				"0"
+			],
+			"time": 28125,
+			"name": "Zoom"
+		},
+		{
+			"params": [
+				"01.25",
+				"0"
+			],
+			"name": "Zoom",
+			"time": 28828.125
+		},
+		{
+			"params": [
 				0
 			],
-			"name": "Camera Movement",
+			"time": 30000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				2,
+				1
+			],
+			"name": "Camera Modulo Change",
 			"time": 30000
 		},
 		{
 			"params": [
+				"0.9",
+				"0"
+			],
+			"name": "Zoom",
+			"time": 30000
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 31875
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"time": 32109.375,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 32343.75
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"time": 32578.125,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 33750
+			"time": 33750,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 35625
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"time": 35859.375,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 36093.75
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"time": 36328.125,
+			"name": "Add Camera Zoom"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 37500
+			"time": 37500,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 39375
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"time": 39609.375,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 39843.75
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"time": 40078.125,
+			"name": "Add Camera Zoom"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 41250
+			"time": 41250,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 43125
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"time": 43359.375,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 43593.75
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"time": 43828.125,
+			"name": "Add Camera Zoom"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
+			"time": 45000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1,
+				1
+			],
+			"name": "Camera Modulo Change",
 			"time": 45000
 		},
 		{
 			"params": [
+				0.15,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 46875
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"time": 47109.375,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"time": 47343.75,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 47578.125
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 47812.5
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"time": 48046.875,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"time": 48281.25,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 48515.625
+		},
+		{
+			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 48750
+			"time": 48750,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 50625
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"time": 50859.375,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 51093.75
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"time": 51328.125,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"time": 51562.5,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 51796.875
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"time": 52031.25,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 52265.625
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 52500
+			"time": 52500,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 54375
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"time": 54609.375,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 54843.75
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"time": 55078.125,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"time": 55312.5,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 55546.875
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"time": 55781.25,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.15,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 56015.625
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 56250
+			"time": 56250,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"1.2",
+				"0"
+			],
+			"name": "Zoom",
+			"time": 58125
+		},
+		{
+			"params": [
+				1,
+				1
+			],
+			"name": "Camera Modulo Change",
+			"time": 58125
+		},
+		{
+			"params": [
+				"1.5",
+				"0"
+			],
+			"time": 58593.75,
+			"name": "Zoom"
+		},
+		{
+			"params": [
+				"1.75",
+				"0"
+			],
+			"name": "Zoom",
+			"time": 59062.5
+		},
+		{
+			"params": [
+				"2",
+				"0"
+			],
+			"name": "Zoom",
+			"time": 59531.25
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
+			"time": 60000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"0.9",
+				"0"
+			],
+			"name": "Zoom",
 			"time": 60000
 		},
 		{
 			"params": [
+				2,
 				1
 			],
-			"name": "Camera Movement",
-			"time": 63750
+			"name": "Camera Modulo Change",
+			"time": 60000
+		},
+		{
+			"params": [
+				"1.1",
+				"0"
+			],
+			"time": 60703.125,
+			"name": "Zoom"
+		},
+		{
+			"params": [
+				"0.9",
+				"0"
+			],
+			"time": 61875,
+			"name": "Zoom"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 63750,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"1.1",
+				"0"
+			],
+			"name": "Zoom",
+			"time": 64453.125
+		},
+		{
+			"params": [
+				"0.9",
+				"0"
+			],
+			"name": "Zoom",
+			"time": 65625
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 67500
+			"time": 67500,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"1.1",
+				"0"
+			],
+			"time": 68203.125,
+			"name": "Zoom"
+		},
+		{
+			"params": [
+				"0.9",
+				"0"
+			],
+			"time": 69375,
+			"name": "Zoom"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 71250
+			"time": 71250,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"1.1",
+				"0"
+			],
+			"name": "Zoom",
+			"time": 71953.125
+		},
+		{
+			"params": [
+				"0.9",
+				"0"
+			],
+			"name": "Zoom",
+			"time": 73125
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
+			"time": 75000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1,
+				1.355
+			],
+			"name": "Camera Modulo Change",
 			"time": 75000
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 78750
+			"time": 78750,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 82500
+			"time": 82500,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 86250
+			"time": 86250,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
+			"time": 90000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"0.9",
+				"0"
+			],
+			"name": "Zoom",
+			"time": 90000
+		},
+		{
+			"params": [
+				2,
+				1
+			],
+			"name": "Camera Modulo Change",
 			"time": 90000
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 93750
+			"time": 93750,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 97500
+			"time": 97500,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 101250
+			"time": 101250,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 105000
+			"time": 105000,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 108750
+			"time": 108750,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 112500
+			"time": 112500,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 116250
+			"time": 116250,
+			"name": "Camera Movement"
 		}
 	]
 }
