@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" icon="bf-aumsum-new" y="300" isGF="false" scale="1.1" color="#31B0D1" flipX="true" isPlayer="true" gameOverChar="bf-aumsum-dead" sprite="bf-aumsum">
+<character x="0" icon="bf-aumsum" y="300" isGF="false" scale="1.1" color="#31B0D1" flipX="true" isPlayer="true" gameOverChar="bf-aumsum-dead" sprite="bf-aumsum-old">
 	<anim x="107" loop="false" y="0" fps="24" anim="bf aumsum new dead loop" name="deathLoop"/>
 	<anim x="107" loop="false" y="0" fps="24" anim="bf aumsum new dead confirm" name="deathConfirm"/>
 	<anim x="107" loop="false" y="0" fps="24" anim="bf aumsum new dies" name="firstDeath"/>
