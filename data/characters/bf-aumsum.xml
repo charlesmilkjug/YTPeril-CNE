@@ -1,9 +1,10 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" isGF="false" y="165" icon="bf-aumsum-new" scale="1.1" isPlayer="true" flipX="true" color="#31B0D1" gameOverChar="bf-aumsum-dead" sprite="bf-aumsum">
-	<anim loop="false" x="-6" anim="bf hey" fps="12" y="0" name="hey"/>
-	<anim loop="false" x="3" anim="bf down" fps="12" y="-1" name="singDOWN"/>
-	<anim loop="false" x="8" anim="bf up" fps="12" y="1" name="singUP"/>
-	<anim loop="false" x="3" anim="bf right" fps="12" y="0" name="singRIGHT"/>
-	<anim loop="false" x="0" anim="bf left" fps="12" y="-2" name="singLEFT"/>
-	<anim loop="false" x="-6" anim="bf idle" fps="12" y="0" name="idle"/>
+<character x="0" icon="bf-aumsum-new" y="165" isGF="false" scale="1.1" color="#31B0D1" flipX="true" isPlayer="true" gameOverChar="bf-aumsum-dead" sprite="bf-aumsum">
+	<anim x="-6" loop="false" y="0" fps="12" anim="bf hey" name="hey"/>
+	<anim x="3" loop="false" y="-1" fps="12" anim="bf down" name="singDOWN"/>
+	<anim x="8" loop="false" y="1" fps="12" anim="bf up" name="singUP"/>
+	<anim x="3" loop="false" y="0" fps="12" anim="bf right" name="singRIGHT"/>
+	<anim x="3" loop="false" y="0" fps="12" anim="bf left" name="singLEFT"/>
+	<anim x="-6" loop="false" y="0" fps="12" anim="bf idle" name="idle"/>
+	<anim x="3" loop="true" y="0" fps="12" anim="bf left" indices="2,3" name="singLEFT-loop"/>
 </character>
