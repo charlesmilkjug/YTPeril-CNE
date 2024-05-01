@@ -1,17 +1,17 @@
 {
-	"beatsPerMeasure": 4,
 	"opponentModeAllowed": true,
-	"coopAllowed": true,
-	"stepsPerBeat": 4,
-	"bpm": 150,
+	"icon": "narrator-arnie",
 	"difficulties": [
 		"HARD"
 	],
-	"needsVoices": true,
 	"parsedColor": -11848677,
-	"displayName": "Evocative",
-	"icon": "narrator-arnie",
-	"name": "evocative",
+	"customValues": {},
 	"color": "#4B341B",
-	"customValues": {}
+	"name": "evocative",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Evocative",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 150
 }
