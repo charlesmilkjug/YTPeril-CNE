@@ -25,9 +25,9 @@ public var sicks:Int = 0;
 public var goods:Int = 0;
 public var bads:Int = 0;
 public var shits:Int = 0;
-public var timeBarBG:FlxSprite;
-public var timeBar:FlxBar;
-public var timeTxt:FlxText; // I forgot why I made these public variables.......
+// public var timeBarBG:FlxSprite;
+// public var timeBar:FlxBar;
+// public var timeTxt:FlxText; // I forgot why I made these public variables.......
 public var hudTxt:FlxText;
 public var hudTxtTween:FlxTween;
 public var ratingFC:String = "FC";
@@ -70,14 +70,14 @@ function getRating(accuracy:Float):String {
 }
 
 function create() {
-    timeTxt = new FlxText(0, 20, 400, "X:XX", 32);
+    /* timeTxt = new FlxText(0, 20, 400, "X:XX", 32);
     timeTxt.setFormat(Paths.font("roboto/Roboto-Black.ttf"), 18, FlxColor.WHITE, "center", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
     timeTxt.antialiasing = true;
     timeTxt.scrollFactor.set();
     timeTxt.alpha = 0;
     timeTxt.borderColor = 0xFF000000;
     timeTxt.borderSize = 2;
-    timeTxt.screenCenter(FlxAxes.X);
+    timeTxt.screenCenter(FlxAxes.X); */
 
     hudTxt = new FlxText(0, 900, FlxG.width, "[Score] 0 | [Misses] 0 | [Accuracy] 0% - ?");
     hudTxt.setFormat(Paths.font("roboto/Roboto-Bold.ttf"), 24, FlxColor.WHITE, "center", FlxTextBorderStyle.OUTLINE, FlxColor.RED);
@@ -94,15 +94,15 @@ function create() {
     botplayTxt.cameras = [camHUD];
     add(botplayTxt);
 
-    timeBarBG = new FlxSprite();
+    /* timeBarBG = new FlxSprite();
     timeBarBG.x = timeTxt.x;
     timeBarBG.y = timeTxt.y + (timeTxt.height / 5);
     timeBarBG.alpha = 0;
     timeBarBG.scrollFactor.set();
     timeBarBG.color = FlxColor.BLACK;
-    timeBarBG.loadGraphic(Paths.image("psychTimeBar"));
+    timeBarBG.loadGraphic(Paths.image("psychTimeBar")); */
 
-    timeBar = new FlxBar(timeBarBG.x + 4, timeBarBG.y + 4, FlxBar.FILL_LEFT_TO_RIGHT, Std.int(timeBarBG.width - 8), Std.int(timeBarBG.height - 8), Conductor, 'songPosition', 0, 1);
+    /* timeBar = new FlxBar(timeBarBG.x + 4, timeBarBG.y + 4, FlxBar.FILL_LEFT_TO_RIGHT, Std.int(timeBarBG.width - 8), Std.int(timeBarBG.height - 8), Conductor, 'songPosition', 0, 1);
     timeBar.scrollFactor.set();
     timeBar.createFilledBar(0xFF000000,0xFFFFFFFF);
     if (FlxG.save.data.colouredBar) {
@@ -114,27 +114,27 @@ function create() {
     timeBar.unbounded = true;
     add(timeBarBG);
     add(timeBar);
-    add(timeTxt);
+    add(timeTxt); */
 
-    timeBarBG.x = timeBar.x - 4;
-    timeBarBG.y = timeBar.y - 4;
+    // timeBarBG.x = timeBar.x - 4;
+    // timeBarBG.y = timeBar.y - 4;
 
     hudTxt.cameras = [camHUD];
-    timeBar.cameras = [camHUD];
-    timeBarBG.cameras = [camHUD];
-    timeTxt.cameras = [camHUD];
+    // timeBar.cameras = [camHUD];
+    // timeBarBG.cameras = [camHUD];
+    // timeTxt.cameras = [camHUD];
     PauseSubState.script = 'data/scripts/funnypause';
 }
 
 function onSongStart() {
-    if (timeBar != null) FlxTween.tween(timeBar, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
-    if (timeBarBG != null) FlxTween.tween(timeBarBG, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
-    if (timeTxt != null) FlxTween.tween(timeTxt, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
+    // if (timeBar != null) FlxTween.tween(timeBar, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
+    // if (timeBarBG != null) FlxTween.tween(timeBarBG, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
+    // if (timeTxt != null) FlxTween.tween(timeTxt, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
     if (botplayTxt != null && FlxG.save.data.botplayOption) FlxTween.tween(botplayTxt, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
 }
 
 function update(elapsed:Float) {
-    if (inst != null && timeBar != null && timeBar.max != inst.length) timeBar.setRange(0, Math.max(1, inst.length));
+    /* if (inst != null && timeBar != null && timeBar.max != inst.length) timeBar.setRange(0, Math.max(1, inst.length));
     if (inst != null && timeTxt != null) {
         var timeRemaining = Std.int((inst.length - Conductor.songPosition) / 1000);
         var seconds = CoolUtil.addZeros(Std.string(timeRemaining % 60), 2);
@@ -143,7 +143,7 @@ function update(elapsed:Float) {
         var moreSeconds = CoolUtil.addZeros(Std.string(dumbTime % 60), 2);
         var moreMinutes = Std.int(dumbTime / 60);
         timeTxt.text = minutes + ":" + seconds + " / " + moreMinutes + ":" + moreSeconds;
-    }
+    } */
     var acc = FlxMath.roundDecimal(Math.max(accuracy, 0) * 100, 2);
     var rating:String = getRating(accuracy);
     if (songScore > 0 || acc > 0 || misses > 0) {
